@@ -454,3 +454,1639 @@ RETURN 'propertyKeys' as a, propertyKeys as result
 2017-05-23 13:30:26.390+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [105]:  Check pointing completed
 2017-05-23 13:30:26.390+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
 2017-05-23 13:30:26.391+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-05-23 16:19:10.772+0000 INFO [o.n.k.i.f.CommunityEditionModule] No locking implementation specified, defaulting to 'community'
+2017-05-23 16:19:10.790+0000 INFO [o.n.k.AvailabilityGuard] Requirement makes database unavailable: Database available
+2017-05-23 16:19:10.791+0000 INFO [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics START ---
+2017-05-23 16:19:10.791+0000 INFO [o.n.k.i.DiagnosticsManager] Neo4j Kernel properties:
+2017-05-23 16:19:10.791+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.connector.http.enabled=true
+2017-05-23 16:19:10.791+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.security.auth_enabled=true
+2017-05-23 16:19:10.791+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.connector.bolt.type=BOLT
+2017-05-23 16:19:10.791+0000 INFO [o.n.k.i.DiagnosticsManager] unsupported.dbms.directories.neo4j_home=E:\DataEngineering
+2017-05-23 16:19:10.791+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.directories.import=import
+2017-05-23 16:19:10.791+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.connector.https.enabled=true
+2017-05-23 16:19:10.791+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.connector.http.type=HTTP
+2017-05-23 16:19:10.791+0000 INFO [o.n.k.i.DiagnosticsManager] unsupported.dbms.directories.database=E:\DataEngineering
+2017-05-23 16:19:10.791+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.logs.http.enabled=false
+2017-05-23 16:19:10.791+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.connector.https.type=HTTP
+2017-05-23 16:19:10.791+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.memory.pagecache.size=4g
+2017-05-23 16:19:10.791+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.allow_format_migration=true
+2017-05-23 16:19:10.791+0000 INFO [o.n.k.i.DiagnosticsManager] unsupported.dbms.edition=community
+2017-05-23 16:19:10.791+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.connector.bolt.enabled=true
+2017-05-23 16:19:10.791+0000 INFO [o.n.k.i.DiagnosticsManager] Diagnostics providers:
+2017-05-23 16:19:10.791+0000 INFO [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.configuration.Config
+2017-05-23 16:19:10.791+0000 INFO [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.info.DiagnosticsManager
+2017-05-23 16:19:10.791+0000 INFO [o.n.k.i.DiagnosticsManager] SYSTEM_MEMORY
+2017-05-23 16:19:10.791+0000 INFO [o.n.k.i.DiagnosticsManager] JAVA_MEMORY
+2017-05-23 16:19:10.791+0000 INFO [o.n.k.i.DiagnosticsManager] OPERATING_SYSTEM
+2017-05-23 16:19:10.791+0000 INFO [o.n.k.i.DiagnosticsManager] JAVA_VIRTUAL_MACHINE
+2017-05-23 16:19:10.791+0000 INFO [o.n.k.i.DiagnosticsManager] CLASSPATH
+2017-05-23 16:19:10.791+0000 INFO [o.n.k.i.DiagnosticsManager] LIBRARY_PATH
+2017-05-23 16:19:10.791+0000 INFO [o.n.k.i.DiagnosticsManager] SYSTEM_PROPERTIES
+2017-05-23 16:19:10.791+0000 INFO [o.n.k.i.DiagnosticsManager] NETWORK
+2017-05-23 16:19:10.791+0000 INFO [o.n.k.i.DiagnosticsManager] System memory information:
+2017-05-23 16:19:10.792+0000 INFO [o.n.k.i.DiagnosticsManager] Total Physical memory: 7.95 GB
+2017-05-23 16:19:10.792+0000 INFO [o.n.k.i.DiagnosticsManager] Free Physical memory: 2.79 GB
+2017-05-23 16:19:10.792+0000 INFO [o.n.k.i.DiagnosticsManager] Committed virtual memory: 2.18 GB
+2017-05-23 16:19:10.792+0000 INFO [o.n.k.i.DiagnosticsManager] Total swap space: 13.05 GB
+2017-05-23 16:19:10.792+0000 INFO [o.n.k.i.DiagnosticsManager] Free swap space: 1.89 GB
+2017-05-23 16:19:10.792+0000 INFO [o.n.k.i.DiagnosticsManager] JVM memory information:
+2017-05-23 16:19:10.792+0000 INFO [o.n.k.i.DiagnosticsManager] Free  memory: 1.16 GB
+2017-05-23 16:19:10.792+0000 INFO [o.n.k.i.DiagnosticsManager] Total memory: 1.39 GB
+2017-05-23 16:19:10.792+0000 INFO [o.n.k.i.DiagnosticsManager] Max   memory: 1.77 GB
+2017-05-23 16:19:10.792+0000 INFO [o.n.k.i.DiagnosticsManager] Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2017-05-23 16:19:10.792+0000 INFO [o.n.k.i.DiagnosticsManager] Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen]
+2017-05-23 16:19:10.792+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: Code Cache (Non-heap memory): committed=42.31 MB, used=41.98 MB, max=240.00 MB, threshold=0.00 B
+2017-05-23 16:19:10.793+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: Metaspace (Non-heap memory): committed=77.04 MB, used=74.78 MB, max=-1.00 B, threshold=0.00 B
+2017-05-23 16:19:10.793+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: Compressed Class Space (Non-heap memory): committed=11.79 MB, used=11.30 MB, max=1.00 GB, threshold=0.00 B
+2017-05-23 16:19:10.793+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: PS Eden Space (Heap memory): committed=226.50 MB, used=149.00 MB, max=226.50 MB, threshold=?
+2017-05-23 16:19:10.793+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: PS Survivor Space (Heap memory): committed=226.00 MB, used=0.00 B, max=226.00 MB, threshold=?
+2017-05-23 16:19:10.793+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: PS Old Gen (Heap memory): committed=970.50 MB, used=85.58 MB, max=1.33 GB, threshold=0.00 B
+2017-05-23 16:19:10.793+0000 INFO [o.n.k.i.DiagnosticsManager] Operating system information:
+2017-05-23 16:19:10.793+0000 INFO [o.n.k.i.DiagnosticsManager] Operating System: Windows 10; version: 10.0; arch: amd64; cpus: 8
+2017-05-23 16:19:10.795+0000 INFO [o.n.k.i.DiagnosticsManager] Process id: 5960@DESKTOP-5KDE3IS
+2017-05-23 16:19:10.795+0000 INFO [o.n.k.i.DiagnosticsManager] Byte order: LITTLE_ENDIAN
+2017-05-23 16:19:10.795+0000 INFO [o.n.k.i.DiagnosticsManager] Local timezone: Europe/Berlin
+2017-05-23 16:19:10.795+0000 INFO [o.n.k.i.DiagnosticsManager] JVM information:
+2017-05-23 16:19:10.795+0000 INFO [o.n.k.i.DiagnosticsManager] VM Name: Java HotSpot(TM) 64-Bit Server VM
+2017-05-23 16:19:10.795+0000 INFO [o.n.k.i.DiagnosticsManager] VM Vendor: Oracle Corporation
+2017-05-23 16:19:10.795+0000 INFO [o.n.k.i.DiagnosticsManager] VM Version: 25.131-b11
+2017-05-23 16:19:10.795+0000 INFO [o.n.k.i.DiagnosticsManager] JIT compiler: HotSpot 64-Bit Tiered Compilers
+2017-05-23 16:19:10.795+0000 INFO [o.n.k.i.DiagnosticsManager] VM Arguments: [-Dexe4j.semaphoreName=Local\c:_program_files_neo4j_ce_3.2.0_bin_neo4j-ce.exe, -Dexe4j.isInstall4j=true, -Dexe4j.moduleName=C:\Program Files\Neo4j CE 3.2.0\bin\neo4j-ce.exe, -Dexe4j.tempDir=, -Dexe4j.unextractedPosition=0, -Djava.library.path=C:\Program Files (x86)\Rockwell Software\RSCommon;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files (x86)\Maven\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\PuTTY\;D:\PHP7.1;C:\Users\marti\Anaconda3;C:\Users\marti\Anaconda3\Scripts;C:\Users\marti\Anaconda3\Library\bin;C:\Users\marti\AppData\Local\Microsoft\WindowsApps;C:\Users\marti\AppData\Local\Pandoc\;C:\Program Files (x86)\Maven\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;c:\program files\java\jre1.8.0_131\bin, -Dexe4j.consoleCodepage=cp0, -Dinstall4j.launcherId=24, -Dinstall4j.swt=false]
+2017-05-23 16:19:10.795+0000 INFO [o.n.k.i.DiagnosticsManager] Java classpath:
+2017-05-23 16:19:10.798+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jre1.8.0_131\lib\jce.jar
+2017-05-23 16:19:10.798+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_131/lib/ext/sunjce_provider.jar
+2017-05-23 16:19:10.798+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jre1.8.0_131\lib\charsets.jar
+2017-05-23 16:19:10.798+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jre1.8.0_131\lib\jsse.jar
+2017-05-23 16:19:10.798+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jre1.8.0_131\classes
+2017-05-23 16:19:10.798+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_131/lib/ext/jaccess.jar
+2017-05-23 16:19:10.798+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jre1.8.0_131\lib\resources.jar
+2017-05-23 16:19:10.798+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_131/lib/ext/access-bridge-64.jar
+2017-05-23 16:19:10.798+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_131/lib/ext/sunmscapi.jar
+2017-05-23 16:19:10.799+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_131/lib/ext/sunpkcs11.jar
+2017-05-23 16:19:10.799+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath] C:\Program Files\Neo4j CE 3.2.0\bin\neo4j-desktop-3.2.0.jar
+2017-05-23 16:19:10.799+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.0] file:/C:/Program%20Files/Neo4j%20CE%203.2.0/bin/neo4j-desktop-3.2.0.jar
+2017-05-23 16:19:10.799+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_131/lib/ext/localedata.jar
+2017-05-23 16:19:10.799+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath] C:\Program Files\Neo4j CE 3.2.0\.install4j\i4jruntime.jar
+2017-05-23 16:19:10.799+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.0] file:/C:/Program%20Files/Neo4j%20CE%203.2.0/.install4j/i4jruntime.jar
+2017-05-23 16:19:10.799+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_131/lib/ext/cldrdata.jar
+2017-05-23 16:19:10.799+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jre1.8.0_131\lib\sunrsasign.jar
+2017-05-23 16:19:10.799+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jre1.8.0_131\lib\jfr.jar
+2017-05-23 16:19:10.799+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_131/lib/ext/sunec.jar
+2017-05-23 16:19:10.799+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jre1.8.0_131\lib\rt.jar
+2017-05-23 16:19:10.799+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_131/lib/ext/nashorn.jar
+2017-05-23 16:19:10.799+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_131/lib/ext/jfxrt.jar
+2017-05-23 16:19:10.799+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_131/lib/ext/zipfs.jar
+2017-05-23 16:19:10.799+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_131/lib/ext/dnsns.jar
+2017-05-23 16:19:10.799+0000 INFO [o.n.k.i.DiagnosticsManager] Library path:
+2017-05-23 16:19:10.799+0000 INFO [o.n.k.i.DiagnosticsManager] C:\Program Files (x86)\Rockwell Software\RSCommon
+2017-05-23 16:19:10.799+0000 INFO [o.n.k.i.DiagnosticsManager] C:\ProgramData\Oracle\Java\javapath
+2017-05-23 16:19:10.800+0000 INFO [o.n.k.i.DiagnosticsManager] C:\Windows\System32
+2017-05-23 16:19:10.800+0000 INFO [o.n.k.i.DiagnosticsManager] C:\Windows
+2017-05-23 16:19:10.800+0000 INFO [o.n.k.i.DiagnosticsManager] C:\Windows\System32\wbem
+2017-05-23 16:19:10.800+0000 INFO [o.n.k.i.DiagnosticsManager] C:\Windows\System32\WindowsPowerShell\v1.0
+2017-05-23 16:19:10.800+0000 INFO [o.n.k.i.DiagnosticsManager] C:\Program Files\Git\cmd
+2017-05-23 16:19:10.801+0000 INFO [o.n.k.i.DiagnosticsManager] C:\Program Files\Microsoft SQL Server\130\Tools\Binn
+2017-05-23 16:19:10.801+0000 INFO [o.n.k.i.DiagnosticsManager] C:\Windows\System32\config\systemprofile\.dnx\bin
+2017-05-23 16:19:10.801+0000 INFO [o.n.k.i.DiagnosticsManager] C:\Program Files\Microsoft DNX\Dnvm
+2017-05-23 16:19:10.802+0000 INFO [o.n.k.i.DiagnosticsManager] C:\Program Files (x86)\GtkSharp\2.12\bin
+2017-05-23 16:19:10.805+0000 INFO [o.n.k.i.DiagnosticsManager] C:\Program Files\MiKTeX 2.9\miktex\bin\x64
+2017-05-23 16:19:10.805+0000 INFO [o.n.k.i.DiagnosticsManager] C:\Program Files (x86)\Maven\bin
+2017-05-23 16:19:10.806+0000 INFO [o.n.k.i.DiagnosticsManager] C:\Program Files (x86)\Skype\Phone
+2017-05-23 16:19:10.806+0000 INFO [o.n.k.i.DiagnosticsManager] C:\Program Files\PuTTY
+2017-05-23 16:19:10.806+0000 INFO [o.n.k.i.DiagnosticsManager] D:\PHP7.1
+2017-05-23 16:19:10.806+0000 INFO [o.n.k.i.DiagnosticsManager] C:\Users\marti\Anaconda3
+2017-05-23 16:19:10.807+0000 INFO [o.n.k.i.DiagnosticsManager] C:\Users\marti\Anaconda3\Scripts
+2017-05-23 16:19:10.807+0000 INFO [o.n.k.i.DiagnosticsManager] C:\Users\marti\Anaconda3\Library\bin
+2017-05-23 16:19:10.807+0000 INFO [o.n.k.i.DiagnosticsManager] C:\Users\marti\AppData\Local\Microsoft\WindowsApps
+2017-05-23 16:19:10.808+0000 INFO [o.n.k.i.DiagnosticsManager] C:\Users\marti\AppData\Local\Pandoc
+2017-05-23 16:19:10.808+0000 INFO [o.n.k.i.DiagnosticsManager] C:\Program Files (x86)\Maven\bin
+2017-05-23 16:19:10.809+0000 INFO [o.n.k.i.DiagnosticsManager] C:\Program Files\MySQL\MySQL Server 5.7\bin
+2017-05-23 16:19:10.809+0000 INFO [o.n.k.i.DiagnosticsManager] C:\Program Files\Java\jre1.8.0_131\bin
+2017-05-23 16:19:10.809+0000 INFO [o.n.k.i.DiagnosticsManager] System.properties:
+2017-05-23 16:19:10.809+0000 INFO [o.n.k.i.DiagnosticsManager] exe4j.moduleName = C:\Program Files\Neo4j CE 3.2.0\bin\neo4j-ce.exe
+2017-05-23 16:19:10.809+0000 INFO [o.n.k.i.DiagnosticsManager] exe4j.semaphoreName = Local\c:_program_files_neo4j_ce_3.2.0_bin_neo4j-ce.exe
+2017-05-23 16:19:10.809+0000 INFO [o.n.k.i.DiagnosticsManager] sun.boot.library.path = c:\program files\java\jre1.8.0_131\bin
+2017-05-23 16:19:10.809+0000 INFO [o.n.k.i.DiagnosticsManager] user.country.format = GB
+2017-05-23 16:19:10.809+0000 INFO [o.n.k.i.DiagnosticsManager] exe4j.consoleCodepage = cp0
+2017-05-23 16:19:10.809+0000 INFO [o.n.k.i.DiagnosticsManager] path.separator = ;
+2017-05-23 16:19:10.809+0000 INFO [o.n.k.i.DiagnosticsManager] file.encoding.pkg = sun.io
+2017-05-23 16:19:10.809+0000 INFO [o.n.k.i.DiagnosticsManager] user.country = NL
+2017-05-23 16:19:10.809+0000 INFO [o.n.k.i.DiagnosticsManager] user.script = 
+2017-05-23 16:19:10.809+0000 INFO [o.n.k.i.DiagnosticsManager] sun.os.patch.level = 
+2017-05-23 16:19:10.809+0000 INFO [o.n.k.i.DiagnosticsManager] install4j.exeDir = C:\Program Files\Neo4j CE 3.2.0\bin\
+2017-05-23 16:19:10.809+0000 INFO [o.n.k.i.DiagnosticsManager] user.dir = C:\Program Files\Neo4j CE 3.2.0\bin
+2017-05-23 16:19:10.809+0000 INFO [o.n.k.i.DiagnosticsManager] user.variant = 
+2017-05-23 16:19:10.809+0000 INFO [o.n.k.i.DiagnosticsManager] exe4j.tempDir = 
+2017-05-23 16:19:10.809+0000 INFO [o.n.k.i.DiagnosticsManager] sun.jnu.encoding = Cp1252
+2017-05-23 16:19:10.809+0000 INFO [o.n.k.i.DiagnosticsManager] sun.nio.ch.bugLevel = 
+2017-05-23 16:19:10.809+0000 INFO [o.n.k.i.DiagnosticsManager] unsupported.dbms.udc.source = desktop
+2017-05-23 16:19:10.809+0000 INFO [o.n.k.i.DiagnosticsManager] sun.awt.enableExtraMouseButtons = true
+2017-05-23 16:19:10.809+0000 INFO [o.n.k.i.DiagnosticsManager] install4j.launcherId = 24
+2017-05-23 16:19:10.809+0000 INFO [o.n.k.i.DiagnosticsManager] sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2017-05-23 16:19:10.809+0000 INFO [o.n.k.i.DiagnosticsManager] exe4j.isInstall4j = true
+2017-05-23 16:19:10.809+0000 INFO [o.n.k.i.DiagnosticsManager] install4j.swt = false
+2017-05-23 16:19:10.809+0000 INFO [o.n.k.i.DiagnosticsManager] user.home = C:\Users\marti
+2017-05-23 16:19:10.809+0000 INFO [o.n.k.i.DiagnosticsManager] user.timezone = Europe/Berlin
+2017-05-23 16:19:10.809+0000 INFO [o.n.k.i.DiagnosticsManager] file.encoding = Cp1252
+2017-05-23 16:19:10.809+0000 INFO [o.n.k.i.DiagnosticsManager] user.name = marti
+2017-05-23 16:19:10.809+0000 INFO [o.n.k.i.DiagnosticsManager] sun.java.command = C:\Program Files\Neo4j CE 3.2.0\bin\neo4j-ce.exe
+2017-05-23 16:19:10.809+0000 INFO [o.n.k.i.DiagnosticsManager] sun.arch.data.model = 64
+2017-05-23 16:19:10.809+0000 INFO [o.n.k.i.DiagnosticsManager] exe4j.launchName = C:\Program Files\Neo4j CE 3.2.0\bin\neo4j-ce.exe
+2017-05-23 16:19:10.809+0000 INFO [o.n.k.i.DiagnosticsManager] user.language = nl
+2017-05-23 16:19:10.809+0000 INFO [o.n.k.i.DiagnosticsManager] user.language.format = en
+2017-05-23 16:19:10.809+0000 INFO [o.n.k.i.DiagnosticsManager] awt.toolkit = sun.awt.windows.WToolkit
+2017-05-23 16:19:10.809+0000 INFO [o.n.k.i.DiagnosticsManager] exe4j.unextractedPosition = 0
+2017-05-23 16:19:10.809+0000 INFO [o.n.k.i.DiagnosticsManager] install4j.appDir = C:\Program Files\Neo4j CE 3.2.0\
+2017-05-23 16:19:10.809+0000 INFO [o.n.k.i.DiagnosticsManager] file.separator = \
+2017-05-23 16:19:10.809+0000 INFO [o.n.k.i.DiagnosticsManager] sun.io.unicode.encoding = UnicodeLittle
+2017-05-23 16:19:10.809+0000 INFO [o.n.k.i.DiagnosticsManager] sun.cpu.endian = little
+2017-05-23 16:19:10.809+0000 INFO [o.n.k.i.DiagnosticsManager] sun.desktop = windows
+2017-05-23 16:19:10.809+0000 INFO [o.n.k.i.DiagnosticsManager] sun.cpu.isalist = amd64
+2017-05-23 16:19:10.809+0000 INFO [o.n.k.i.DiagnosticsManager] Network information:
+2017-05-23 16:19:10.869+0000 INFO [o.n.k.i.DiagnosticsManager] Interface Software Loopback Interface 1:
+2017-05-23 16:19:10.869+0000 INFO [o.n.k.i.DiagnosticsManager]     address: 127.0.0.1
+2017-05-23 16:19:10.869+0000 INFO [o.n.k.i.DiagnosticsManager]     address: 0:0:0:0:0:0:0:1
+2017-05-23 16:19:10.869+0000 INFO [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (IP):
+2017-05-23 16:19:10.869+0000 INFO [o.n.k.i.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter:
+2017-05-23 16:19:10.869+0000 INFO [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:e9df:b4fc:6868:8e60%wlan0
+2017-05-23 16:19:10.869+0000 INFO [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (IKEv2):
+2017-05-23 16:19:10.869+0000 INFO [o.n.k.i.DiagnosticsManager] Interface Microsoft ISATAP Adapter #2:
+2017-05-23 16:19:10.869+0000 INFO [o.n.k.i.DiagnosticsManager] Interface Intel(R) 82579LM Gigabit Network Connection:
+2017-05-23 16:19:10.869+0000 INFO [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:6413:7647:44a6:df6%eth1
+2017-05-23 16:19:10.869+0000 INFO [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (PPTP):
+2017-05-23 16:19:10.869+0000 INFO [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (L2TP):
+2017-05-23 16:19:10.869+0000 INFO [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (Network Monitor):
+2017-05-23 16:19:10.869+0000 INFO [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (PPPOE):
+2017-05-23 16:19:10.869+0000 INFO [o.n.k.i.DiagnosticsManager] Interface Bluetooth Device (RFCOMM Protocol TDI):
+2017-05-23 16:19:10.869+0000 INFO [o.n.k.i.DiagnosticsManager] Interface Microsoft Kernel Debug Network Adapter:
+2017-05-23 16:19:10.869+0000 INFO [o.n.k.i.DiagnosticsManager] Interface Microsoft Teredo Tunneling Adapter:
+2017-05-23 16:19:10.869+0000 INFO [o.n.k.i.DiagnosticsManager]     address: 2001:0:9d38:90d7:3c33:3e5e:7c64:efa7
+2017-05-23 16:19:10.869+0000 INFO [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:3c33:3e5e:7c64:efa7%net5
+2017-05-23 16:19:10.869+0000 INFO [o.n.k.i.DiagnosticsManager] Interface Microsoft ISATAP Adapter:
+2017-05-23 16:19:10.869+0000 INFO [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:0:5efe:a0d:25d4%net6
+2017-05-23 16:19:10.869+0000 INFO [o.n.k.i.DiagnosticsManager] Interface Bluetooth Device (Personal Area Network):
+2017-05-23 16:19:10.869+0000 INFO [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:c5cb:c7a8:29c7:786c%eth4
+2017-05-23 16:19:10.869+0000 INFO [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (IPv6):
+2017-05-23 16:19:10.869+0000 INFO [o.n.k.i.DiagnosticsManager] Interface Intel(R) Centrino(R) Ultimate-N 6300 AGN:
+2017-05-23 16:19:10.869+0000 INFO [o.n.k.i.DiagnosticsManager]     address: 10.13.37.212
+2017-05-23 16:19:10.869+0000 INFO [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:1122:e355:8e72:3b8d%wlan1
+2017-05-23 16:19:10.869+0000 INFO [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (SSTP):
+2017-05-23 16:19:10.869+0000 INFO [o.n.k.i.DiagnosticsManager] Interface Intel(R) 82579LM Gigabit Network Connection-WFP Native MAC Layer LightWeight Filter-0000:
+2017-05-23 16:19:10.869+0000 INFO [o.n.k.i.DiagnosticsManager] Interface Intel(R) 82579LM Gigabit Network Connection-QoS Packet Scheduler-0000:
+2017-05-23 16:19:10.869+0000 INFO [o.n.k.i.DiagnosticsManager] Interface Intel(R) 82579LM Gigabit Network Connection-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2017-05-23 16:19:10.869+0000 INFO [o.n.k.i.DiagnosticsManager] Interface Intel(R) Centrino(R) Ultimate-N 6300 AGN-WFP Native MAC Layer LightWeight Filter-0000:
+2017-05-23 16:19:10.869+0000 INFO [o.n.k.i.DiagnosticsManager] Interface Intel(R) Centrino(R) Ultimate-N 6300 AGN-Virtual WiFi Filter Driver-0000:
+2017-05-23 16:19:10.869+0000 INFO [o.n.k.i.DiagnosticsManager] Interface Intel(R) Centrino(R) Ultimate-N 6300 AGN-Native WiFi Filter Driver-0000:
+2017-05-23 16:19:10.869+0000 INFO [o.n.k.i.DiagnosticsManager] Interface Intel(R) Centrino(R) Ultimate-N 6300 AGN-QoS Packet Scheduler-0000:
+2017-05-23 16:19:10.869+0000 INFO [o.n.k.i.DiagnosticsManager] Interface Intel(R) Centrino(R) Ultimate-N 6300 AGN-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2017-05-23 16:19:10.869+0000 INFO [o.n.k.i.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter-WFP Native MAC Layer LightWeight Filter-0000:
+2017-05-23 16:19:10.869+0000 INFO [o.n.k.i.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter-Native WiFi Filter Driver-0000:
+2017-05-23 16:19:10.869+0000 INFO [o.n.k.i.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter-QoS Packet Scheduler-0000:
+2017-05-23 16:19:10.869+0000 INFO [o.n.k.i.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2017-05-23 16:19:10.869+0000 INFO [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (IP)-WFP Native MAC Layer LightWeight Filter-0000:
+2017-05-23 16:19:10.869+0000 INFO [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (IP)-QoS Packet Scheduler-0000:
+2017-05-23 16:19:10.869+0000 INFO [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (IPv6)-WFP Native MAC Layer LightWeight Filter-0000:
+2017-05-23 16:19:10.869+0000 INFO [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (IPv6)-QoS Packet Scheduler-0000:
+2017-05-23 16:19:10.870+0000 INFO [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (Network Monitor)-WFP Native MAC Layer LightWeight Filter-0000:
+2017-05-23 16:19:10.870+0000 INFO [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000:
+2017-05-23 16:19:10.870+0000 INFO [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics END ---
+2017-05-23 16:19:10.890+0000 INFO [o.n.b.v.r.WorkerFactory] Bolt Server extension loaded.
+2017-05-23 16:19:10.890+0000 INFO [o.n.b.v.r.WorkerFactory] Bolt enabled on 127.0.0.1:7687.
+2017-05-23 16:19:10.910+0000 INFO [o.n.k.i.s.f.RecordFormatSelector] Selected RecordFormat:StandardV3_0[v0.A.7] record format from store E:\DataEngineering
+2017-05-23 16:19:10.910+0000 INFO [o.n.k.i.s.f.RecordFormatSelector] Selected format 'RecordFormat:StandardV3_2[v0.A.8]' for existing store with format 'RecordFormat:StandardV3_0[v0.A.7]'
+2017-05-23 16:19:10.913+0000 INFO [o.n.k.i.s.p.StoreMigrator] Starting upgrade of database
+2017-05-23 16:19:10.925+0000 INFO [o.n.k.i.s.p.StoreMigrator] Migrating Indexes (1/3):
+2017-05-23 16:19:10.926+0000 INFO [o.n.k.i.s.p.StoreMigrator]   10% completed
+2017-05-23 16:19:10.926+0000 INFO [o.n.k.i.s.p.StoreMigrator]   20% completed
+2017-05-23 16:19:10.926+0000 INFO [o.n.k.i.s.p.StoreMigrator]   30% completed
+2017-05-23 16:19:10.926+0000 INFO [o.n.k.i.s.p.StoreMigrator]   40% completed
+2017-05-23 16:19:10.926+0000 INFO [o.n.k.i.s.p.StoreMigrator]   50% completed
+2017-05-23 16:19:10.926+0000 INFO [o.n.k.i.s.p.StoreMigrator]   60% completed
+2017-05-23 16:19:10.926+0000 INFO [o.n.k.i.s.p.StoreMigrator]   70% completed
+2017-05-23 16:19:10.927+0000 INFO [o.n.k.i.s.p.StoreMigrator]   80% completed
+2017-05-23 16:19:10.927+0000 INFO [o.n.k.i.s.p.StoreMigrator]   90% completed
+2017-05-23 16:19:10.927+0000 INFO [o.n.k.i.s.p.StoreMigrator]   100% completed
+2017-05-23 16:19:10.927+0000 INFO [o.n.k.i.s.p.StoreMigrator] Migrating Legacy indexes (2/3):
+2017-05-23 16:19:10.927+0000 INFO [o.n.k.i.s.p.StoreMigrator]   10% completed
+2017-05-23 16:19:10.927+0000 INFO [o.n.k.i.s.p.StoreMigrator]   20% completed
+2017-05-23 16:19:10.927+0000 INFO [o.n.k.i.s.p.StoreMigrator]   30% completed
+2017-05-23 16:19:10.927+0000 INFO [o.n.k.i.s.p.StoreMigrator]   40% completed
+2017-05-23 16:19:10.927+0000 INFO [o.n.k.i.s.p.StoreMigrator]   50% completed
+2017-05-23 16:19:10.927+0000 INFO [o.n.k.i.s.p.StoreMigrator]   60% completed
+2017-05-23 16:19:10.927+0000 INFO [o.n.k.i.s.p.StoreMigrator]   70% completed
+2017-05-23 16:19:10.928+0000 INFO [o.n.k.i.s.p.StoreMigrator]   80% completed
+2017-05-23 16:19:10.928+0000 INFO [o.n.k.i.s.p.StoreMigrator]   90% completed
+2017-05-23 16:19:10.928+0000 INFO [o.n.k.i.s.p.StoreMigrator]   100% completed
+2017-05-23 16:19:10.928+0000 INFO [o.n.k.i.s.p.StoreMigrator] Migrating Store files (3/3):
+2017-05-23 16:19:10.945+0000 INFO [o.n.k.i.s.p.StoreMigrator]   10% completed
+2017-05-23 16:19:10.945+0000 INFO [o.n.k.i.s.p.StoreMigrator]   20% completed
+2017-05-23 16:19:10.945+0000 INFO [o.n.k.i.s.p.StoreMigrator]   30% completed
+2017-05-23 16:19:10.945+0000 INFO [o.n.k.i.s.p.StoreMigrator]   40% completed
+2017-05-23 16:19:10.945+0000 INFO [o.n.k.i.s.p.StoreMigrator]   50% completed
+2017-05-23 16:19:10.945+0000 INFO [o.n.k.i.s.p.StoreMigrator]   60% completed
+2017-05-23 16:19:10.945+0000 INFO [o.n.k.i.s.p.StoreMigrator]   70% completed
+2017-05-23 16:19:10.945+0000 INFO [o.n.k.i.s.p.StoreMigrator]   80% completed
+2017-05-23 16:19:10.945+0000 INFO [o.n.k.i.s.p.StoreMigrator]   90% completed
+2017-05-23 16:19:10.945+0000 INFO [o.n.k.i.s.p.StoreMigrator]   100% completed
+2017-05-23 16:19:11.170+0000 INFO [o.n.k.i.s.p.StoreMigrator] Successfully finished upgrade of database
+2017-05-23 16:19:11.177+0000 INFO [o.n.k.i.s.f.RecordFormatSelector] Selected RecordFormat:StandardV3_2[v0.A.8] record format from store E:\DataEngineering
+2017-05-23 16:19:11.177+0000 INFO [o.n.k.i.s.f.RecordFormatSelector] Format not configured. Selected format from the store: RecordFormat:StandardV3_2[v0.A.8]
+2017-05-23 16:19:11.235+0000 ERROR [o.n.k.i.s.c.CountsTracker] Failed to open counts store file: E:\DataEngineering\neostore.counts.db.a Format header/trailer has changed.
+java.lang.IllegalStateException: Format header/trailer has changed.
+	at org.neo4j.kernel.impl.store.kvstore.MetadataCollector$State.readFormatSpecifier(MetadataCollector.java:233)
+	at org.neo4j.kernel.impl.store.kvstore.MetadataCollector$State.access$100(MetadataCollector.java:105)
+	at org.neo4j.kernel.impl.store.kvstore.MetadataCollector$State$1.visit(MetadataCollector.java:112)
+	at org.neo4j.kernel.impl.store.kvstore.MetadataCollector.visit(MetadataCollector.java:65)
+	at org.neo4j.kernel.impl.store.kvstore.MetadataCollector.visit(MetadataCollector.java:28)
+	at org.neo4j.kernel.impl.store.kvstore.KeyValueStoreFile.visitKeyValuePairs(KeyValueStoreFile.java:190)
+	at org.neo4j.kernel.impl.store.kvstore.KeyValueStoreFile.scanAll(KeyValueStoreFile.java:181)
+	at org.neo4j.kernel.impl.store.kvstore.KeyValueStoreFileFormat.open(KeyValueStoreFileFormat.java:286)
+	at org.neo4j.kernel.impl.store.kvstore.KeyValueStoreFileFormat.openStore(KeyValueStoreFileFormat.java:78)
+	at org.neo4j.kernel.impl.store.kvstore.RotationStrategy.open(RotationStrategy.java:65)
+	at org.neo4j.kernel.impl.store.kvstore.DeadState$Stopped.initialize(DeadState.java:125)
+	at org.neo4j.kernel.impl.store.kvstore.AbstractKeyValueStore.init(AbstractKeyValueStore.java:172)
+	at org.neo4j.kernel.impl.store.NeoStores.createCountStore(NeoStores.java:647)
+	at org.neo4j.kernel.impl.store.StoreType$15.open(StoreType.java:157)
+	at org.neo4j.kernel.impl.store.StoreType$15.open(StoreType.java:152)
+	at org.neo4j.kernel.impl.store.NeoStores.openStore(NeoStores.java:255)
+	at org.neo4j.kernel.impl.store.NeoStores.getOrCreateStore(NeoStores.java:300)
+	at org.neo4j.kernel.impl.store.NeoStores.<init>(NeoStores.java:144)
+	at org.neo4j.kernel.impl.store.StoreFactory.openNeoStores(StoreFactory.java:169)
+	at org.neo4j.kernel.impl.store.StoreFactory.openAllNeoStores(StoreFactory.java:133)
+	at org.neo4j.kernel.impl.storageengine.impl.recordstorage.RecordStorageEngine.<init>(RecordStorageEngine.java:213)
+	at org.neo4j.kernel.NeoStoreDataSource.buildStorageEngine(NeoStoreDataSource.java:575)
+	at org.neo4j.kernel.NeoStoreDataSource.start(NeoStoreDataSource.java:434)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.start(LifeSupport.java:434)
+	at org.neo4j.kernel.lifecycle.LifeSupport.start(LifeSupport.java:107)
+	at org.neo4j.kernel.impl.transaction.state.DataSourceManager.start(DataSourceManager.java:100)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.start(LifeSupport.java:434)
+	at org.neo4j.kernel.lifecycle.LifeSupport.start(LifeSupport.java:107)
+	at org.neo4j.kernel.impl.factory.GraphDatabaseFacadeFactory.initFacade(GraphDatabaseFacadeFactory.java:205)
+	at org.neo4j.kernel.impl.factory.GraphDatabaseFacadeFactory.newFacade(GraphDatabaseFacadeFactory.java:124)
+	at org.neo4j.server.CommunityNeoServer.lambda$static$0(CommunityNeoServer.java:58)
+	at org.neo4j.server.database.LifecycleManagingDatabase.start(LifecycleManagingDatabase.java:89)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.start(LifeSupport.java:434)
+	at org.neo4j.kernel.lifecycle.LifeSupport.start(LifeSupport.java:107)
+	at org.neo4j.server.AbstractNeoServer.start(AbstractNeoServer.java:211)
+	at org.neo4j.desktop.runtime.DatabaseActions.start(DatabaseActions.java:71)
+	at org.neo4j.desktop.ui.StartDatabaseActionListener$1.run(StartDatabaseActionListener.java:63)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+2017-05-23 16:19:11.260+0000 ERROR [o.n.k.i.s.c.CountsTracker] Failed to open counts store file: E:\DataEngineering\neostore.counts.db.b Format header/trailer has changed.
+java.lang.IllegalStateException: Format header/trailer has changed.
+	at org.neo4j.kernel.impl.store.kvstore.MetadataCollector$State.readFormatSpecifier(MetadataCollector.java:233)
+	at org.neo4j.kernel.impl.store.kvstore.MetadataCollector$State.access$100(MetadataCollector.java:105)
+	at org.neo4j.kernel.impl.store.kvstore.MetadataCollector$State$1.visit(MetadataCollector.java:112)
+	at org.neo4j.kernel.impl.store.kvstore.MetadataCollector.visit(MetadataCollector.java:65)
+	at org.neo4j.kernel.impl.store.kvstore.MetadataCollector.visit(MetadataCollector.java:28)
+	at org.neo4j.kernel.impl.store.kvstore.KeyValueStoreFile.visitKeyValuePairs(KeyValueStoreFile.java:190)
+	at org.neo4j.kernel.impl.store.kvstore.KeyValueStoreFile.scanAll(KeyValueStoreFile.java:181)
+	at org.neo4j.kernel.impl.store.kvstore.KeyValueStoreFileFormat.open(KeyValueStoreFileFormat.java:286)
+	at org.neo4j.kernel.impl.store.kvstore.KeyValueStoreFileFormat.openStore(KeyValueStoreFileFormat.java:78)
+	at org.neo4j.kernel.impl.store.kvstore.RotationStrategy.open(RotationStrategy.java:65)
+	at org.neo4j.kernel.impl.store.kvstore.DeadState$Stopped.initialize(DeadState.java:125)
+	at org.neo4j.kernel.impl.store.kvstore.AbstractKeyValueStore.init(AbstractKeyValueStore.java:172)
+	at org.neo4j.kernel.impl.store.NeoStores.createCountStore(NeoStores.java:647)
+	at org.neo4j.kernel.impl.store.StoreType$15.open(StoreType.java:157)
+	at org.neo4j.kernel.impl.store.StoreType$15.open(StoreType.java:152)
+	at org.neo4j.kernel.impl.store.NeoStores.openStore(NeoStores.java:255)
+	at org.neo4j.kernel.impl.store.NeoStores.getOrCreateStore(NeoStores.java:300)
+	at org.neo4j.kernel.impl.store.NeoStores.<init>(NeoStores.java:144)
+	at org.neo4j.kernel.impl.store.StoreFactory.openNeoStores(StoreFactory.java:169)
+	at org.neo4j.kernel.impl.store.StoreFactory.openAllNeoStores(StoreFactory.java:133)
+	at org.neo4j.kernel.impl.storageengine.impl.recordstorage.RecordStorageEngine.<init>(RecordStorageEngine.java:213)
+	at org.neo4j.kernel.NeoStoreDataSource.buildStorageEngine(NeoStoreDataSource.java:575)
+	at org.neo4j.kernel.NeoStoreDataSource.start(NeoStoreDataSource.java:434)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.start(LifeSupport.java:434)
+	at org.neo4j.kernel.lifecycle.LifeSupport.start(LifeSupport.java:107)
+	at org.neo4j.kernel.impl.transaction.state.DataSourceManager.start(DataSourceManager.java:100)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.start(LifeSupport.java:434)
+	at org.neo4j.kernel.lifecycle.LifeSupport.start(LifeSupport.java:107)
+	at org.neo4j.kernel.impl.factory.GraphDatabaseFacadeFactory.initFacade(GraphDatabaseFacadeFactory.java:205)
+	at org.neo4j.kernel.impl.factory.GraphDatabaseFacadeFactory.newFacade(GraphDatabaseFacadeFactory.java:124)
+	at org.neo4j.server.CommunityNeoServer.lambda$static$0(CommunityNeoServer.java:58)
+	at org.neo4j.server.database.LifecycleManagingDatabase.start(LifecycleManagingDatabase.java:89)
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.start(LifeSupport.java:434)
+	at org.neo4j.kernel.lifecycle.LifeSupport.start(LifeSupport.java:107)
+	at org.neo4j.server.AbstractNeoServer.start(AbstractNeoServer.java:211)
+	at org.neo4j.desktop.runtime.DatabaseActions.start(DatabaseActions.java:71)
+	at org.neo4j.desktop.ui.StartDatabaseActionListener$1.run(StartDatabaseActionListener.java:63)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+2017-05-23 16:19:11.266+0000 INFO [o.n.k.i.a.i.IndexingService] IndexingService.init: indexes not specifically mentioned above are null
+2017-05-23 16:19:11.266+0000 INFO [o.n.k.i.i.l.NativeLabelScanStore] No scan store found, this might just be first use. Preparing to rebuild.
+2017-05-23 16:19:11.266+0000 INFO [o.n.k.a.i.l.LuceneLabelScanStore] No scan store found, this might just be first use. Preparing to rebuild.
+2017-05-23 16:19:11.353+0000 INFO [o.n.k.NeoStoreDataSource] No commits found after last check point (which is at LogPosition{logVersion=0, byteOffset=1483967})
+2017-05-23 16:19:11.353+0000 INFO [o.n.k.i.s.DynamicArrayStore] Rebuilding id generator for[E:\DataEngineering\neostore.nodestore.db.labels] ...
+2017-05-23 16:19:11.411+0000 INFO [o.n.k.i.s.DynamicArrayStore] [E:\DataEngineering\neostore.nodestore.db.labels] high id=1 (defragged=0)
+2017-05-23 16:19:11.411+0000 INFO [o.n.k.i.s.DynamicArrayStore] E:\DataEngineering\neostore.nodestore.db.labels rebuild id generator, highId=1 defragged count=0
+2017-05-23 16:19:11.411+0000 INFO [o.n.k.i.s.NodeStore] Rebuilding id generator for[E:\DataEngineering\neostore.nodestore.db] ...
+2017-05-23 16:19:11.461+0000 INFO [o.n.k.i.s.NodeStore] [E:\DataEngineering\neostore.nodestore.db] high id=6140 (defragged=0)
+2017-05-23 16:19:11.461+0000 INFO [o.n.k.i.s.NodeStore] E:\DataEngineering\neostore.nodestore.db rebuild id generator, highId=6140 defragged count=0
+2017-05-23 16:19:11.461+0000 INFO [o.n.k.i.s.DynamicStringStore] Rebuilding id generator for[E:\DataEngineering\neostore.propertystore.db.index.keys] ...
+2017-05-23 16:19:11.510+0000 INFO [o.n.k.i.s.DynamicStringStore] [E:\DataEngineering\neostore.propertystore.db.index.keys] high id=9 (defragged=0)
+2017-05-23 16:19:11.510+0000 INFO [o.n.k.i.s.DynamicStringStore] E:\DataEngineering\neostore.propertystore.db.index.keys rebuild id generator, highId=9 defragged count=0
+2017-05-23 16:19:11.510+0000 INFO [o.n.k.i.s.PropertyKeyTokenStore] Rebuilding id generator for[E:\DataEngineering\neostore.propertystore.db.index] ...
+2017-05-23 16:19:11.560+0000 INFO [o.n.k.i.s.PropertyKeyTokenStore] [E:\DataEngineering\neostore.propertystore.db.index] high id=8 (defragged=0)
+2017-05-23 16:19:11.561+0000 INFO [o.n.k.i.s.PropertyKeyTokenStore] E:\DataEngineering\neostore.propertystore.db.index rebuild id generator, highId=8 defragged count=0
+2017-05-23 16:19:11.635+0000 INFO [o.n.k.i.s.DynamicStringStore] Rebuilding id generator for[E:\DataEngineering\neostore.propertystore.db.strings] ...
+2017-05-23 16:19:11.686+0000 INFO [o.n.k.i.s.DynamicStringStore] [E:\DataEngineering\neostore.propertystore.db.strings] high id=1 (defragged=0)
+2017-05-23 16:19:11.686+0000 INFO [o.n.k.i.s.DynamicStringStore] E:\DataEngineering\neostore.propertystore.db.strings rebuild id generator, highId=1 defragged count=0
+2017-05-23 16:19:11.686+0000 INFO [o.n.k.i.s.DynamicArrayStore] Rebuilding id generator for[E:\DataEngineering\neostore.propertystore.db.arrays] ...
+2017-05-23 16:19:11.736+0000 INFO [o.n.k.i.s.DynamicArrayStore] [E:\DataEngineering\neostore.propertystore.db.arrays] high id=1 (defragged=0)
+2017-05-23 16:19:11.736+0000 INFO [o.n.k.i.s.DynamicArrayStore] E:\DataEngineering\neostore.propertystore.db.arrays rebuild id generator, highId=1 defragged count=0
+2017-05-23 16:19:11.736+0000 INFO [o.n.k.i.s.PropertyStore] Rebuilding id generator for[E:\DataEngineering\neostore.propertystore.db] ...
+2017-05-23 16:19:11.786+0000 INFO [o.n.k.i.s.PropertyStore] [E:\DataEngineering\neostore.propertystore.db] high id=6154 (defragged=0)
+2017-05-23 16:19:11.786+0000 INFO [o.n.k.i.s.PropertyStore] E:\DataEngineering\neostore.propertystore.db rebuild id generator, highId=6154 defragged count=0
+2017-05-23 16:19:11.786+0000 INFO [o.n.k.i.s.RelationshipStore] Rebuilding id generator for[E:\DataEngineering\neostore.relationshipstore.db] ...
+2017-05-23 16:19:11.836+0000 INFO [o.n.k.i.s.RelationshipStore] [E:\DataEngineering\neostore.relationshipstore.db] high id=3337 (defragged=0)
+2017-05-23 16:19:11.836+0000 INFO [o.n.k.i.s.RelationshipStore] E:\DataEngineering\neostore.relationshipstore.db rebuild id generator, highId=3337 defragged count=0
+2017-05-23 16:19:11.836+0000 INFO [o.n.k.i.s.DynamicStringStore] Rebuilding id generator for[E:\DataEngineering\neostore.relationshiptypestore.db.names] ...
+2017-05-23 16:19:11.886+0000 INFO [o.n.k.i.s.DynamicStringStore] [E:\DataEngineering\neostore.relationshiptypestore.db.names] high id=3 (defragged=0)
+2017-05-23 16:19:11.886+0000 INFO [o.n.k.i.s.DynamicStringStore] E:\DataEngineering\neostore.relationshiptypestore.db.names rebuild id generator, highId=3 defragged count=0
+2017-05-23 16:19:11.886+0000 INFO [o.n.k.i.s.RelationshipTypeTokenStore] Rebuilding id generator for[E:\DataEngineering\neostore.relationshiptypestore.db] ...
+2017-05-23 16:19:11.936+0000 INFO [o.n.k.i.s.RelationshipTypeTokenStore] [E:\DataEngineering\neostore.relationshiptypestore.db] high id=2 (defragged=0)
+2017-05-23 16:19:11.936+0000 INFO [o.n.k.i.s.RelationshipTypeTokenStore] E:\DataEngineering\neostore.relationshiptypestore.db rebuild id generator, highId=2 defragged count=0
+2017-05-23 16:19:12.010+0000 INFO [o.n.k.i.s.DynamicStringStore] Rebuilding id generator for[E:\DataEngineering\neostore.labeltokenstore.db.names] ...
+2017-05-23 16:19:12.060+0000 INFO [o.n.k.i.s.DynamicStringStore] [E:\DataEngineering\neostore.labeltokenstore.db.names] high id=6 (defragged=0)
+2017-05-23 16:19:12.060+0000 INFO [o.n.k.i.s.DynamicStringStore] E:\DataEngineering\neostore.labeltokenstore.db.names rebuild id generator, highId=6 defragged count=0
+2017-05-23 16:19:12.060+0000 INFO [o.n.k.i.s.LabelTokenStore] Rebuilding id generator for[E:\DataEngineering\neostore.labeltokenstore.db] ...
+2017-05-23 16:19:12.110+0000 INFO [o.n.k.i.s.LabelTokenStore] [E:\DataEngineering\neostore.labeltokenstore.db] high id=5 (defragged=0)
+2017-05-23 16:19:12.110+0000 INFO [o.n.k.i.s.LabelTokenStore] E:\DataEngineering\neostore.labeltokenstore.db rebuild id generator, highId=5 defragged count=0
+2017-05-23 16:19:12.185+0000 INFO [o.n.k.i.s.SchemaStore] Rebuilding id generator for[E:\DataEngineering\neostore.schemastore.db] ...
+2017-05-23 16:19:12.269+0000 INFO [o.n.k.i.s.SchemaStore] [E:\DataEngineering\neostore.schemastore.db] high id=1 (defragged=0)
+2017-05-23 16:19:12.269+0000 INFO [o.n.k.i.s.SchemaStore] E:\DataEngineering\neostore.schemastore.db rebuild id generator, highId=1 defragged count=0
+2017-05-23 16:19:12.270+0000 INFO [o.n.k.i.s.RelationshipGroupStore] Rebuilding id generator for[E:\DataEngineering\neostore.relationshipgroupstore.db] ...
+2017-05-23 16:19:12.320+0000 INFO [o.n.k.i.s.RelationshipGroupStore] [E:\DataEngineering\neostore.relationshipgroupstore.db] high id=5 (defragged=0)
+2017-05-23 16:19:12.320+0000 INFO [o.n.k.i.s.RelationshipGroupStore] E:\DataEngineering\neostore.relationshipgroupstore.db rebuild id generator, highId=5 defragged count=0
+2017-05-23 16:19:12.320+0000 INFO [o.n.k.i.s.MetaDataStore] Rebuilding id generator for[E:\DataEngineering\neostore] ...
+2017-05-23 16:19:12.369+0000 INFO [o.n.k.i.s.MetaDataStore] [E:\DataEngineering\neostore] high id=15 (defragged=0)
+2017-05-23 16:19:12.369+0000 INFO [o.n.k.i.s.MetaDataStore] E:\DataEngineering\neostore rebuild id generator, highId=15 defragged count=0
+2017-05-23 16:19:12.370+0000 WARN [o.n.k.i.s.MetaDataStore] Missing counts store, rebuilding it.
+2017-05-23 16:19:12.456+0000 INFO [o.n.k.i.a.i.IndexingService] IndexingService.start: indexes not specifically mentioned above are null
+2017-05-23 16:19:12.456+0000 INFO [o.n.k.a.i.l.LuceneLabelScanStore] Rebuilding scan store, this may take a while
+2017-05-23 16:19:12.456+0000 INFO [o.n.k.i.i.l.NativeLabelScanStore] Rebuilding scan store, this may take a while
+2017-05-23 16:19:12.519+0000 INFO [o.n.k.a.i.l.LuceneLabelScanStore] Scan store rebuilt (roughly 5626 nodes)
+2017-05-23 16:19:12.519+0000 INFO [o.n.k.i.i.l.NativeLabelScanStore] Scan store rebuilt (roughly 5626 nodes)
+2017-05-23 16:19:12.520+0000 INFO [o.n.k.i.DatabaseHealth] Database health set to OK
+2017-05-23 16:19:12.558+0000 INFO [o.n.k.AvailabilityGuard] Fulfilling of requirement makes database available: Database available
+2017-05-23 16:19:12.558+0000 INFO [o.n.k.i.f.GraphDatabaseFacadeFactory] Database is now ready
+2017-05-23 16:19:12.559+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions START ---
+2017-05-23 16:19:12.559+0000 INFO [o.n.k.i.DiagnosticsManager] Graph Database: community single StoreId{creationTime=1495545025444, randomId=4044461926338829636, storeVersion=15813456178476550, upgradeTime=1495556350978, upgradeId=105}
+2017-05-23 16:19:12.559+0000 INFO [o.n.k.i.DiagnosticsManager] Kernel version: 3.2.0
+2017-05-23 16:19:12.559+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions END ---
+2017-05-23 16:19:12.559+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS START ---
+2017-05-23 16:19:12.559+0000 INFO [o.n.k.i.DiagnosticsManager] Store versions:
+2017-05-23 16:19:12.559+0000 INFO [o.n.k.i.DiagnosticsManager] Store versions:
+2017-05-23 16:19:12.560+0000 INFO [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore v0.A.8
+2017-05-23 16:19:12.560+0000 INFO [o.n.k.i.DiagnosticsManager]   NodeStore v0.A.8
+2017-05-23 16:19:12.560+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.8
+2017-05-23 16:19:12.560+0000 INFO [o.n.k.i.DiagnosticsManager]   PropertyIndexStore v0.A.8
+2017-05-23 16:19:12.560+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.8
+2017-05-23 16:19:12.560+0000 INFO [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore v0.A.8
+2017-05-23 16:19:12.560+0000 INFO [o.n.k.i.DiagnosticsManager]   PropertyStore v0.A.8
+2017-05-23 16:19:12.560+0000 INFO [o.n.k.i.DiagnosticsManager]   RelationshipStore v0.A.8
+2017-05-23 16:19:12.560+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.8
+2017-05-23 16:19:12.560+0000 INFO [o.n.k.i.DiagnosticsManager]   RelationshipTypeStore v0.A.8
+2017-05-23 16:19:12.560+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.8
+2017-05-23 16:19:12.560+0000 INFO [o.n.k.i.DiagnosticsManager]   LabelTokenStore v0.A.8
+2017-05-23 16:19:12.560+0000 INFO [o.n.k.i.DiagnosticsManager]   SchemaStore v0.A.8
+2017-05-23 16:19:12.560+0000 INFO [o.n.k.i.DiagnosticsManager]   RelationshipGroupStore v0.A.8
+2017-05-23 16:19:12.560+0000 INFO [o.n.k.i.DiagnosticsManager]   NeoStore v0.A.8
+2017-05-23 16:19:12.561+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS END ---
+2017-05-23 16:19:12.561+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE START ---
+2017-05-23 16:19:12.561+0000 INFO [o.n.k.i.DiagnosticsManager] Id usage:
+2017-05-23 16:19:12.561+0000 INFO [o.n.k.i.DiagnosticsManager] Id usage:
+2017-05-23 16:19:12.561+0000 INFO [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore: used=1 high=0
+2017-05-23 16:19:12.561+0000 INFO [o.n.k.i.DiagnosticsManager]   NodeStore: used=6140 high=6139
+2017-05-23 16:19:12.561+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=9 high=8
+2017-05-23 16:19:12.561+0000 INFO [o.n.k.i.DiagnosticsManager]   PropertyIndexStore: used=8 high=7
+2017-05-23 16:19:12.561+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2017-05-23 16:19:12.561+0000 INFO [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore: used=1 high=0
+2017-05-23 16:19:12.561+0000 INFO [o.n.k.i.DiagnosticsManager]   PropertyStore: used=6154 high=6153
+2017-05-23 16:19:12.561+0000 INFO [o.n.k.i.DiagnosticsManager]   RelationshipStore: used=3337 high=3336
+2017-05-23 16:19:12.562+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=3 high=2
+2017-05-23 16:19:12.562+0000 INFO [o.n.k.i.DiagnosticsManager]   RelationshipTypeStore: used=2 high=1
+2017-05-23 16:19:12.562+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=6 high=5
+2017-05-23 16:19:12.562+0000 INFO [o.n.k.i.DiagnosticsManager]   LabelTokenStore: used=5 high=4
+2017-05-23 16:19:12.562+0000 INFO [o.n.k.i.DiagnosticsManager]   SchemaStore: used=1 high=0
+2017-05-23 16:19:12.562+0000 INFO [o.n.k.i.DiagnosticsManager]   RelationshipGroupStore: used=5 high=4
+2017-05-23 16:19:12.562+0000 INFO [o.n.k.i.DiagnosticsManager]   NeoStore: used=15 high=14
+2017-05-23 16:19:12.562+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE END ---
+2017-05-23 16:19:12.562+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS START ---
+2017-05-23 16:19:12.562+0000 INFO [o.n.k.i.DiagnosticsManager] Neostore records:
+2017-05-23 16:19:12.562+0000 INFO [o.n.k.i.DiagnosticsManager] TIME (Creation time): 1495545025444
+2017-05-23 16:19:12.562+0000 INFO [o.n.k.i.DiagnosticsManager] RANDOM_NUMBER (Random number for store id): 4044461926338829636
+2017-05-23 16:19:12.562+0000 INFO [o.n.k.i.DiagnosticsManager] LOG_VERSION (Current log version): 0
+2017-05-23 16:19:12.563+0000 INFO [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_ID (Last committed transaction): 105
+2017-05-23 16:19:12.563+0000 INFO [o.n.k.i.DiagnosticsManager] STORE_VERSION (Store format version): 15813456178476550
+2017-05-23 16:19:12.563+0000 INFO [o.n.k.i.DiagnosticsManager] FIRST_GRAPH_PROPERTY (First property record containing graph properties): -1
+2017-05-23 16:19:12.563+0000 INFO [o.n.k.i.DiagnosticsManager] LAST_CONSTRAINT_TRANSACTION (Last committed transaction containing constraint changes): 0
+2017-05-23 16:19:12.563+0000 INFO [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_ID (Transaction id most recent upgrade was performed at): 105
+2017-05-23 16:19:12.563+0000 INFO [o.n.k.i.DiagnosticsManager] UPGRADE_TIME (Time of last upgrade): 1495556350978
+2017-05-23 16:19:12.563+0000 INFO [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_CHECKSUM (Checksum of last committed transaction): -160021310835
+2017-05-23 16:19:12.563+0000 INFO [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_CHECKSUM (Checksum of transaction id the most recent upgrade was performed at): -160021310835
+2017-05-23 16:19:12.563+0000 INFO [o.n.k.i.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_VERSION (Log version where the last transaction commit entry has been written into): 0
+2017-05-23 16:19:12.563+0000 INFO [o.n.k.i.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_BYTE_OFFSET (Byte offset in the log file where the last transaction commit entry has been written into): 1483967
+2017-05-23 16:19:12.563+0000 INFO [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_COMMIT_TIMESTAMP (Commit time timestamp for last committed transaction): 1495546195635
+2017-05-23 16:19:12.563+0000 INFO [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_COMMIT_TIMESTAMP (Commit timestamp of transaction the most recent upgrade was performed at): 1495546195635
+2017-05-23 16:19:12.563+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS END ---
+2017-05-23 16:19:12.563+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE START ---
+2017-05-23 16:19:12.564+0000 INFO [o.n.k.i.DiagnosticsManager] Transaction log:
+2017-05-23 16:19:12.565+0000 INFO [o.n.k.i.DiagnosticsManager] Oldest transaction 2 found in log with version 0
+2017-05-23 16:19:12.565+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE END ---
+2017-05-23 16:19:12.565+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles START ---
+2017-05-23 16:19:12.566+0000 INFO [o.n.k.i.DiagnosticsManager] Disk space on partition (Total / Free / Free %): 339041316864 / 333818171392 / 98
+Storage files: (filename : modification date - size)
+2017-05-23 16:19:12.566+0000 INFO [o.n.k.i.DiagnosticsManager]   .git:
+2017-05-23 16:19:12.567+0000 INFO [o.n.k.i.DiagnosticsManager]     COMMIT_EDITMSG: 2017-05-15T14:31:28+0200 - 9.00 B
+2017-05-23 16:19:12.567+0000 INFO [o.n.k.i.DiagnosticsManager]     FETCH_HEAD: 2017-05-23T18:13:26+0200 - 105.00 B
+2017-05-23 16:19:12.567+0000 INFO [o.n.k.i.DiagnosticsManager]     HEAD: 2017-05-15T14:28:56+0200 - 23.00 B
+2017-05-23 16:19:12.567+0000 INFO [o.n.k.i.DiagnosticsManager]     ORIG_HEAD: 2017-05-23T15:47:36+0200 - 41.00 B
+2017-05-23 16:19:12.567+0000 INFO [o.n.k.i.DiagnosticsManager]     config: 2017-05-15T14:29:56+0200 - 310.00 B
+2017-05-23 16:19:12.568+0000 INFO [o.n.k.i.DiagnosticsManager]     index: 2017-05-23T18:18:50+0200 - 5.41 kB
+2017-05-23 16:19:12.568+0000 INFO [o.n.k.i.DiagnosticsManager]     logs:
+2017-05-23 16:19:12.568+0000 INFO [o.n.k.i.DiagnosticsManager]       HEAD: 2017-05-23T15:47:36+0200 - 696.00 B
+2017-05-23 16:19:12.568+0000 INFO [o.n.k.i.DiagnosticsManager]       refs:
+2017-05-23 16:19:12.568+0000 INFO [o.n.k.i.DiagnosticsManager]         heads:
+2017-05-23 16:19:12.569+0000 INFO [o.n.k.i.DiagnosticsManager]           master: 2017-05-23T15:47:36+0200 - 696.00 B
+2017-05-23 16:19:12.569+0000 INFO [o.n.k.i.DiagnosticsManager]         - Total: 2017-05-15T14:29:46+0200 - 696.00 B
+2017-05-23 16:19:12.569+0000 INFO [o.n.k.i.DiagnosticsManager]         remotes:
+2017-05-23 16:19:12.569+0000 INFO [o.n.k.i.DiagnosticsManager]           origin:
+2017-05-23 16:19:12.570+0000 INFO [o.n.k.i.DiagnosticsManager]             master: 2017-05-23T15:47:35+0200 - 664.00 B
+2017-05-23 16:19:12.570+0000 INFO [o.n.k.i.DiagnosticsManager]           - Total: 2017-05-15T14:29:56+0200 - 664.00 B
+2017-05-23 16:19:12.570+0000 INFO [o.n.k.i.DiagnosticsManager]         - Total: 2017-05-15T14:29:56+0200 - 664.00 B
+2017-05-23 16:19:12.570+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-15T14:29:56+0200 - 1.33 kB
+2017-05-23 16:19:12.570+0000 INFO [o.n.k.i.DiagnosticsManager]     - Total: 2017-05-15T14:29:46+0200 - 2.01 kB
+2017-05-23 16:19:12.570+0000 INFO [o.n.k.i.DiagnosticsManager]     objects:
+2017-05-23 16:19:12.570+0000 INFO [o.n.k.i.DiagnosticsManager]       00:
+2017-05-23 16:19:12.571+0000 INFO [o.n.k.i.DiagnosticsManager]         8e5f04f3b1fdec99408987b4d8ab2a0bc19c80: 2017-05-22T09:51:11+0200 - 7.64 kB
+2017-05-23 16:19:12.571+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:11+0200 - 7.64 kB
+2017-05-23 16:19:12.571+0000 INFO [o.n.k.i.DiagnosticsManager]       02:
+2017-05-23 16:19:12.571+0000 INFO [o.n.k.i.DiagnosticsManager]         21354f7e6a6b5aad905b1cc7267dfe79ac2f6d: 2017-05-22T09:51:07+0200 - 184.00 B
+2017-05-23 16:19:12.571+0000 INFO [o.n.k.i.DiagnosticsManager]         cb469bfa8230bdb84f02618cb0170e4cae8ca6: 2017-05-22T09:51:11+0200 - 195.00 B
+2017-05-23 16:19:12.571+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:11+0200 - 379.00 B
+2017-05-23 16:19:12.571+0000 INFO [o.n.k.i.DiagnosticsManager]       03:
+2017-05-23 16:19:12.572+0000 INFO [o.n.k.i.DiagnosticsManager]         e9fb4f3c1ff4b3ab56150e60f07e2271068b25: 2017-05-23T15:47:35+0200 - 2.38 kB
+2017-05-23 16:19:12.572+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 2.38 kB
+2017-05-23 16:19:12.572+0000 INFO [o.n.k.i.DiagnosticsManager]       09:
+2017-05-23 16:19:12.572+0000 INFO [o.n.k.i.DiagnosticsManager]         190cee336eb12f5c725a5ca0d9b381689b7ee8: 2017-05-23T15:47:35+0200 - 130.00 B
+2017-05-23 16:19:12.572+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 130.00 B
+2017-05-23 16:19:12.572+0000 INFO [o.n.k.i.DiagnosticsManager]       0b:
+2017-05-23 16:19:12.573+0000 INFO [o.n.k.i.DiagnosticsManager]         b272b25f979035b5517dacb218f0746400cb8f: 2017-05-15T14:31:28+0200 - 54.00 B
+2017-05-23 16:19:12.573+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-15T14:31:28+0200 - 54.00 B
+2017-05-23 16:19:12.573+0000 INFO [o.n.k.i.DiagnosticsManager]       0c:
+2017-05-23 16:19:12.573+0000 INFO [o.n.k.i.DiagnosticsManager]         0cd741fc8a71d1d68e32e7888c3b0d19a95d05: 2017-05-22T09:51:11+0200 - 87.00 B
+2017-05-23 16:19:12.573+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:11+0200 - 87.00 B
+2017-05-23 16:19:12.573+0000 INFO [o.n.k.i.DiagnosticsManager]       0d:
+2017-05-23 16:19:12.574+0000 INFO [o.n.k.i.DiagnosticsManager]         7bacd56e96fa5ac64a4a56cc924928f6243fd4: 2017-05-22T09:51:07+0200 - 165.00 B
+2017-05-23 16:19:12.574+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:07+0200 - 165.00 B
+2017-05-23 16:19:12.574+0000 INFO [o.n.k.i.DiagnosticsManager]       0f:
+2017-05-23 16:19:12.574+0000 INFO [o.n.k.i.DiagnosticsManager]         7622d84edd00a3519be3b808e1b2a71b21c1af: 2017-05-23T15:47:35+0200 - 30.56 kB
+2017-05-23 16:19:12.574+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 30.56 kB
+2017-05-23 16:19:12.575+0000 INFO [o.n.k.i.DiagnosticsManager]       10:
+2017-05-23 16:19:12.575+0000 INFO [o.n.k.i.DiagnosticsManager]         1cdfdc5204e22a83719184169f6ac035eb3048: 2017-05-15T14:29:41+0200 - 107.00 B
+2017-05-23 16:19:12.575+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-15T14:29:41+0200 - 107.00 B
+2017-05-23 16:19:12.575+0000 INFO [o.n.k.i.DiagnosticsManager]       15:
+2017-05-23 16:19:12.575+0000 INFO [o.n.k.i.DiagnosticsManager]         d66bbe75446fae613e9cbe9a6e6c6569f0ed30: 2017-05-22T09:51:07+0200 - 21.00 B
+2017-05-23 16:19:12.576+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:07+0200 - 21.00 B
+2017-05-23 16:19:12.576+0000 INFO [o.n.k.i.DiagnosticsManager]       1b:
+2017-05-23 16:19:12.576+0000 INFO [o.n.k.i.DiagnosticsManager]         81d404c9bbae44f96946e42d145477a42c8c32: 2017-05-22T09:51:07+0200 - 113.94 kB
+2017-05-23 16:19:12.576+0000 INFO [o.n.k.i.DiagnosticsManager]         ea863ced84aaf2b51b7dc13a5c1fd9c5efbd87: 2017-05-15T14:29:46+0200 - 139.00 B
+2017-05-23 16:19:12.576+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:07+0200 - 114.07 kB
+2017-05-23 16:19:12.576+0000 INFO [o.n.k.i.DiagnosticsManager]       1c:
+2017-05-23 16:19:12.577+0000 INFO [o.n.k.i.DiagnosticsManager]         175b3f6698a7b4a2174a8e3b4eab5dc95f02c3: 2017-05-23T15:47:35+0200 - 94.20 kB
+2017-05-23 16:19:12.577+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 94.20 kB
+2017-05-23 16:19:12.577+0000 INFO [o.n.k.i.DiagnosticsManager]       1e:
+2017-05-23 16:19:12.577+0000 INFO [o.n.k.i.DiagnosticsManager]         7a4a2a50ffe6d80d6c240569183c4518dce61d: 2017-05-15T14:29:41+0200 - 144.00 B
+2017-05-23 16:19:12.577+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-15T14:29:41+0200 - 144.00 B
+2017-05-23 16:19:12.577+0000 INFO [o.n.k.i.DiagnosticsManager]       21:
+2017-05-23 16:19:12.578+0000 INFO [o.n.k.i.DiagnosticsManager]         4807f751bfea64c597197dc3678482e3ff4268: 2017-05-22T09:51:11+0200 - 193.00 B
+2017-05-23 16:19:12.578+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:11+0200 - 193.00 B
+2017-05-23 16:19:12.578+0000 INFO [o.n.k.i.DiagnosticsManager]       22:
+2017-05-23 16:19:12.578+0000 INFO [o.n.k.i.DiagnosticsManager]         36d381146c3860254fd39ae11425a98cdacfd3: 2017-05-23T15:47:35+0200 - 39.52 kB
+2017-05-23 16:19:12.578+0000 INFO [o.n.k.i.DiagnosticsManager]         fd28d4ec331a633f1a886c68979bdfafb8a4b3: 2017-05-23T15:47:35+0200 - 18.00 B
+2017-05-23 16:19:12.578+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 39.54 kB
+2017-05-23 16:19:12.578+0000 INFO [o.n.k.i.DiagnosticsManager]       23:
+2017-05-23 16:19:12.579+0000 INFO [o.n.k.i.DiagnosticsManager]         6cb7ca79f4c393b90442474d8a6eb108b62834: 2017-05-23T15:47:35+0200 - 168.00 B
+2017-05-23 16:19:12.579+0000 INFO [o.n.k.i.DiagnosticsManager]         b861caed6f86281e1d7c672574de10c53187d5: 2017-05-23T15:47:35+0200 - 71.16 kB
+2017-05-23 16:19:12.579+0000 INFO [o.n.k.i.DiagnosticsManager]         ff96e3f7730653dfe58f22f676fdf8765fece0: 2017-05-22T09:51:11+0200 - 47.00 B
+2017-05-23 16:19:12.579+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 71.37 kB
+2017-05-23 16:19:12.579+0000 INFO [o.n.k.i.DiagnosticsManager]       27:
+2017-05-23 16:19:12.579+0000 INFO [o.n.k.i.DiagnosticsManager]         34e2ccf7f8c7279101e0b10a45ce81298afc00: 2017-05-15T14:29:46+0200 - 46.00 B
+2017-05-23 16:19:12.579+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-15T14:29:46+0200 - 46.00 B
+2017-05-23 16:19:12.580+0000 INFO [o.n.k.i.DiagnosticsManager]       29:
+2017-05-23 16:19:12.580+0000 INFO [o.n.k.i.DiagnosticsManager]         4f4016d05bdd696670c4840f1f36a71f9239de: 2017-05-22T09:51:11+0200 - 110.00 B
+2017-05-23 16:19:12.580+0000 INFO [o.n.k.i.DiagnosticsManager]         87581604e21e9d3cd14135ecb9c2b4c1c38ce2: 2017-05-23T15:47:35+0200 - 47.00 B
+2017-05-23 16:19:12.580+0000 INFO [o.n.k.i.DiagnosticsManager]         e3ab5ede188737717ae4b2af3b2d1058569522: 2017-05-23T15:47:35+0200 - 37.77 kB
+2017-05-23 16:19:12.580+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 37.93 kB
+2017-05-23 16:19:12.580+0000 INFO [o.n.k.i.DiagnosticsManager]       2b:
+2017-05-23 16:19:12.580+0000 INFO [o.n.k.i.DiagnosticsManager]         b7525ccbf61cc86ea745018eab10ab05c9333a: 2017-05-22T09:51:07+0200 - 189.32 kB
+2017-05-23 16:19:12.580+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:07+0200 - 189.32 kB
+2017-05-23 16:19:12.580+0000 INFO [o.n.k.i.DiagnosticsManager]       2c:
+2017-05-23 16:19:12.581+0000 INFO [o.n.k.i.DiagnosticsManager]         71fff6c95ececc3fd03deec4c6ae257c18291f: 2017-05-22T09:51:11+0200 - 247.00 B
+2017-05-23 16:19:12.581+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:11+0200 - 247.00 B
+2017-05-23 16:19:12.581+0000 INFO [o.n.k.i.DiagnosticsManager]       2d:
+2017-05-23 16:19:12.581+0000 INFO [o.n.k.i.DiagnosticsManager]         1ec0725df9664b9e9e92243787c59ca66b4bd3: 2017-05-23T15:47:35+0200 - 328.00 B
+2017-05-23 16:19:12.581+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 328.00 B
+2017-05-23 16:19:12.581+0000 INFO [o.n.k.i.DiagnosticsManager]       2e:
+2017-05-23 16:19:12.581+0000 INFO [o.n.k.i.DiagnosticsManager]         08c4203b8c29dfe919635fd52c9368242c4c18: 2017-05-23T15:47:35+0200 - 54.00 B
+2017-05-23 16:19:12.581+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 54.00 B
+2017-05-23 16:19:12.581+0000 INFO [o.n.k.i.DiagnosticsManager]       2f:
+2017-05-23 16:19:12.582+0000 INFO [o.n.k.i.DiagnosticsManager]         49d8a068eefb39a7489886b0b0cefa72a65fb9: 2017-05-22T09:51:07+0200 - 46.00 B
+2017-05-23 16:19:12.582+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:07+0200 - 46.00 B
+2017-05-23 16:19:12.582+0000 INFO [o.n.k.i.DiagnosticsManager]       31:
+2017-05-23 16:19:12.582+0000 INFO [o.n.k.i.DiagnosticsManager]         54edd213361d5b39af529c848783dd71f4d8fb: 2017-05-15T14:29:46+0200 - 634.00 B
+2017-05-23 16:19:12.582+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-15T14:29:46+0200 - 634.00 B
+2017-05-23 16:19:12.582+0000 INFO [o.n.k.i.DiagnosticsManager]       32:
+2017-05-23 16:19:12.582+0000 INFO [o.n.k.i.DiagnosticsManager]         4e0bfa59d7b0ada717435f29a76a2a0449568e: 2017-05-23T15:47:35+0200 - 47.00 B
+2017-05-23 16:19:12.582+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 47.00 B
+2017-05-23 16:19:12.583+0000 INFO [o.n.k.i.DiagnosticsManager]       33:
+2017-05-23 16:19:12.583+0000 INFO [o.n.k.i.DiagnosticsManager]         1a7460e03e192c4d8c659128842642dbfc6c78: 2017-05-22T09:51:11+0200 - 329.00 B
+2017-05-23 16:19:12.583+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:11+0200 - 329.00 B
+2017-05-23 16:19:12.583+0000 INFO [o.n.k.i.DiagnosticsManager]       39:
+2017-05-23 16:19:12.583+0000 INFO [o.n.k.i.DiagnosticsManager]         b13d694acce221a3d02a82d20841fc461cb811: 2017-05-23T15:47:35+0200 - 301.76 kB
+2017-05-23 16:19:12.583+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 301.76 kB
+2017-05-23 16:19:12.583+0000 INFO [o.n.k.i.DiagnosticsManager]       3b:
+2017-05-23 16:19:12.584+0000 INFO [o.n.k.i.DiagnosticsManager]         b8dfc4c796579415629840762579716e15ead2: 2017-05-22T09:51:08+0200 - 1.26 MB
+2017-05-23 16:19:12.584+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:08+0200 - 1.26 MB
+2017-05-23 16:19:12.584+0000 INFO [o.n.k.i.DiagnosticsManager]       3d:
+2017-05-23 16:19:12.584+0000 INFO [o.n.k.i.DiagnosticsManager]         9e68f478f5676a922ebab2d906ebd2e474c2de: 2017-05-22T09:51:07+0200 - 668.00 B
+2017-05-23 16:19:12.584+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:07+0200 - 668.00 B
+2017-05-23 16:19:12.584+0000 INFO [o.n.k.i.DiagnosticsManager]       3f:
+2017-05-23 16:19:12.584+0000 INFO [o.n.k.i.DiagnosticsManager]         e5420d152d374522fd7d6823a3e7e67bc371b3: 2017-05-22T09:51:07+0200 - 36.67 kB
+2017-05-23 16:19:12.584+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:07+0200 - 36.67 kB
+2017-05-23 16:19:12.584+0000 INFO [o.n.k.i.DiagnosticsManager]       40:
+2017-05-23 16:19:12.585+0000 INFO [o.n.k.i.DiagnosticsManager]         65c51fbeb114423f517a60d866b338334ec965: 2017-05-22T09:51:07+0200 - 463.82 kB
+2017-05-23 16:19:12.585+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:07+0200 - 463.82 kB
+2017-05-23 16:19:12.585+0000 INFO [o.n.k.i.DiagnosticsManager]       42:
+2017-05-23 16:19:12.585+0000 INFO [o.n.k.i.DiagnosticsManager]         f972e9874f08f0892f314608912e70ce393999: 2017-05-15T14:29:41+0200 - 45.00 B
+2017-05-23 16:19:12.585+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-15T14:29:41+0200 - 45.00 B
+2017-05-23 16:19:12.585+0000 INFO [o.n.k.i.DiagnosticsManager]       48:
+2017-05-23 16:19:12.585+0000 INFO [o.n.k.i.DiagnosticsManager]         6273ace9c2899c5296900f1dd2237e6aef57ae: 2017-05-22T09:51:11+0200 - 327.00 B
+2017-05-23 16:19:12.586+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:11+0200 - 327.00 B
+2017-05-23 16:19:12.586+0000 INFO [o.n.k.i.DiagnosticsManager]       49:
+2017-05-23 16:19:12.586+0000 INFO [o.n.k.i.DiagnosticsManager]         552f789703d61bbc0e154a9ccefd3f22d64034: 2017-05-22T09:51:07+0200 - 170.00 B
+2017-05-23 16:19:12.586+0000 INFO [o.n.k.i.DiagnosticsManager]         6f72cd90a73db5e404311bcb6320d445eb6da6: 2017-05-22T09:51:08+0200 - 145.32 kB
+2017-05-23 16:19:12.586+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:08+0200 - 145.49 kB
+2017-05-23 16:19:12.586+0000 INFO [o.n.k.i.DiagnosticsManager]       4c:
+2017-05-23 16:19:12.586+0000 INFO [o.n.k.i.DiagnosticsManager]         891c5ca002511ad98cfc4599986ca8bdbfb72d: 2017-05-23T15:47:35+0200 - 173.00 B
+2017-05-23 16:19:12.586+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 173.00 B
+2017-05-23 16:19:12.586+0000 INFO [o.n.k.i.DiagnosticsManager]       4e:
+2017-05-23 16:19:12.587+0000 INFO [o.n.k.i.DiagnosticsManager]         36477add4da85cb2092ca65b8060eda55db585: 2017-05-23T15:47:35+0200 - 97.00 B
+2017-05-23 16:19:12.587+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 97.00 B
+2017-05-23 16:19:12.587+0000 INFO [o.n.k.i.DiagnosticsManager]       5a:
+2017-05-23 16:19:12.587+0000 INFO [o.n.k.i.DiagnosticsManager]         d3b1181e438a809688e39e16b939ca6faa46fc: 2017-05-22T09:51:07+0200 - 19.00 B
+2017-05-23 16:19:12.587+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:07+0200 - 19.00 B
+2017-05-23 16:19:12.587+0000 INFO [o.n.k.i.DiagnosticsManager]       5b:
+2017-05-23 16:19:12.587+0000 INFO [o.n.k.i.DiagnosticsManager]         3e2f914459c41f3eae624a4481bdcfa552d556: 2017-05-23T15:47:35+0200 - 160.00 B
+2017-05-23 16:19:12.587+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 160.00 B
+2017-05-23 16:19:12.587+0000 INFO [o.n.k.i.DiagnosticsManager]       60:
+2017-05-23 16:19:12.588+0000 INFO [o.n.k.i.DiagnosticsManager]         12279a999e9230c98a9dc81c1dbda9a5d2c385: 2017-05-23T15:47:35+0200 - 75.74 kB
+2017-05-23 16:19:12.588+0000 INFO [o.n.k.i.DiagnosticsManager]         3e39e9fef69211289b4734ce0aeac897769742: 2017-05-23T15:47:35+0200 - 15.21 kB
+2017-05-23 16:19:12.588+0000 INFO [o.n.k.i.DiagnosticsManager]         c2ae813282557a3338520826b56d7d7fd83121: 2017-05-22T09:51:07+0200 - 54.00 B
+2017-05-23 16:19:12.588+0000 INFO [o.n.k.i.DiagnosticsManager]         d6e05be1d92f39bf7bc5da2c3070189c115b59: 2017-05-22T09:51:07+0200 - 19.00 B
+2017-05-23 16:19:12.588+0000 INFO [o.n.k.i.DiagnosticsManager]         fe0b8d7c044030ed6304017d7b2ee2acc61d2c: 2017-05-15T14:29:41+0200 - 314.00 B
+2017-05-23 16:19:12.588+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 91.33 kB
+2017-05-23 16:19:12.588+0000 INFO [o.n.k.i.DiagnosticsManager]       65:
+2017-05-23 16:19:12.589+0000 INFO [o.n.k.i.DiagnosticsManager]         1a0a922144c374db577f7992f36c5c1492aba7: 2017-05-22T09:51:07+0200 - 124.00 B
+2017-05-23 16:19:12.589+0000 INFO [o.n.k.i.DiagnosticsManager]         d2d44a2beb45712c7acc088d4ad7b1d5f48753: 2017-05-22T09:51:08+0200 - 90.00 B
+2017-05-23 16:19:12.589+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:08+0200 - 214.00 B
+2017-05-23 16:19:12.589+0000 INFO [o.n.k.i.DiagnosticsManager]       67:
+2017-05-23 16:19:12.589+0000 INFO [o.n.k.i.DiagnosticsManager]         7a680edce9270f0104a833fe9b9864d64109c6: 2017-05-22T09:51:11+0200 - 49.00 B
+2017-05-23 16:19:12.589+0000 INFO [o.n.k.i.DiagnosticsManager]         f38e24e02ae7c90298b8ceac95f1b7d0276989: 2017-05-22T09:51:11+0200 - 52.00 B
+2017-05-23 16:19:12.589+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:11+0200 - 101.00 B
+2017-05-23 16:19:12.589+0000 INFO [o.n.k.i.DiagnosticsManager]       6a:
+2017-05-23 16:19:12.589+0000 INFO [o.n.k.i.DiagnosticsManager]         a09ce563e679a2f7bf99fc7675fc6555f8b3d4: 2017-05-22T09:51:07+0200 - 82.00 B
+2017-05-23 16:19:12.590+0000 INFO [o.n.k.i.DiagnosticsManager]         f9fcb9edc597ac902975ef8a7b7d9837844c2e: 2017-05-15T14:29:46+0200 - 54.00 B
+2017-05-23 16:19:12.590+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:07+0200 - 136.00 B
+2017-05-23 16:19:12.590+0000 INFO [o.n.k.i.DiagnosticsManager]       6e:
+2017-05-23 16:19:12.590+0000 INFO [o.n.k.i.DiagnosticsManager]         12b3600c2a60ea9a42689726a06aa0ce6b0b1e: 2017-05-22T09:51:07+0200 - 190.00 B
+2017-05-23 16:19:12.590+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:07+0200 - 190.00 B
+2017-05-23 16:19:12.590+0000 INFO [o.n.k.i.DiagnosticsManager]       73:
+2017-05-23 16:19:12.590+0000 INFO [o.n.k.i.DiagnosticsManager]         c4e8af6bcc6bfe288ef7aebc1ab15bbb492c56: 2017-05-22T09:51:07+0200 - 1.29 kB
+2017-05-23 16:19:12.590+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:07+0200 - 1.29 kB
+2017-05-23 16:19:12.590+0000 INFO [o.n.k.i.DiagnosticsManager]       78:
+2017-05-23 16:19:12.590+0000 INFO [o.n.k.i.DiagnosticsManager]         3db4985dfe097feb9b4dcab45f79def491cb34: 2017-05-23T15:47:35+0200 - 771.00 B
+2017-05-23 16:19:12.591+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 771.00 B
+2017-05-23 16:19:12.591+0000 INFO [o.n.k.i.DiagnosticsManager]       79:
+2017-05-23 16:19:12.591+0000 INFO [o.n.k.i.DiagnosticsManager]         26f9dbb964fc48f88f109f63a45229f6e32cf8: 2017-05-23T15:47:35+0200 - 315.00 B
+2017-05-23 16:19:12.591+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 315.00 B
+2017-05-23 16:19:12.591+0000 INFO [o.n.k.i.DiagnosticsManager]       7a:
+2017-05-23 16:19:12.591+0000 INFO [o.n.k.i.DiagnosticsManager]         c49d2a0423ee65efdd350fa201e6c179dab7b0: 2017-05-15T14:31:28+0200 - 611.00 B
+2017-05-23 16:19:12.591+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-15T14:31:28+0200 - 611.00 B
+2017-05-23 16:19:12.591+0000 INFO [o.n.k.i.DiagnosticsManager]       7c:
+2017-05-23 16:19:12.591+0000 INFO [o.n.k.i.DiagnosticsManager]         1230b08ca12f17b854a72a49f5a8219b76876f: 2017-05-22T09:51:11+0200 - 106.00 B
+2017-05-23 16:19:12.592+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:11+0200 - 106.00 B
+2017-05-23 16:19:12.592+0000 INFO [o.n.k.i.DiagnosticsManager]       7d:
+2017-05-23 16:19:12.592+0000 INFO [o.n.k.i.DiagnosticsManager]         56f51f3b1dcf21ca0bc1c7ce7963a9d260b9f8: 2017-05-22T09:51:07+0200 - 4.99 kB
+2017-05-23 16:19:12.592+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:07+0200 - 4.99 kB
+2017-05-23 16:19:12.592+0000 INFO [o.n.k.i.DiagnosticsManager]       7e:
+2017-05-23 16:19:12.592+0000 INFO [o.n.k.i.DiagnosticsManager]         3436b8dff402a56d638f98838964908fb9a5f5: 2017-05-22T09:51:07+0200 - 48.00 B
+2017-05-23 16:19:12.592+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:07+0200 - 48.00 B
+2017-05-23 16:19:12.592+0000 INFO [o.n.k.i.DiagnosticsManager]       83:
+2017-05-23 16:19:12.592+0000 INFO [o.n.k.i.DiagnosticsManager]         74887de72cc16fb883405457218c12287cbf9c: 2017-05-22T09:51:07+0200 - 770.00 B
+2017-05-23 16:19:12.593+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:07+0200 - 770.00 B
+2017-05-23 16:19:12.593+0000 INFO [o.n.k.i.DiagnosticsManager]       84:
+2017-05-23 16:19:12.593+0000 INFO [o.n.k.i.DiagnosticsManager]         1552125de6c67ce836fc1f1ff302f2511afc7f: 2017-05-23T15:47:35+0200 - 2.35 kB
+2017-05-23 16:19:12.593+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 2.35 kB
+2017-05-23 16:19:12.593+0000 INFO [o.n.k.i.DiagnosticsManager]       8f:
+2017-05-23 16:19:12.593+0000 INFO [o.n.k.i.DiagnosticsManager]         44f7b01569d59f1cd60ec895a6c248ddb13dcd: 2017-05-15T14:31:22+0200 - 313.00 B
+2017-05-23 16:19:12.593+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-15T14:31:22+0200 - 313.00 B
+2017-05-23 16:19:12.593+0000 INFO [o.n.k.i.DiagnosticsManager]       90:
+2017-05-23 16:19:12.593+0000 INFO [o.n.k.i.DiagnosticsManager]         493fabad2f74a8cf4ec583046d1a3c807d53de: 2017-05-22T09:51:07+0200 - 584.98 kB
+2017-05-23 16:19:12.594+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:07+0200 - 584.98 kB
+2017-05-23 16:19:12.594+0000 INFO [o.n.k.i.DiagnosticsManager]       93:
+2017-05-23 16:19:12.594+0000 INFO [o.n.k.i.DiagnosticsManager]         e29ad901308634a4596d2b7ace636f912079ff: 2017-05-15T14:29:41+0200 - 769.00 B
+2017-05-23 16:19:12.594+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-15T14:29:41+0200 - 769.00 B
+2017-05-23 16:19:12.594+0000 INFO [o.n.k.i.DiagnosticsManager]       94:
+2017-05-23 16:19:12.594+0000 INFO [o.n.k.i.DiagnosticsManager]         d67f696dd329ab746ca11a6cb1865d6c7b0871: 2017-05-22T09:51:07+0200 - 108.00 B
+2017-05-23 16:19:12.594+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:07+0200 - 108.00 B
+2017-05-23 16:19:12.594+0000 INFO [o.n.k.i.DiagnosticsManager]       97:
+2017-05-23 16:19:12.594+0000 INFO [o.n.k.i.DiagnosticsManager]         1ffb28531fe03247b0f600c95a630330ddd6d9: 2017-05-23T15:47:35+0200 - 161.00 B
+2017-05-23 16:19:12.595+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 161.00 B
+2017-05-23 16:19:12.595+0000 INFO [o.n.k.i.DiagnosticsManager]       99:
+2017-05-23 16:19:12.595+0000 INFO [o.n.k.i.DiagnosticsManager]         fc478c126892aac212a9ad6f521112b01e4974: 2017-05-22T09:51:11+0200 - 7.05 kB
+2017-05-23 16:19:12.595+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:11+0200 - 7.05 kB
+2017-05-23 16:19:12.595+0000 INFO [o.n.k.i.DiagnosticsManager]       9b:
+2017-05-23 16:19:12.595+0000 INFO [o.n.k.i.DiagnosticsManager]         0321f4733b551c442995c800e827673237123b: 2017-05-23T15:47:34+0200 - 205.00 B
+2017-05-23 16:19:12.595+0000 INFO [o.n.k.i.DiagnosticsManager]         ecf243080a987f2b66b4a4e30fa1568b20b5de: 2017-05-15T14:31:22+0200 - 14.37 kB
+2017-05-23 16:19:12.595+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:34+0200 - 14.57 kB
+2017-05-23 16:19:12.595+0000 INFO [o.n.k.i.DiagnosticsManager]       9d:
+2017-05-23 16:19:12.596+0000 INFO [o.n.k.i.DiagnosticsManager]         f05fb0cfe0f4257d01fd2a1cc8adcb4fc1a75c: 2017-05-15T14:29:46+0200 - 82.00 B
+2017-05-23 16:19:12.596+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-15T14:29:46+0200 - 82.00 B
+2017-05-23 16:19:12.596+0000 INFO [o.n.k.i.DiagnosticsManager]       a2:
+2017-05-23 16:19:12.596+0000 INFO [o.n.k.i.DiagnosticsManager]         dcf38c355e7a6effc0b8f8749b7399e86d3258: 2017-05-23T15:47:35+0200 - 15.21 kB
+2017-05-23 16:19:12.596+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 15.21 kB
+2017-05-23 16:19:12.596+0000 INFO [o.n.k.i.DiagnosticsManager]       a7:
+2017-05-23 16:19:12.596+0000 INFO [o.n.k.i.DiagnosticsManager]         580d5cd8406e34171fcc51139819a796a327a9: 2017-05-15T14:29:41+0200 - 6.41 kB
+2017-05-23 16:19:12.596+0000 INFO [o.n.k.i.DiagnosticsManager]         bc2e9de41eceb70c2a26b0ae70e0f0ac82be11: 2017-05-23T15:47:35+0200 - 192.00 B
+2017-05-23 16:19:12.597+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 6.60 kB
+2017-05-23 16:19:12.597+0000 INFO [o.n.k.i.DiagnosticsManager]       aa:
+2017-05-23 16:19:12.597+0000 INFO [o.n.k.i.DiagnosticsManager]         1f022e10f3e2574a385fc2928e3af0bef7afa7: 2017-05-15T14:29:46+0200 - 49.00 B
+2017-05-23 16:19:12.597+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-15T14:29:46+0200 - 49.00 B
+2017-05-23 16:19:12.597+0000 INFO [o.n.k.i.DiagnosticsManager]       ae:
+2017-05-23 16:19:12.597+0000 INFO [o.n.k.i.DiagnosticsManager]         ec39287d8dd46f2fc03eae7371659fb410f834: 2017-05-22T09:51:07+0200 - 164.00 B
+2017-05-23 16:19:12.597+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:07+0200 - 164.00 B
+2017-05-23 16:19:12.597+0000 INFO [o.n.k.i.DiagnosticsManager]       b1:
+2017-05-23 16:19:12.598+0000 INFO [o.n.k.i.DiagnosticsManager]         aade4edf750205bf6b49292fef212041b65c0f: 2017-05-15T14:29:41+0200 - 20.00 B
+2017-05-23 16:19:12.598+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-15T14:29:41+0200 - 20.00 B
+2017-05-23 16:19:12.598+0000 INFO [o.n.k.i.DiagnosticsManager]       b2:
+2017-05-23 16:19:12.598+0000 INFO [o.n.k.i.DiagnosticsManager]         3ccdfc4005d2dbc898576454ecf3c1a937721e: 2017-05-22T09:51:07+0200 - 19.00 B
+2017-05-23 16:19:12.598+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:07+0200 - 19.00 B
+2017-05-23 16:19:12.598+0000 INFO [o.n.k.i.DiagnosticsManager]       b6:
+2017-05-23 16:19:12.598+0000 INFO [o.n.k.i.DiagnosticsManager]         ccba2bea1af6694991e15572b59b26a61eb0c3: 2017-05-23T15:47:35+0200 - 17.82 kB
+2017-05-23 16:19:12.598+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 17.82 kB
+2017-05-23 16:19:12.598+0000 INFO [o.n.k.i.DiagnosticsManager]       b7:
+2017-05-23 16:19:12.599+0000 INFO [o.n.k.i.DiagnosticsManager]         2840ef50b6a432f92ecd6edaaf539fae606949: 2017-05-15T14:29:41+0200 - 79.00 B
+2017-05-23 16:19:12.599+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-15T14:29:41+0200 - 79.00 B
+2017-05-23 16:19:12.599+0000 INFO [o.n.k.i.DiagnosticsManager]       ba:
+2017-05-23 16:19:12.599+0000 INFO [o.n.k.i.DiagnosticsManager]         cc981fc77c8491befbd1bbe094c0f07a8153d4: 2017-05-23T15:47:35+0200 - 1.30 kB
+2017-05-23 16:19:12.599+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 1.30 kB
+2017-05-23 16:19:12.599+0000 INFO [o.n.k.i.DiagnosticsManager]       c0:
+2017-05-23 16:19:12.599+0000 INFO [o.n.k.i.DiagnosticsManager]         90c6d54cdc3f1a9d8f4888736638bb29c9d980: 2017-05-23T15:47:35+0200 - 228.32 kB
+2017-05-23 16:19:12.599+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 228.32 kB
+2017-05-23 16:19:12.599+0000 INFO [o.n.k.i.DiagnosticsManager]       c1:
+2017-05-23 16:19:12.600+0000 INFO [o.n.k.i.DiagnosticsManager]         aa5f0d07a9d736c5a6b327494463bf36b24204: 2017-05-23T15:47:34+0200 - 847.00 B
+2017-05-23 16:19:12.600+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:34+0200 - 847.00 B
+2017-05-23 16:19:12.600+0000 INFO [o.n.k.i.DiagnosticsManager]       c4:
+2017-05-23 16:19:12.600+0000 INFO [o.n.k.i.DiagnosticsManager]         888d4708249c4e8c4b0054ae11274ff0738f7a: 2017-05-22T09:51:07+0200 - 94.00 B
+2017-05-23 16:19:12.600+0000 INFO [o.n.k.i.DiagnosticsManager]         c96441f8f13846e686c74cd6a01a9e3f2a90bf: 2017-05-22T09:51:07+0200 - 88.00 B
+2017-05-23 16:19:12.600+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:07+0200 - 182.00 B
+2017-05-23 16:19:12.600+0000 INFO [o.n.k.i.DiagnosticsManager]       c5:
+2017-05-23 16:19:12.600+0000 INFO [o.n.k.i.DiagnosticsManager]         929fbf8e1256627bf9371b7f7f23a514d7c2aa: 2017-05-23T15:47:35+0200 - 7.34 kB
+2017-05-23 16:19:12.601+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 7.34 kB
+2017-05-23 16:19:12.601+0000 INFO [o.n.k.i.DiagnosticsManager]       c7:
+2017-05-23 16:19:12.601+0000 INFO [o.n.k.i.DiagnosticsManager]         0722708bcc989c69651f8654fb8ded8d51ca53: 2017-05-23T15:47:35+0200 - 107.00 B
+2017-05-23 16:19:12.601+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 107.00 B
+2017-05-23 16:19:12.601+0000 INFO [o.n.k.i.DiagnosticsManager]       c8:
+2017-05-23 16:19:12.601+0000 INFO [o.n.k.i.DiagnosticsManager]         ace46dc48da4c29abc98134ec2a58acc097e43: 2017-05-23T15:47:35+0200 - 38.70 kB
+2017-05-23 16:19:12.601+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 38.70 kB
+2017-05-23 16:19:12.601+0000 INFO [o.n.k.i.DiagnosticsManager]       c9:
+2017-05-23 16:19:12.601+0000 INFO [o.n.k.i.DiagnosticsManager]         fd6491dc2b5bd034ecf0e80f809fb42fbda78b: 2017-05-15T14:29:41+0200 - 1.30 kB
+2017-05-23 16:19:12.601+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-15T14:29:41+0200 - 1.30 kB
+2017-05-23 16:19:12.602+0000 INFO [o.n.k.i.DiagnosticsManager]       ca:
+2017-05-23 16:19:12.602+0000 INFO [o.n.k.i.DiagnosticsManager]         a82f1c36d6ac5e8afdb8eed063dc06e8388bea: 2017-05-23T15:47:35+0200 - 49.00 B
+2017-05-23 16:19:12.602+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 49.00 B
+2017-05-23 16:19:12.602+0000 INFO [o.n.k.i.DiagnosticsManager]       cb:
+2017-05-23 16:19:12.602+0000 INFO [o.n.k.i.DiagnosticsManager]         0f7977ef1227f8fa1b1ee5340cf431ef4dccff: 2017-05-23T15:47:35+0200 - 87.00 B
+2017-05-23 16:19:12.602+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 87.00 B
+2017-05-23 16:19:12.602+0000 INFO [o.n.k.i.DiagnosticsManager]       cc:
+2017-05-23 16:19:12.602+0000 INFO [o.n.k.i.DiagnosticsManager]         2704fd63cc5b756573f48e065b0faf67bc7824: 2017-05-22T09:51:11+0200 - 10.59 MB
+2017-05-23 16:19:12.603+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:11+0200 - 10.59 MB
+2017-05-23 16:19:12.603+0000 INFO [o.n.k.i.DiagnosticsManager]       ce:
+2017-05-23 16:19:12.603+0000 INFO [o.n.k.i.DiagnosticsManager]         6529796feeb9afb9f2b4f981f75295e5542784: 2017-05-15T14:29:41+0200 - 78.00 B
+2017-05-23 16:19:12.603+0000 INFO [o.n.k.i.DiagnosticsManager]         91f21ceb14b80ee9de3042e0a7ba7a263d61bd: 2017-05-23T15:47:35+0200 - 111.00 B
+2017-05-23 16:19:12.603+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 189.00 B
+2017-05-23 16:19:12.603+0000 INFO [o.n.k.i.DiagnosticsManager]       cf:
+2017-05-23 16:19:12.603+0000 INFO [o.n.k.i.DiagnosticsManager]         2df8dd4ae60177c0b918395582ca8c56d340ad: 2017-05-15T14:31:28+0200 - 167.00 B
+2017-05-23 16:19:12.603+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-15T14:31:28+0200 - 167.00 B
+2017-05-23 16:19:12.603+0000 INFO [o.n.k.i.DiagnosticsManager]       d1:
+2017-05-23 16:19:12.604+0000 INFO [o.n.k.i.DiagnosticsManager]         9598d74e5c5046e0090285895b3443642008be: 2017-05-15T14:29:41+0200 - 78.00 B
+2017-05-23 16:19:12.604+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-15T14:29:41+0200 - 78.00 B
+2017-05-23 16:19:12.604+0000 INFO [o.n.k.i.DiagnosticsManager]       d2:
+2017-05-23 16:19:12.604+0000 INFO [o.n.k.i.DiagnosticsManager]         c16e93d372d4a478ef66ce0e23968409d718fb: 2017-05-22T09:51:07+0200 - 149.00 B
+2017-05-23 16:19:12.604+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:07+0200 - 149.00 B
+2017-05-23 16:19:12.604+0000 INFO [o.n.k.i.DiagnosticsManager]       d5:
+2017-05-23 16:19:12.604+0000 INFO [o.n.k.i.DiagnosticsManager]         db4065580093d9d28a12a843d469a9ce5e141d: 2017-05-22T09:51:07+0200 - 116.06 kB
+2017-05-23 16:19:12.604+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:07+0200 - 116.06 kB
+2017-05-23 16:19:12.604+0000 INFO [o.n.k.i.DiagnosticsManager]       db:
+2017-05-23 16:19:12.605+0000 INFO [o.n.k.i.DiagnosticsManager]         749843ba9a2d00543a8c05d07e3cb9e6dd2846: 2017-05-23T15:47:35+0200 - 129.00 B
+2017-05-23 16:19:12.605+0000 INFO [o.n.k.i.DiagnosticsManager]         fe81d653cd5679cfaff736b7571a34b8e327a1: 2017-05-22T09:51:08+0200 - 159.00 B
+2017-05-23 16:19:12.605+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 288.00 B
+2017-05-23 16:19:12.605+0000 INFO [o.n.k.i.DiagnosticsManager]       dc:
+2017-05-23 16:19:12.605+0000 INFO [o.n.k.i.DiagnosticsManager]         a941579f5ace6b50ae24c7c42c1aa78f3e824a: 2017-05-23T15:47:35+0200 - 48.00 B
+2017-05-23 16:19:12.605+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 48.00 B
+2017-05-23 16:19:12.605+0000 INFO [o.n.k.i.DiagnosticsManager]       df:
+2017-05-23 16:19:12.605+0000 INFO [o.n.k.i.DiagnosticsManager]         8ce2a58c7337a0be82febc80d3e0e21c414f96: 2017-05-15T14:29:41+0200 - 78.00 B
+2017-05-23 16:19:12.606+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-15T14:29:41+0200 - 78.00 B
+2017-05-23 16:19:12.606+0000 INFO [o.n.k.i.DiagnosticsManager]       e3:
+2017-05-23 16:19:12.606+0000 INFO [o.n.k.i.DiagnosticsManager]         80f43df9ab4c8510088d05901f42df61de6daa: 2017-05-23T15:47:35+0200 - 52.00 B
+2017-05-23 16:19:12.606+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 52.00 B
+2017-05-23 16:19:12.606+0000 INFO [o.n.k.i.DiagnosticsManager]       e6:
+2017-05-23 16:19:12.606+0000 INFO [o.n.k.i.DiagnosticsManager]         9de29bb2d1d6434b8b29ae775ad8c2e48c5391: 2017-05-15T14:29:41+0200 - 15.00 B
+2017-05-23 16:19:12.606+0000 INFO [o.n.k.i.DiagnosticsManager]         cc252cd7585274e4d1ac537bb373dae5b7ad61: 2017-05-23T15:47:35+0200 - 83.00 B
+2017-05-23 16:19:12.606+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 98.00 B
+2017-05-23 16:19:12.606+0000 INFO [o.n.k.i.DiagnosticsManager]       e8:
+2017-05-23 16:19:12.607+0000 INFO [o.n.k.i.DiagnosticsManager]         2d01a6b09397bd256cca90c909920ab27a9516: 2017-05-22T09:51:07+0200 - 19.00 B
+2017-05-23 16:19:12.607+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:07+0200 - 19.00 B
+2017-05-23 16:19:12.607+0000 INFO [o.n.k.i.DiagnosticsManager]       ee:
+2017-05-23 16:19:12.607+0000 INFO [o.n.k.i.DiagnosticsManager]         d4c769494b36c0bd1f2a2b34bb0157df062209: 2017-05-23T15:47:35+0200 - 126.00 B
+2017-05-23 16:19:12.607+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 126.00 B
+2017-05-23 16:19:12.607+0000 INFO [o.n.k.i.DiagnosticsManager]       f0:
+2017-05-23 16:19:12.607+0000 INFO [o.n.k.i.DiagnosticsManager]         1067eb31a05526ea42346dfa8975be0fec144a: 2017-05-23T15:47:35+0200 - 198.00 B
+2017-05-23 16:19:12.607+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 198.00 B
+2017-05-23 16:19:12.607+0000 INFO [o.n.k.i.DiagnosticsManager]       f5:
+2017-05-23 16:19:12.608+0000 INFO [o.n.k.i.DiagnosticsManager]         0c17bd563c94dfd4c88e7af8dbd09bdde433a8: 2017-05-22T09:51:07+0200 - 19.00 B
+2017-05-23 16:19:12.608+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:07+0200 - 19.00 B
+2017-05-23 16:19:12.608+0000 INFO [o.n.k.i.DiagnosticsManager]       f6:
+2017-05-23 16:19:12.608+0000 INFO [o.n.k.i.DiagnosticsManager]         b7d52c143fe21e74d107f3774e2c12c54cb400: 2017-05-22T09:51:07+0200 - 989.00 B
+2017-05-23 16:19:12.608+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:07+0200 - 989.00 B
+2017-05-23 16:19:12.608+0000 INFO [o.n.k.i.DiagnosticsManager]       fd:
+2017-05-23 16:19:12.608+0000 INFO [o.n.k.i.DiagnosticsManager]         b53c28352b87f185a02171796e2fc0a05e58ef: 2017-05-23T15:47:35+0200 - 81.00 B
+2017-05-23 16:19:12.608+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 81.00 B
+2017-05-23 16:19:12.608+0000 INFO [o.n.k.i.DiagnosticsManager]       fe:
+2017-05-23 16:19:12.609+0000 INFO [o.n.k.i.DiagnosticsManager]         675269ddd5f4bacaec51d1019e3cd3a12ad344: 2017-05-22T09:51:07+0200 - 10.68 kB
+2017-05-23 16:19:12.609+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:07+0200 - 10.68 kB
+2017-05-23 16:19:12.609+0000 INFO [o.n.k.i.DiagnosticsManager]       info:
+2017-05-23 16:19:12.609+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-15T14:28:56+0200 - 0.00 B
+2017-05-23 16:19:12.609+0000 INFO [o.n.k.i.DiagnosticsManager]       pack:
+2017-05-23 16:19:12.609+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-15T14:28:56+0200 - 0.00 B
+2017-05-23 16:19:12.609+0000 INFO [o.n.k.i.DiagnosticsManager]     - Total: 2017-05-23T15:47:35+0200 - 14.48 MB
+2017-05-23 16:19:12.609+0000 INFO [o.n.k.i.DiagnosticsManager]     refs:
+2017-05-23 16:19:12.609+0000 INFO [o.n.k.i.DiagnosticsManager]       heads:
+2017-05-23 16:19:12.610+0000 INFO [o.n.k.i.DiagnosticsManager]         master: 2017-05-23T15:47:36+0200 - 41.00 B
+2017-05-23 16:19:12.610+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:36+0200 - 41.00 B
+2017-05-23 16:19:12.610+0000 INFO [o.n.k.i.DiagnosticsManager]       remotes:
+2017-05-23 16:19:12.610+0000 INFO [o.n.k.i.DiagnosticsManager]         origin:
+2017-05-23 16:19:12.610+0000 INFO [o.n.k.i.DiagnosticsManager]           master: 2017-05-23T15:47:35+0200 - 41.00 B
+2017-05-23 16:19:12.610+0000 INFO [o.n.k.i.DiagnosticsManager]         - Total: 2017-05-23T15:47:35+0200 - 41.00 B
+2017-05-23 16:19:12.610+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-15T14:29:56+0200 - 41.00 B
+2017-05-23 16:19:12.610+0000 INFO [o.n.k.i.DiagnosticsManager]       tags:
+2017-05-23 16:19:12.610+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-15T14:28:56+0200 - 0.00 B
+2017-05-23 16:19:12.610+0000 INFO [o.n.k.i.DiagnosticsManager]     - Total: 2017-05-15T14:29:56+0200 - 82.00 B
+2017-05-23 16:19:12.611+0000 INFO [o.n.k.i.DiagnosticsManager]     sourcetreeconfig: 2017-05-23T18:18:17+0200 - 1.08 kB
+2017-05-23 16:19:12.611+0000 INFO [o.n.k.i.DiagnosticsManager]   - Total: 2017-05-23T18:18:59+0200 - 14.49 MB
+2017-05-23 16:19:12.611+0000 INFO [o.n.k.i.DiagnosticsManager]   certificates:
+2017-05-23 16:19:12.611+0000 INFO [o.n.k.i.DiagnosticsManager]     neo4j.cert: 2017-05-23T15:47:36+0200 - 1002.00 B
+2017-05-23 16:19:12.611+0000 INFO [o.n.k.i.DiagnosticsManager]     neo4j.key: 2017-05-23T15:47:36+0200 - 1.69 kB
+2017-05-23 16:19:12.611+0000 INFO [o.n.k.i.DiagnosticsManager]   - Total: 2017-05-23T15:47:36+0200 - 2.67 kB
+2017-05-23 16:19:12.611+0000 INFO [o.n.k.i.DiagnosticsManager]   data:
+2017-05-23 16:19:12.611+0000 INFO [o.n.k.i.DiagnosticsManager]     dbms:
+2017-05-23 16:19:12.611+0000 INFO [o.n.k.i.DiagnosticsManager]       auth: 2017-05-23T15:47:36+0200 - 114.00 B
+2017-05-23 16:19:12.612+0000 INFO [o.n.k.i.DiagnosticsManager]     - Total: 2017-05-23T15:47:36+0200 - 114.00 B
+2017-05-23 16:19:12.612+0000 INFO [o.n.k.i.DiagnosticsManager]   - Total: 2017-05-15T14:29:35+0200 - 114.00 B
+2017-05-23 16:19:12.612+0000 INFO [o.n.k.i.DiagnosticsManager]   import:
+2017-05-23 16:19:12.612+0000 INFO [o.n.k.i.DiagnosticsManager]     RoadsInUsageV3.xls: 2017-05-23T15:47:36+0200 - 6.45 kB
+2017-05-23 16:19:12.612+0000 INFO [o.n.k.i.DiagnosticsManager]     RoadsInUseV3.csv: 2017-05-23T15:47:36+0200 - 6.45 kB
+2017-05-23 16:19:12.612+0000 INFO [o.n.k.i.DiagnosticsManager]     combinationsV3.csv: 2017-05-23T15:47:36+0200 - 63.67 kB
+2017-05-23 16:19:12.612+0000 INFO [o.n.k.i.DiagnosticsManager]     combinationsV3Backup.csv: 2017-05-23T15:47:36+0200 - 63.67 kB
+2017-05-23 16:19:12.612+0000 INFO [o.n.k.i.DiagnosticsManager]     usedAccidentsV3.csv: 2017-05-23T15:47:36+0200 - 342.53 kB
+2017-05-23 16:19:12.613+0000 INFO [o.n.k.i.DiagnosticsManager]     usedAccidentsV3.xls: 2017-05-23T15:47:36+0200 - 222.75 kB
+2017-05-23 16:19:12.613+0000 INFO [o.n.k.i.DiagnosticsManager]     usedAccidentsV3.xlsx: 2017-05-23T15:47:36+0200 - 318.90 kB
+2017-05-23 16:19:12.613+0000 INFO [o.n.k.i.DiagnosticsManager]     usedStreetWorksV3.csv: 2017-05-23T18:18:22+0200 - 155.08 kB
+2017-05-23 16:19:12.613+0000 INFO [o.n.k.i.DiagnosticsManager]     usedStreetWorksV3.xls: 2017-05-23T18:18:49+0200 - 141.53 kB
+2017-05-23 16:19:12.613+0000 INFO [o.n.k.i.DiagnosticsManager]     usedStreetWorksV3.xlsx: 2017-05-23T18:18:22+0200 - 79.51 kB
+2017-05-23 16:19:12.613+0000 INFO [o.n.k.i.DiagnosticsManager]     usedStreetWorksV3Copy.csv: 2017-05-23T17:31:05+0200 - 14.37 kB
+2017-05-23 16:19:12.613+0000 INFO [o.n.k.i.DiagnosticsManager]   - Total: 2017-05-23T18:18:53+0200 - 1.38 MB
+2017-05-23 16:19:12.613+0000 INFO [o.n.k.i.DiagnosticsManager]   index:
+2017-05-23 16:19:12.613+0000 INFO [o.n.k.i.DiagnosticsManager]   - Total: 2017-05-15T14:26:52+0200 - 0.00 B
+2017-05-23 16:19:12.613+0000 INFO [o.n.k.i.DiagnosticsManager]   logs:
+2017-05-23 16:19:12.618+0000 INFO [o.n.k.i.DiagnosticsManager]     debug.log: 2017-05-23T18:19:12+0200 - 144.55 kB
+2017-05-23 16:19:12.618+0000 INFO [o.n.k.i.DiagnosticsManager]   - Total: 2017-05-23T18:18:34+0200 - 144.55 kB
+2017-05-23 16:19:12.618+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore: 2017-05-23T18:19:11+0200 - 8.00 kB
+2017-05-23 16:19:12.619+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.counts.db.a: 2017-05-23T18:19:12+0200 - 608.00 B
+2017-05-23 16:19:12.619+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.counts.db.b: 2017-05-23T15:47:36+0200 - 480.00 B
+2017-05-23 16:19:12.619+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.id: 2017-05-23T18:19:12+0200 - 9.00 B
+2017-05-23 16:19:12.630+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.labelscanstore.db: 2017-05-23T18:19:12+0200 - 48.00 kB
+2017-05-23 16:19:12.630+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db: 2017-05-23T16:26:10+0200 - 8.00 kB
+2017-05-23 16:19:12.631+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.id: 2017-05-23T18:19:12+0200 - 9.00 B
+2017-05-23 16:19:12.631+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.names: 2017-05-23T15:47:36+0200 - 8.00 kB
+2017-05-23 16:19:12.631+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.names.id: 2017-05-23T18:19:12+0200 - 9.00 B
+2017-05-23 16:19:12.632+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db: 2017-05-23T15:47:36+0200 - 95.98 kB
+2017-05-23 16:19:12.632+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.id: 2017-05-23T18:19:11+0200 - 9.00 B
+2017-05-23 16:19:12.632+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.labels: 2017-05-15T14:26:52+0200 - 8.00 kB
+2017-05-23 16:19:12.633+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.labels.id: 2017-05-23T18:19:11+0200 - 9.00 B
+2017-05-23 16:19:12.633+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db: 2017-05-23T15:47:36+0200 - 247.00 kB
+2017-05-23 16:19:12.633+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.arrays: 2017-05-15T14:26:52+0200 - 8.00 kB
+2017-05-23 16:19:12.634+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.arrays.id: 2017-05-23T18:19:11+0200 - 9.00 B
+2017-05-23 16:19:12.634+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.id: 2017-05-23T18:19:11+0200 - 9.00 B
+2017-05-23 16:19:12.634+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index: 2017-05-23T16:26:10+0200 - 8.00 kB
+2017-05-23 16:19:12.635+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.id: 2017-05-23T18:19:11+0200 - 9.00 B
+2017-05-23 16:19:12.635+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.keys: 2017-05-23T15:47:36+0200 - 8.00 kB
+2017-05-23 16:19:12.636+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.keys.id: 2017-05-23T18:19:11+0200 - 9.00 B
+2017-05-23 16:19:12.636+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.strings: 2017-05-15T14:26:52+0200 - 8.00 kB
+2017-05-23 16:19:12.636+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.strings.id: 2017-05-23T18:19:11+0200 - 9.00 B
+2017-05-23 16:19:12.637+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshipgroupstore.db: 2017-05-23T15:47:36+0200 - 8.00 kB
+2017-05-23 16:19:12.637+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshipgroupstore.db.id: 2017-05-23T18:19:12+0200 - 9.00 B
+2017-05-23 16:19:12.637+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshipstore.db: 2017-05-23T15:47:36+0200 - 111.56 kB
+2017-05-23 16:19:12.638+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshipstore.db.id: 2017-05-23T18:19:11+0200 - 9.00 B
+2017-05-23 16:19:12.638+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db: 2017-05-23T16:26:10+0200 - 8.00 kB
+2017-05-23 16:19:12.638+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.id: 2017-05-23T18:19:11+0200 - 9.00 B
+2017-05-23 16:19:12.638+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.names: 2017-05-23T15:47:36+0200 - 8.00 kB
+2017-05-23 16:19:12.639+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.names.id: 2017-05-23T18:19:11+0200 - 9.00 B
+2017-05-23 16:19:12.639+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.schemastore.db: 2017-05-15T14:26:52+0200 - 8.00 kB
+2017-05-23 16:19:12.640+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.schemastore.db.id: 2017-05-23T18:19:12+0200 - 9.00 B
+2017-05-23 16:19:12.640+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.transaction.db.0: 2017-05-23T18:18:44+0200 - 1.42 MB
+2017-05-23 16:19:12.640+0000 INFO [o.n.k.i.DiagnosticsManager]   schema:
+2017-05-23 16:19:12.641+0000 INFO [o.n.k.i.DiagnosticsManager]     label:
+2017-05-23 16:19:12.641+0000 INFO [o.n.k.i.DiagnosticsManager]       lucene:
+2017-05-23 16:19:12.641+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T18:19:10+0200 - 0.00 B
+2017-05-23 16:19:12.641+0000 INFO [o.n.k.i.DiagnosticsManager]     - Total: 2017-05-23T14:45:14+0200 - 0.00 B
+2017-05-23 16:19:12.641+0000 INFO [o.n.k.i.DiagnosticsManager]   - Total: 2017-05-23T14:45:14+0200 - 0.00 B
+2017-05-23 16:19:12.642+0000 INFO [o.n.k.i.DiagnosticsManager]   store_lock: 2017-05-15T14:26:52+0200 - 0.00 B
+2017-05-23 16:19:12.642+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles END ---
+2017-05-23 16:19:12.653+0000 INFO [o.n.k.i.DiagnosticsManager] --- SERVER STARTED START ---
+2017-05-23 16:19:13.320+0000 INFO [o.n.k.i.DiagnosticsManager] --- SERVER STARTED END ---
+2017-05-23 16:43:12.631+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [107]:  Starting check pointing...
+2017-05-23 16:43:12.632+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [107]:  Starting store flush...
+2017-05-23 16:43:12.651+0000 INFO [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 107 to [E:\DataEngineering\neostore.counts.db.b], from [E:\DataEngineering\neostore.counts.db.a].
+2017-05-23 16:43:12.669+0000 INFO [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 107 to [E:\DataEngineering\neostore.counts.db.b], from [E:\DataEngineering\neostore.counts.db.a].
+2017-05-23 16:43:12.814+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [107]:  Store flush completed
+2017-05-23 16:43:12.815+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [107]:  Starting appending check point entry into the tx log...
+2017-05-23 16:43:12.831+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [107]:  Appending check point entry into the tx log completed
+2017-05-23 16:43:12.831+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [107]:  Check pointing completed
+2017-05-23 16:43:12.831+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-05-23 16:43:12.831+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-05-23 16:56:42.826+0000 INFO [o.n.c.i.ExecutionEngine] Discarded stale query from the query cache: MATCH (a)-[r]->(b) WHERE id(a) IN $existingNodeIds AND id(b) IN $newNodeIds RETURN r;
+2017-05-23 16:56:42.830+0000 INFO [o.n.c.i.CommunityCompatibilityFactory] Discarded stale query from the query cache: MATCH (a)-[r]->(b) WHERE id(a) IN $existingNodeIds AND id(b) IN $newNodeIds RETURN r;
+2017-05-23 16:58:12.893+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [109]:  Starting check pointing...
+2017-05-23 16:58:12.896+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [109]:  Starting store flush...
+2017-05-23 16:58:12.898+0000 INFO [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 109 to [E:\DataEngineering\neostore.counts.db.a], from [E:\DataEngineering\neostore.counts.db.b].
+2017-05-23 16:58:13.186+0000 INFO [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 109 to [E:\DataEngineering\neostore.counts.db.a], from [E:\DataEngineering\neostore.counts.db.b].
+2017-05-23 16:58:13.439+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [109]:  Store flush completed
+2017-05-23 16:58:13.439+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [109]:  Starting appending check point entry into the tx log...
+2017-05-23 16:58:13.454+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [109]:  Appending check point entry into the tx log completed
+2017-05-23 16:58:13.454+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [109]:  Check pointing completed
+2017-05-23 16:58:13.454+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-05-23 16:58:13.456+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-05-23 17:14:02.641+0000 INFO [o.n.k.i.f.GraphDatabaseFacadeFactory] Shutdown started
+2017-05-23 17:14:02.642+0000 INFO [o.n.k.i.f.GraphDatabaseFacadeFactory] Database is now unavailable
+2017-05-23 17:14:02.674+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [109]:  Starting check pointing...
+2017-05-23 17:14:02.674+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [109]:  Starting store flush...
+2017-05-23 17:14:02.677+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [109]:  Store flush completed
+2017-05-23 17:14:02.677+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [109]:  Starting appending check point entry into the tx log...
+2017-05-23 17:14:02.955+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [109]:  Appending check point entry into the tx log completed
+2017-05-23 17:14:02.955+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [109]:  Check pointing completed
+2017-05-23 17:14:02.955+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-05-23 17:14:02.955+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-05-23 17:14:03.856+0000 INFO [o.n.k.i.DiagnosticsManager] --- STOPPING diagnostics START ---
+2017-05-23 17:14:03.857+0000 INFO [o.n.k.i.DiagnosticsManager] --- STOPPING diagnostics END ---
+2017-05-23 17:14:07.804+0000 INFO [o.n.k.i.f.CommunityEditionModule] No locking implementation specified, defaulting to 'community'
+2017-05-23 17:14:07.821+0000 INFO [o.n.k.AvailabilityGuard] Requirement makes database unavailable: Database available
+2017-05-23 17:14:07.821+0000 INFO [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics START ---
+2017-05-23 17:14:07.821+0000 INFO [o.n.k.i.DiagnosticsManager] Neo4j Kernel properties:
+2017-05-23 17:14:07.821+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.connector.http.enabled=true
+2017-05-23 17:14:07.821+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.security.auth_enabled=true
+2017-05-23 17:14:07.821+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.connector.bolt.type=BOLT
+2017-05-23 17:14:07.821+0000 INFO [o.n.k.i.DiagnosticsManager] unsupported.dbms.directories.neo4j_home=E:\DataEngineering
+2017-05-23 17:14:07.821+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.directories.import=import
+2017-05-23 17:14:07.821+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.connector.https.enabled=true
+2017-05-23 17:14:07.821+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.connector.http.type=HTTP
+2017-05-23 17:14:07.821+0000 INFO [o.n.k.i.DiagnosticsManager] unsupported.dbms.directories.database=E:\DataEngineering
+2017-05-23 17:14:07.821+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.logs.http.enabled=false
+2017-05-23 17:14:07.821+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.connector.https.type=HTTP
+2017-05-23 17:14:07.821+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.memory.pagecache.size=4g
+2017-05-23 17:14:07.821+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.allow_format_migration=true
+2017-05-23 17:14:07.821+0000 INFO [o.n.k.i.DiagnosticsManager] unsupported.dbms.edition=community
+2017-05-23 17:14:07.821+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.connector.bolt.enabled=true
+2017-05-23 17:14:07.821+0000 INFO [o.n.k.i.DiagnosticsManager] Diagnostics providers:
+2017-05-23 17:14:07.821+0000 INFO [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.configuration.Config
+2017-05-23 17:14:07.821+0000 INFO [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.info.DiagnosticsManager
+2017-05-23 17:14:07.821+0000 INFO [o.n.k.i.DiagnosticsManager] SYSTEM_MEMORY
+2017-05-23 17:14:07.821+0000 INFO [o.n.k.i.DiagnosticsManager] JAVA_MEMORY
+2017-05-23 17:14:07.821+0000 INFO [o.n.k.i.DiagnosticsManager] OPERATING_SYSTEM
+2017-05-23 17:14:07.822+0000 INFO [o.n.k.i.DiagnosticsManager] JAVA_VIRTUAL_MACHINE
+2017-05-23 17:14:07.822+0000 INFO [o.n.k.i.DiagnosticsManager] CLASSPATH
+2017-05-23 17:14:07.822+0000 INFO [o.n.k.i.DiagnosticsManager] LIBRARY_PATH
+2017-05-23 17:14:07.822+0000 INFO [o.n.k.i.DiagnosticsManager] SYSTEM_PROPERTIES
+2017-05-23 17:14:07.822+0000 INFO [o.n.k.i.DiagnosticsManager] NETWORK
+2017-05-23 17:14:07.822+0000 INFO [o.n.k.i.DiagnosticsManager] System memory information:
+2017-05-23 17:14:07.822+0000 INFO [o.n.k.i.DiagnosticsManager] Total Physical memory: 7.95 GB
+2017-05-23 17:14:07.822+0000 INFO [o.n.k.i.DiagnosticsManager] Free Physical memory: 3.32 GB
+2017-05-23 17:14:07.822+0000 INFO [o.n.k.i.DiagnosticsManager] Committed virtual memory: 2.23 GB
+2017-05-23 17:14:07.822+0000 INFO [o.n.k.i.DiagnosticsManager] Total swap space: 11.77 GB
+2017-05-23 17:14:07.822+0000 INFO [o.n.k.i.DiagnosticsManager] Free swap space: 2.55 GB
+2017-05-23 17:14:07.822+0000 INFO [o.n.k.i.DiagnosticsManager] JVM memory information:
+2017-05-23 17:14:07.822+0000 INFO [o.n.k.i.DiagnosticsManager] Free  memory: 1.05 GB
+2017-05-23 17:14:07.822+0000 INFO [o.n.k.i.DiagnosticsManager] Total memory: 1.39 GB
+2017-05-23 17:14:07.822+0000 INFO [o.n.k.i.DiagnosticsManager] Max   memory: 1.77 GB
+2017-05-23 17:14:07.823+0000 INFO [o.n.k.i.DiagnosticsManager] Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2017-05-23 17:14:07.823+0000 INFO [o.n.k.i.DiagnosticsManager] Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen]
+2017-05-23 17:14:07.823+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: Code Cache (Non-heap memory): committed=48.75 MB, used=47.18 MB, max=240.00 MB, threshold=0.00 B
+2017-05-23 17:14:07.823+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: Metaspace (Non-heap memory): committed=79.29 MB, used=76.91 MB, max=-1.00 B, threshold=0.00 B
+2017-05-23 17:14:07.823+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: Compressed Class Space (Non-heap memory): committed=12.04 MB, used=11.54 MB, max=1.00 GB, threshold=0.00 B
+2017-05-23 17:14:07.823+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: PS Eden Space (Heap memory): committed=226.50 MB, used=211.61 MB, max=226.50 MB, threshold=?
+2017-05-23 17:14:07.823+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: PS Survivor Space (Heap memory): committed=226.00 MB, used=5.63 MB, max=226.00 MB, threshold=?
+2017-05-23 17:14:07.823+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: PS Old Gen (Heap memory): committed=970.50 MB, used=133.70 MB, max=1.33 GB, threshold=0.00 B
+2017-05-23 17:14:07.823+0000 INFO [o.n.k.i.DiagnosticsManager] Operating system information:
+2017-05-23 17:14:07.823+0000 INFO [o.n.k.i.DiagnosticsManager] Operating System: Windows 10; version: 10.0; arch: amd64; cpus: 8
+2017-05-23 17:14:07.825+0000 INFO [o.n.k.i.DiagnosticsManager] Process id: 5960@DESKTOP-5KDE3IS
+2017-05-23 17:14:07.825+0000 INFO [o.n.k.i.DiagnosticsManager] Byte order: LITTLE_ENDIAN
+2017-05-23 17:14:07.825+0000 INFO [o.n.k.i.DiagnosticsManager] Local timezone: Europe/Berlin
+2017-05-23 17:14:07.825+0000 INFO [o.n.k.i.DiagnosticsManager] JVM information:
+2017-05-23 17:14:07.825+0000 INFO [o.n.k.i.DiagnosticsManager] VM Name: Java HotSpot(TM) 64-Bit Server VM
+2017-05-23 17:14:07.825+0000 INFO [o.n.k.i.DiagnosticsManager] VM Vendor: Oracle Corporation
+2017-05-23 17:14:07.825+0000 INFO [o.n.k.i.DiagnosticsManager] VM Version: 25.131-b11
+2017-05-23 17:14:07.825+0000 INFO [o.n.k.i.DiagnosticsManager] JIT compiler: HotSpot 64-Bit Tiered Compilers
+2017-05-23 17:14:07.825+0000 INFO [o.n.k.i.DiagnosticsManager] VM Arguments: [-Dexe4j.semaphoreName=Local\c:_program_files_neo4j_ce_3.2.0_bin_neo4j-ce.exe, -Dexe4j.isInstall4j=true, -Dexe4j.moduleName=C:\Program Files\Neo4j CE 3.2.0\bin\neo4j-ce.exe, -Dexe4j.tempDir=, -Dexe4j.unextractedPosition=0, -Djava.library.path=C:\Program Files (x86)\Rockwell Software\RSCommon;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files (x86)\Maven\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\PuTTY\;D:\PHP7.1;C:\Users\marti\Anaconda3;C:\Users\marti\Anaconda3\Scripts;C:\Users\marti\Anaconda3\Library\bin;C:\Users\marti\AppData\Local\Microsoft\WindowsApps;C:\Users\marti\AppData\Local\Pandoc\;C:\Program Files (x86)\Maven\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;c:\program files\java\jre1.8.0_131\bin, -Dexe4j.consoleCodepage=cp0, -Dinstall4j.launcherId=24, -Dinstall4j.swt=false]
+2017-05-23 17:14:07.825+0000 INFO [o.n.k.i.DiagnosticsManager] Java classpath:
+2017-05-23 17:14:07.828+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jre1.8.0_131\lib\jce.jar
+2017-05-23 17:14:07.828+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_131/lib/ext/sunjce_provider.jar
+2017-05-23 17:14:07.828+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jre1.8.0_131\lib\charsets.jar
+2017-05-23 17:14:07.828+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jre1.8.0_131\lib\jsse.jar
+2017-05-23 17:14:07.828+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jre1.8.0_131\classes
+2017-05-23 17:14:07.828+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_131/lib/ext/jaccess.jar
+2017-05-23 17:14:07.828+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jre1.8.0_131\lib\resources.jar
+2017-05-23 17:14:07.828+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_131/lib/ext/access-bridge-64.jar
+2017-05-23 17:14:07.828+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_131/lib/ext/sunmscapi.jar
+2017-05-23 17:14:07.828+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_131/lib/ext/sunpkcs11.jar
+2017-05-23 17:14:07.828+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath] C:\Program Files\Neo4j CE 3.2.0\bin\neo4j-desktop-3.2.0.jar
+2017-05-23 17:14:07.828+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.0] file:/C:/Program%20Files/Neo4j%20CE%203.2.0/bin/neo4j-desktop-3.2.0.jar
+2017-05-23 17:14:07.828+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_131/lib/ext/localedata.jar
+2017-05-23 17:14:07.828+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath] C:\Program Files\Neo4j CE 3.2.0\.install4j\i4jruntime.jar
+2017-05-23 17:14:07.828+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.0] file:/C:/Program%20Files/Neo4j%20CE%203.2.0/.install4j/i4jruntime.jar
+2017-05-23 17:14:07.828+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_131/lib/ext/cldrdata.jar
+2017-05-23 17:14:07.828+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jre1.8.0_131\lib\sunrsasign.jar
+2017-05-23 17:14:07.828+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jre1.8.0_131\lib\jfr.jar
+2017-05-23 17:14:07.828+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_131/lib/ext/sunec.jar
+2017-05-23 17:14:07.828+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jre1.8.0_131\lib\rt.jar
+2017-05-23 17:14:07.828+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_131/lib/ext/nashorn.jar
+2017-05-23 17:14:07.828+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_131/lib/ext/jfxrt.jar
+2017-05-23 17:14:07.828+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_131/lib/ext/zipfs.jar
+2017-05-23 17:14:07.828+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_131/lib/ext/dnsns.jar
+2017-05-23 17:14:07.828+0000 INFO [o.n.k.i.DiagnosticsManager] Library path:
+2017-05-23 17:14:07.828+0000 INFO [o.n.k.i.DiagnosticsManager] C:\Program Files (x86)\Rockwell Software\RSCommon
+2017-05-23 17:14:07.829+0000 INFO [o.n.k.i.DiagnosticsManager] C:\ProgramData\Oracle\Java\javapath
+2017-05-23 17:14:07.829+0000 INFO [o.n.k.i.DiagnosticsManager] C:\Windows\System32
+2017-05-23 17:14:07.829+0000 INFO [o.n.k.i.DiagnosticsManager] C:\Windows
+2017-05-23 17:14:07.829+0000 INFO [o.n.k.i.DiagnosticsManager] C:\Windows\System32\wbem
+2017-05-23 17:14:07.830+0000 INFO [o.n.k.i.DiagnosticsManager] C:\Windows\System32\WindowsPowerShell\v1.0
+2017-05-23 17:14:07.830+0000 INFO [o.n.k.i.DiagnosticsManager] C:\Program Files\Git\cmd
+2017-05-23 17:14:07.830+0000 INFO [o.n.k.i.DiagnosticsManager] C:\Program Files\Microsoft SQL Server\130\Tools\Binn
+2017-05-23 17:14:07.831+0000 INFO [o.n.k.i.DiagnosticsManager] C:\Windows\System32\config\systemprofile\.dnx\bin
+2017-05-23 17:14:07.831+0000 INFO [o.n.k.i.DiagnosticsManager] C:\Program Files\Microsoft DNX\Dnvm
+2017-05-23 17:14:07.831+0000 INFO [o.n.k.i.DiagnosticsManager] C:\Program Files (x86)\GtkSharp\2.12\bin
+2017-05-23 17:14:07.831+0000 INFO [o.n.k.i.DiagnosticsManager] C:\Program Files\MiKTeX 2.9\miktex\bin\x64
+2017-05-23 17:14:07.832+0000 INFO [o.n.k.i.DiagnosticsManager] C:\Program Files (x86)\Maven\bin
+2017-05-23 17:14:07.832+0000 INFO [o.n.k.i.DiagnosticsManager] C:\Program Files (x86)\Skype\Phone
+2017-05-23 17:14:07.832+0000 INFO [o.n.k.i.DiagnosticsManager] C:\Program Files\PuTTY
+2017-05-23 17:14:07.832+0000 INFO [o.n.k.i.DiagnosticsManager] D:\PHP7.1
+2017-05-23 17:14:07.832+0000 INFO [o.n.k.i.DiagnosticsManager] C:\Users\marti\Anaconda3
+2017-05-23 17:14:07.832+0000 INFO [o.n.k.i.DiagnosticsManager] C:\Users\marti\Anaconda3\Scripts
+2017-05-23 17:14:07.833+0000 INFO [o.n.k.i.DiagnosticsManager] C:\Users\marti\Anaconda3\Library\bin
+2017-05-23 17:14:07.833+0000 INFO [o.n.k.i.DiagnosticsManager] C:\Users\marti\AppData\Local\Microsoft\WindowsApps
+2017-05-23 17:14:07.833+0000 INFO [o.n.k.i.DiagnosticsManager] C:\Users\marti\AppData\Local\Pandoc
+2017-05-23 17:14:07.833+0000 INFO [o.n.k.i.DiagnosticsManager] C:\Program Files (x86)\Maven\bin
+2017-05-23 17:14:07.834+0000 INFO [o.n.k.i.DiagnosticsManager] C:\Program Files\MySQL\MySQL Server 5.7\bin
+2017-05-23 17:14:07.834+0000 INFO [o.n.k.i.DiagnosticsManager] C:\Program Files\Java\jre1.8.0_131\bin
+2017-05-23 17:14:07.834+0000 INFO [o.n.k.i.DiagnosticsManager] System.properties:
+2017-05-23 17:14:07.834+0000 INFO [o.n.k.i.DiagnosticsManager] exe4j.moduleName = C:\Program Files\Neo4j CE 3.2.0\bin\neo4j-ce.exe
+2017-05-23 17:14:07.834+0000 INFO [o.n.k.i.DiagnosticsManager] exe4j.semaphoreName = Local\c:_program_files_neo4j_ce_3.2.0_bin_neo4j-ce.exe
+2017-05-23 17:14:07.834+0000 INFO [o.n.k.i.DiagnosticsManager] sun.boot.library.path = c:\program files\java\jre1.8.0_131\bin
+2017-05-23 17:14:07.834+0000 INFO [o.n.k.i.DiagnosticsManager] user.country.format = GB
+2017-05-23 17:14:07.834+0000 INFO [o.n.k.i.DiagnosticsManager] exe4j.consoleCodepage = cp0
+2017-05-23 17:14:07.834+0000 INFO [o.n.k.i.DiagnosticsManager] path.separator = ;
+2017-05-23 17:14:07.834+0000 INFO [o.n.k.i.DiagnosticsManager] file.encoding.pkg = sun.io
+2017-05-23 17:14:07.834+0000 INFO [o.n.k.i.DiagnosticsManager] user.country = NL
+2017-05-23 17:14:07.834+0000 INFO [o.n.k.i.DiagnosticsManager] user.script = 
+2017-05-23 17:14:07.834+0000 INFO [o.n.k.i.DiagnosticsManager] sun.os.patch.level = 
+2017-05-23 17:14:07.834+0000 INFO [o.n.k.i.DiagnosticsManager] install4j.exeDir = C:\Program Files\Neo4j CE 3.2.0\bin\
+2017-05-23 17:14:07.834+0000 INFO [o.n.k.i.DiagnosticsManager] user.dir = C:\Program Files\Neo4j CE 3.2.0\bin
+2017-05-23 17:14:07.834+0000 INFO [o.n.k.i.DiagnosticsManager] user.variant = 
+2017-05-23 17:14:07.834+0000 INFO [o.n.k.i.DiagnosticsManager] exe4j.tempDir = 
+2017-05-23 17:14:07.834+0000 INFO [o.n.k.i.DiagnosticsManager] sun.jnu.encoding = Cp1252
+2017-05-23 17:14:07.834+0000 INFO [o.n.k.i.DiagnosticsManager] sun.nio.ch.bugLevel = 
+2017-05-23 17:14:07.834+0000 INFO [o.n.k.i.DiagnosticsManager] unsupported.dbms.udc.source = desktop
+2017-05-23 17:14:07.834+0000 INFO [o.n.k.i.DiagnosticsManager] sun.awt.enableExtraMouseButtons = true
+2017-05-23 17:14:07.834+0000 INFO [o.n.k.i.DiagnosticsManager] install4j.launcherId = 24
+2017-05-23 17:14:07.834+0000 INFO [o.n.k.i.DiagnosticsManager] sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2017-05-23 17:14:07.834+0000 INFO [o.n.k.i.DiagnosticsManager] exe4j.isInstall4j = true
+2017-05-23 17:14:07.834+0000 INFO [o.n.k.i.DiagnosticsManager] install4j.swt = false
+2017-05-23 17:14:07.834+0000 INFO [o.n.k.i.DiagnosticsManager] user.home = C:\Users\marti
+2017-05-23 17:14:07.834+0000 INFO [o.n.k.i.DiagnosticsManager] user.timezone = Europe/Berlin
+2017-05-23 17:14:07.834+0000 INFO [o.n.k.i.DiagnosticsManager] file.encoding = Cp1252
+2017-05-23 17:14:07.834+0000 INFO [o.n.k.i.DiagnosticsManager] user.name = marti
+2017-05-23 17:14:07.834+0000 INFO [o.n.k.i.DiagnosticsManager] sun.java.command = C:\Program Files\Neo4j CE 3.2.0\bin\neo4j-ce.exe
+2017-05-23 17:14:07.834+0000 INFO [o.n.k.i.DiagnosticsManager] sun.arch.data.model = 64
+2017-05-23 17:14:07.834+0000 INFO [o.n.k.i.DiagnosticsManager] exe4j.launchName = C:\Program Files\Neo4j CE 3.2.0\bin\neo4j-ce.exe
+2017-05-23 17:14:07.834+0000 INFO [o.n.k.i.DiagnosticsManager] user.language = nl
+2017-05-23 17:14:07.834+0000 INFO [o.n.k.i.DiagnosticsManager] user.language.format = en
+2017-05-23 17:14:07.834+0000 INFO [o.n.k.i.DiagnosticsManager] awt.toolkit = sun.awt.windows.WToolkit
+2017-05-23 17:14:07.834+0000 INFO [o.n.k.i.DiagnosticsManager] exe4j.unextractedPosition = 0
+2017-05-23 17:14:07.834+0000 INFO [o.n.k.i.DiagnosticsManager] install4j.appDir = C:\Program Files\Neo4j CE 3.2.0\
+2017-05-23 17:14:07.834+0000 INFO [o.n.k.i.DiagnosticsManager] file.separator = \
+2017-05-23 17:14:07.834+0000 INFO [o.n.k.i.DiagnosticsManager] sun.io.unicode.encoding = UnicodeLittle
+2017-05-23 17:14:07.834+0000 INFO [o.n.k.i.DiagnosticsManager] sun.cpu.endian = little
+2017-05-23 17:14:07.834+0000 INFO [o.n.k.i.DiagnosticsManager] sun.desktop = windows
+2017-05-23 17:14:07.834+0000 INFO [o.n.k.i.DiagnosticsManager] sun.cpu.isalist = amd64
+2017-05-23 17:14:07.834+0000 INFO [o.n.k.i.DiagnosticsManager] Network information:
+2017-05-23 17:14:07.893+0000 INFO [o.n.k.i.DiagnosticsManager] Interface Software Loopback Interface 1:
+2017-05-23 17:14:07.893+0000 INFO [o.n.k.i.DiagnosticsManager]     address: 127.0.0.1
+2017-05-23 17:14:07.893+0000 INFO [o.n.k.i.DiagnosticsManager]     address: 0:0:0:0:0:0:0:1
+2017-05-23 17:14:07.893+0000 INFO [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (IP):
+2017-05-23 17:14:07.893+0000 INFO [o.n.k.i.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter:
+2017-05-23 17:14:07.893+0000 INFO [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:e9df:b4fc:6868:8e60%wlan0
+2017-05-23 17:14:07.893+0000 INFO [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (IKEv2):
+2017-05-23 17:14:07.893+0000 INFO [o.n.k.i.DiagnosticsManager] Interface Microsoft ISATAP Adapter #2:
+2017-05-23 17:14:07.893+0000 INFO [o.n.k.i.DiagnosticsManager] Interface Intel(R) 82579LM Gigabit Network Connection:
+2017-05-23 17:14:07.893+0000 INFO [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:6413:7647:44a6:df6%eth1
+2017-05-23 17:14:07.893+0000 INFO [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (PPTP):
+2017-05-23 17:14:07.893+0000 INFO [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (L2TP):
+2017-05-23 17:14:07.893+0000 INFO [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (Network Monitor):
+2017-05-23 17:14:07.893+0000 INFO [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (PPPOE):
+2017-05-23 17:14:07.893+0000 INFO [o.n.k.i.DiagnosticsManager] Interface Bluetooth Device (RFCOMM Protocol TDI):
+2017-05-23 17:14:07.893+0000 INFO [o.n.k.i.DiagnosticsManager] Interface Microsoft Kernel Debug Network Adapter:
+2017-05-23 17:14:07.893+0000 INFO [o.n.k.i.DiagnosticsManager] Interface Microsoft Teredo Tunneling Adapter:
+2017-05-23 17:14:07.893+0000 INFO [o.n.k.i.DiagnosticsManager]     address: 2001:0:9d38:90d7:3c33:3e5e:7c64:efa7
+2017-05-23 17:14:07.893+0000 INFO [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:3c33:3e5e:7c64:efa7%net5
+2017-05-23 17:14:07.893+0000 INFO [o.n.k.i.DiagnosticsManager] Interface Microsoft ISATAP Adapter:
+2017-05-23 17:14:07.893+0000 INFO [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:0:5efe:a0d:25d4%net6
+2017-05-23 17:14:07.893+0000 INFO [o.n.k.i.DiagnosticsManager] Interface Bluetooth Device (Personal Area Network):
+2017-05-23 17:14:07.893+0000 INFO [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:c5cb:c7a8:29c7:786c%eth4
+2017-05-23 17:14:07.893+0000 INFO [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (IPv6):
+2017-05-23 17:14:07.893+0000 INFO [o.n.k.i.DiagnosticsManager] Interface Intel(R) Centrino(R) Ultimate-N 6300 AGN:
+2017-05-23 17:14:07.893+0000 INFO [o.n.k.i.DiagnosticsManager]     address: 10.13.37.212
+2017-05-23 17:14:07.893+0000 INFO [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:1122:e355:8e72:3b8d%wlan1
+2017-05-23 17:14:07.893+0000 INFO [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (SSTP):
+2017-05-23 17:14:07.893+0000 INFO [o.n.k.i.DiagnosticsManager] Interface Intel(R) 82579LM Gigabit Network Connection-WFP Native MAC Layer LightWeight Filter-0000:
+2017-05-23 17:14:07.893+0000 INFO [o.n.k.i.DiagnosticsManager] Interface Intel(R) 82579LM Gigabit Network Connection-QoS Packet Scheduler-0000:
+2017-05-23 17:14:07.893+0000 INFO [o.n.k.i.DiagnosticsManager] Interface Intel(R) 82579LM Gigabit Network Connection-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2017-05-23 17:14:07.893+0000 INFO [o.n.k.i.DiagnosticsManager] Interface Intel(R) Centrino(R) Ultimate-N 6300 AGN-WFP Native MAC Layer LightWeight Filter-0000:
+2017-05-23 17:14:07.893+0000 INFO [o.n.k.i.DiagnosticsManager] Interface Intel(R) Centrino(R) Ultimate-N 6300 AGN-Virtual WiFi Filter Driver-0000:
+2017-05-23 17:14:07.893+0000 INFO [o.n.k.i.DiagnosticsManager] Interface Intel(R) Centrino(R) Ultimate-N 6300 AGN-Native WiFi Filter Driver-0000:
+2017-05-23 17:14:07.893+0000 INFO [o.n.k.i.DiagnosticsManager] Interface Intel(R) Centrino(R) Ultimate-N 6300 AGN-QoS Packet Scheduler-0000:
+2017-05-23 17:14:07.893+0000 INFO [o.n.k.i.DiagnosticsManager] Interface Intel(R) Centrino(R) Ultimate-N 6300 AGN-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2017-05-23 17:14:07.893+0000 INFO [o.n.k.i.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter-WFP Native MAC Layer LightWeight Filter-0000:
+2017-05-23 17:14:07.894+0000 INFO [o.n.k.i.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter-Native WiFi Filter Driver-0000:
+2017-05-23 17:14:07.894+0000 INFO [o.n.k.i.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter-QoS Packet Scheduler-0000:
+2017-05-23 17:14:07.894+0000 INFO [o.n.k.i.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2017-05-23 17:14:07.894+0000 INFO [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (IP)-WFP Native MAC Layer LightWeight Filter-0000:
+2017-05-23 17:14:07.894+0000 INFO [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (IP)-QoS Packet Scheduler-0000:
+2017-05-23 17:14:07.894+0000 INFO [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (IPv6)-WFP Native MAC Layer LightWeight Filter-0000:
+2017-05-23 17:14:07.894+0000 INFO [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (IPv6)-QoS Packet Scheduler-0000:
+2017-05-23 17:14:07.894+0000 INFO [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (Network Monitor)-WFP Native MAC Layer LightWeight Filter-0000:
+2017-05-23 17:14:07.894+0000 INFO [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000:
+2017-05-23 17:14:07.894+0000 INFO [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics END ---
+2017-05-23 17:14:07.908+0000 INFO [o.n.b.v.r.WorkerFactory] Bolt Server extension loaded.
+2017-05-23 17:14:07.908+0000 INFO [o.n.b.v.r.WorkerFactory] Bolt enabled on 127.0.0.1:7687.
+2017-05-23 17:14:07.930+0000 INFO [o.n.k.i.s.f.RecordFormatSelector] Selected RecordFormat:StandardV3_2[v0.A.8] record format from store E:\DataEngineering
+2017-05-23 17:14:07.934+0000 INFO [o.n.k.i.s.f.RecordFormatSelector] Selected RecordFormat:StandardV3_2[v0.A.8] record format from store E:\DataEngineering
+2017-05-23 17:14:07.934+0000 INFO [o.n.k.i.s.f.RecordFormatSelector] Format not configured. Selected format from the store: RecordFormat:StandardV3_2[v0.A.8]
+2017-05-23 17:14:08.334+0000 INFO [o.n.k.i.a.i.IndexingService] IndexingService.init: indexes not specifically mentioned above are null
+2017-05-23 17:14:08.541+0000 INFO [o.n.k.NeoStoreDataSource] No commits found after last check point (which is at LogPosition{logVersion=0, byteOffset=9740353})
+2017-05-23 17:14:08.542+0000 INFO [o.n.k.i.a.i.IndexingService] IndexingService.start: indexes not specifically mentioned above are null
+2017-05-23 17:14:08.544+0000 INFO [o.n.k.i.DatabaseHealth] Database health set to OK
+2017-05-23 17:14:08.566+0000 INFO [o.n.k.AvailabilityGuard] Fulfilling of requirement makes database available: Database available
+2017-05-23 17:14:08.566+0000 INFO [o.n.k.i.f.GraphDatabaseFacadeFactory] Database is now ready
+2017-05-23 17:14:08.568+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions START ---
+2017-05-23 17:14:08.568+0000 INFO [o.n.k.i.DiagnosticsManager] Graph Database: community single StoreId{creationTime=1495545025444, randomId=4044461926338829636, storeVersion=15813456178476550, upgradeTime=1495556350978, upgradeId=105}
+2017-05-23 17:14:08.568+0000 INFO [o.n.k.i.DiagnosticsManager] Kernel version: 3.2.0
+2017-05-23 17:14:08.568+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions END ---
+2017-05-23 17:14:08.568+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS START ---
+2017-05-23 17:14:08.568+0000 INFO [o.n.k.i.DiagnosticsManager] Store versions:
+2017-05-23 17:14:08.568+0000 INFO [o.n.k.i.DiagnosticsManager] Store versions:
+2017-05-23 17:14:08.568+0000 INFO [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore v0.A.8
+2017-05-23 17:14:08.568+0000 INFO [o.n.k.i.DiagnosticsManager]   NodeStore v0.A.8
+2017-05-23 17:14:08.568+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.8
+2017-05-23 17:14:08.568+0000 INFO [o.n.k.i.DiagnosticsManager]   PropertyIndexStore v0.A.8
+2017-05-23 17:14:08.568+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.8
+2017-05-23 17:14:08.569+0000 INFO [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore v0.A.8
+2017-05-23 17:14:08.569+0000 INFO [o.n.k.i.DiagnosticsManager]   PropertyStore v0.A.8
+2017-05-23 17:14:08.569+0000 INFO [o.n.k.i.DiagnosticsManager]   RelationshipStore v0.A.8
+2017-05-23 17:14:08.569+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.8
+2017-05-23 17:14:08.569+0000 INFO [o.n.k.i.DiagnosticsManager]   RelationshipTypeStore v0.A.8
+2017-05-23 17:14:08.569+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.8
+2017-05-23 17:14:08.569+0000 INFO [o.n.k.i.DiagnosticsManager]   LabelTokenStore v0.A.8
+2017-05-23 17:14:08.569+0000 INFO [o.n.k.i.DiagnosticsManager]   SchemaStore v0.A.8
+2017-05-23 17:14:08.569+0000 INFO [o.n.k.i.DiagnosticsManager]   RelationshipGroupStore v0.A.8
+2017-05-23 17:14:08.569+0000 INFO [o.n.k.i.DiagnosticsManager]   NeoStore v0.A.8
+2017-05-23 17:14:08.569+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS END ---
+2017-05-23 17:14:08.569+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE START ---
+2017-05-23 17:14:08.569+0000 INFO [o.n.k.i.DiagnosticsManager] Id usage:
+2017-05-23 17:14:08.569+0000 INFO [o.n.k.i.DiagnosticsManager] Id usage:
+2017-05-23 17:14:08.569+0000 INFO [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore: used=1 high=0
+2017-05-23 17:14:08.569+0000 INFO [o.n.k.i.DiagnosticsManager]   NodeStore: used=6140 high=6139
+2017-05-23 17:14:08.569+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=10 high=9
+2017-05-23 17:14:08.570+0000 INFO [o.n.k.i.DiagnosticsManager]   PropertyIndexStore: used=9 high=8
+2017-05-23 17:14:08.570+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2017-05-23 17:14:08.570+0000 INFO [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore: used=1 high=0
+2017-05-23 17:14:08.570+0000 INFO [o.n.k.i.DiagnosticsManager]   PropertyStore: used=6655 high=6654
+2017-05-23 17:14:08.570+0000 INFO [o.n.k.i.DiagnosticsManager]   RelationshipStore: used=106177 high=106176
+2017-05-23 17:14:08.570+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=4 high=3
+2017-05-23 17:14:08.570+0000 INFO [o.n.k.i.DiagnosticsManager]   RelationshipTypeStore: used=3 high=2
+2017-05-23 17:14:08.570+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=6 high=5
+2017-05-23 17:14:08.570+0000 INFO [o.n.k.i.DiagnosticsManager]   LabelTokenStore: used=5 high=4
+2017-05-23 17:14:08.570+0000 INFO [o.n.k.i.DiagnosticsManager]   SchemaStore: used=1 high=0
+2017-05-23 17:14:08.570+0000 INFO [o.n.k.i.DiagnosticsManager]   RelationshipGroupStore: used=446 high=445
+2017-05-23 17:14:08.570+0000 INFO [o.n.k.i.DiagnosticsManager]   NeoStore: used=15 high=14
+2017-05-23 17:14:08.570+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE END ---
+2017-05-23 17:14:08.570+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS START ---
+2017-05-23 17:14:08.570+0000 INFO [o.n.k.i.DiagnosticsManager] Neostore records:
+2017-05-23 17:14:08.570+0000 INFO [o.n.k.i.DiagnosticsManager] TIME (Creation time): 1495545025444
+2017-05-23 17:14:08.571+0000 INFO [o.n.k.i.DiagnosticsManager] RANDOM_NUMBER (Random number for store id): 4044461926338829636
+2017-05-23 17:14:08.571+0000 INFO [o.n.k.i.DiagnosticsManager] LOG_VERSION (Current log version): 0
+2017-05-23 17:14:08.571+0000 INFO [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_ID (Last committed transaction): 109
+2017-05-23 17:14:08.571+0000 INFO [o.n.k.i.DiagnosticsManager] STORE_VERSION (Store format version): 15813456178476550
+2017-05-23 17:14:08.571+0000 INFO [o.n.k.i.DiagnosticsManager] FIRST_GRAPH_PROPERTY (First property record containing graph properties): -1
+2017-05-23 17:14:08.571+0000 INFO [o.n.k.i.DiagnosticsManager] LAST_CONSTRAINT_TRANSACTION (Last committed transaction containing constraint changes): 0
+2017-05-23 17:14:08.571+0000 INFO [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_ID (Transaction id most recent upgrade was performed at): 105
+2017-05-23 17:14:08.571+0000 INFO [o.n.k.i.DiagnosticsManager] UPGRADE_TIME (Time of last upgrade): 1495556350978
+2017-05-23 17:14:08.571+0000 INFO [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_CHECKSUM (Checksum of last committed transaction): -161276103131
+2017-05-23 17:14:08.571+0000 INFO [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_CHECKSUM (Checksum of transaction id the most recent upgrade was performed at): -160021310835
+2017-05-23 17:14:08.571+0000 INFO [o.n.k.i.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_VERSION (Log version where the last transaction commit entry has been written into): 0
+2017-05-23 17:14:08.571+0000 INFO [o.n.k.i.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_BYTE_OFFSET (Byte offset in the log file where the last transaction commit entry has been written into): 9740353
+2017-05-23 17:14:08.571+0000 INFO [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_COMMIT_TIMESTAMP (Commit time timestamp for last committed transaction): 1495558016892
+2017-05-23 17:14:08.571+0000 INFO [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_COMMIT_TIMESTAMP (Commit timestamp of transaction the most recent upgrade was performed at): 1495546195635
+2017-05-23 17:14:08.571+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS END ---
+2017-05-23 17:14:08.571+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE START ---
+2017-05-23 17:14:08.571+0000 INFO [o.n.k.i.DiagnosticsManager] Transaction log:
+2017-05-23 17:14:08.572+0000 INFO [o.n.k.i.DiagnosticsManager] Oldest transaction 2 found in log with version 0
+2017-05-23 17:14:08.572+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE END ---
+2017-05-23 17:14:08.572+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles START ---
+2017-05-23 17:14:08.573+0000 INFO [o.n.k.i.DiagnosticsManager] Disk space on partition (Total / Free / Free %): 339041316864 / 333806342144 / 98
+Storage files: (filename : modification date - size)
+2017-05-23 17:14:08.573+0000 INFO [o.n.k.i.DiagnosticsManager]   .git:
+2017-05-23 17:14:08.573+0000 INFO [o.n.k.i.DiagnosticsManager]     COMMIT_EDITMSG: 2017-05-15T14:31:28+0200 - 9.00 B
+2017-05-23 17:14:08.574+0000 INFO [o.n.k.i.DiagnosticsManager]     FETCH_HEAD: 2017-05-23T19:13:26+0200 - 105.00 B
+2017-05-23 17:14:08.574+0000 INFO [o.n.k.i.DiagnosticsManager]     HEAD: 2017-05-15T14:28:56+0200 - 23.00 B
+2017-05-23 17:14:08.574+0000 INFO [o.n.k.i.DiagnosticsManager]     ORIG_HEAD: 2017-05-23T15:47:36+0200 - 41.00 B
+2017-05-23 17:14:08.574+0000 INFO [o.n.k.i.DiagnosticsManager]     config: 2017-05-15T14:29:56+0200 - 310.00 B
+2017-05-23 17:14:08.574+0000 INFO [o.n.k.i.DiagnosticsManager]     index: 2017-05-23T18:43:14+0200 - 5.41 kB
+2017-05-23 17:14:08.574+0000 INFO [o.n.k.i.DiagnosticsManager]     logs:
+2017-05-23 17:14:08.574+0000 INFO [o.n.k.i.DiagnosticsManager]       HEAD: 2017-05-23T15:47:36+0200 - 696.00 B
+2017-05-23 17:14:08.574+0000 INFO [o.n.k.i.DiagnosticsManager]       refs:
+2017-05-23 17:14:08.574+0000 INFO [o.n.k.i.DiagnosticsManager]         heads:
+2017-05-23 17:14:08.575+0000 INFO [o.n.k.i.DiagnosticsManager]           master: 2017-05-23T15:47:36+0200 - 696.00 B
+2017-05-23 17:14:08.575+0000 INFO [o.n.k.i.DiagnosticsManager]         - Total: 2017-05-15T14:29:46+0200 - 696.00 B
+2017-05-23 17:14:08.575+0000 INFO [o.n.k.i.DiagnosticsManager]         remotes:
+2017-05-23 17:14:08.575+0000 INFO [o.n.k.i.DiagnosticsManager]           origin:
+2017-05-23 17:14:08.575+0000 INFO [o.n.k.i.DiagnosticsManager]             master: 2017-05-23T15:47:35+0200 - 664.00 B
+2017-05-23 17:14:08.575+0000 INFO [o.n.k.i.DiagnosticsManager]           - Total: 2017-05-15T14:29:56+0200 - 664.00 B
+2017-05-23 17:14:08.575+0000 INFO [o.n.k.i.DiagnosticsManager]         - Total: 2017-05-15T14:29:56+0200 - 664.00 B
+2017-05-23 17:14:08.575+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-15T14:29:56+0200 - 1.33 kB
+2017-05-23 17:14:08.576+0000 INFO [o.n.k.i.DiagnosticsManager]     - Total: 2017-05-15T14:29:46+0200 - 2.01 kB
+2017-05-23 17:14:08.576+0000 INFO [o.n.k.i.DiagnosticsManager]     objects:
+2017-05-23 17:14:08.576+0000 INFO [o.n.k.i.DiagnosticsManager]       00:
+2017-05-23 17:14:08.576+0000 INFO [o.n.k.i.DiagnosticsManager]         8e5f04f3b1fdec99408987b4d8ab2a0bc19c80: 2017-05-22T09:51:11+0200 - 7.64 kB
+2017-05-23 17:14:08.576+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:11+0200 - 7.64 kB
+2017-05-23 17:14:08.576+0000 INFO [o.n.k.i.DiagnosticsManager]       02:
+2017-05-23 17:14:08.576+0000 INFO [o.n.k.i.DiagnosticsManager]         21354f7e6a6b5aad905b1cc7267dfe79ac2f6d: 2017-05-22T09:51:07+0200 - 184.00 B
+2017-05-23 17:14:08.577+0000 INFO [o.n.k.i.DiagnosticsManager]         cb469bfa8230bdb84f02618cb0170e4cae8ca6: 2017-05-22T09:51:11+0200 - 195.00 B
+2017-05-23 17:14:08.577+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:11+0200 - 379.00 B
+2017-05-23 17:14:08.577+0000 INFO [o.n.k.i.DiagnosticsManager]       03:
+2017-05-23 17:14:08.577+0000 INFO [o.n.k.i.DiagnosticsManager]         e9fb4f3c1ff4b3ab56150e60f07e2271068b25: 2017-05-23T15:47:35+0200 - 2.38 kB
+2017-05-23 17:14:08.577+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 2.38 kB
+2017-05-23 17:14:08.577+0000 INFO [o.n.k.i.DiagnosticsManager]       09:
+2017-05-23 17:14:08.577+0000 INFO [o.n.k.i.DiagnosticsManager]         190cee336eb12f5c725a5ca0d9b381689b7ee8: 2017-05-23T15:47:35+0200 - 130.00 B
+2017-05-23 17:14:08.577+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 130.00 B
+2017-05-23 17:14:08.578+0000 INFO [o.n.k.i.DiagnosticsManager]       0b:
+2017-05-23 17:14:08.578+0000 INFO [o.n.k.i.DiagnosticsManager]         b272b25f979035b5517dacb218f0746400cb8f: 2017-05-15T14:31:28+0200 - 54.00 B
+2017-05-23 17:14:08.578+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-15T14:31:28+0200 - 54.00 B
+2017-05-23 17:14:08.578+0000 INFO [o.n.k.i.DiagnosticsManager]       0c:
+2017-05-23 17:14:08.578+0000 INFO [o.n.k.i.DiagnosticsManager]         0cd741fc8a71d1d68e32e7888c3b0d19a95d05: 2017-05-22T09:51:11+0200 - 87.00 B
+2017-05-23 17:14:08.578+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:11+0200 - 87.00 B
+2017-05-23 17:14:08.578+0000 INFO [o.n.k.i.DiagnosticsManager]       0d:
+2017-05-23 17:14:08.579+0000 INFO [o.n.k.i.DiagnosticsManager]         7bacd56e96fa5ac64a4a56cc924928f6243fd4: 2017-05-22T09:51:07+0200 - 165.00 B
+2017-05-23 17:14:08.579+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:07+0200 - 165.00 B
+2017-05-23 17:14:08.579+0000 INFO [o.n.k.i.DiagnosticsManager]       0f:
+2017-05-23 17:14:08.579+0000 INFO [o.n.k.i.DiagnosticsManager]         7622d84edd00a3519be3b808e1b2a71b21c1af: 2017-05-23T15:47:35+0200 - 30.56 kB
+2017-05-23 17:14:08.579+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 30.56 kB
+2017-05-23 17:14:08.579+0000 INFO [o.n.k.i.DiagnosticsManager]       10:
+2017-05-23 17:14:08.579+0000 INFO [o.n.k.i.DiagnosticsManager]         1cdfdc5204e22a83719184169f6ac035eb3048: 2017-05-15T14:29:41+0200 - 107.00 B
+2017-05-23 17:14:08.579+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-15T14:29:41+0200 - 107.00 B
+2017-05-23 17:14:08.580+0000 INFO [o.n.k.i.DiagnosticsManager]       15:
+2017-05-23 17:14:08.580+0000 INFO [o.n.k.i.DiagnosticsManager]         d66bbe75446fae613e9cbe9a6e6c6569f0ed30: 2017-05-22T09:51:07+0200 - 21.00 B
+2017-05-23 17:14:08.580+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:07+0200 - 21.00 B
+2017-05-23 17:14:08.580+0000 INFO [o.n.k.i.DiagnosticsManager]       1b:
+2017-05-23 17:14:08.580+0000 INFO [o.n.k.i.DiagnosticsManager]         81d404c9bbae44f96946e42d145477a42c8c32: 2017-05-22T09:51:07+0200 - 113.94 kB
+2017-05-23 17:14:08.580+0000 INFO [o.n.k.i.DiagnosticsManager]         ea863ced84aaf2b51b7dc13a5c1fd9c5efbd87: 2017-05-15T14:29:46+0200 - 139.00 B
+2017-05-23 17:14:08.580+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:07+0200 - 114.07 kB
+2017-05-23 17:14:08.581+0000 INFO [o.n.k.i.DiagnosticsManager]       1c:
+2017-05-23 17:14:08.581+0000 INFO [o.n.k.i.DiagnosticsManager]         175b3f6698a7b4a2174a8e3b4eab5dc95f02c3: 2017-05-23T15:47:35+0200 - 94.20 kB
+2017-05-23 17:14:08.581+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 94.20 kB
+2017-05-23 17:14:08.581+0000 INFO [o.n.k.i.DiagnosticsManager]       1e:
+2017-05-23 17:14:08.581+0000 INFO [o.n.k.i.DiagnosticsManager]         7a4a2a50ffe6d80d6c240569183c4518dce61d: 2017-05-15T14:29:41+0200 - 144.00 B
+2017-05-23 17:14:08.581+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-15T14:29:41+0200 - 144.00 B
+2017-05-23 17:14:08.581+0000 INFO [o.n.k.i.DiagnosticsManager]       21:
+2017-05-23 17:14:08.582+0000 INFO [o.n.k.i.DiagnosticsManager]         4807f751bfea64c597197dc3678482e3ff4268: 2017-05-22T09:51:11+0200 - 193.00 B
+2017-05-23 17:14:08.582+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:11+0200 - 193.00 B
+2017-05-23 17:14:08.582+0000 INFO [o.n.k.i.DiagnosticsManager]       22:
+2017-05-23 17:14:08.582+0000 INFO [o.n.k.i.DiagnosticsManager]         36d381146c3860254fd39ae11425a98cdacfd3: 2017-05-23T15:47:35+0200 - 39.52 kB
+2017-05-23 17:14:08.582+0000 INFO [o.n.k.i.DiagnosticsManager]         fd28d4ec331a633f1a886c68979bdfafb8a4b3: 2017-05-23T15:47:35+0200 - 18.00 B
+2017-05-23 17:14:08.582+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 39.54 kB
+2017-05-23 17:14:08.582+0000 INFO [o.n.k.i.DiagnosticsManager]       23:
+2017-05-23 17:14:08.582+0000 INFO [o.n.k.i.DiagnosticsManager]         6cb7ca79f4c393b90442474d8a6eb108b62834: 2017-05-23T15:47:35+0200 - 168.00 B
+2017-05-23 17:14:08.583+0000 INFO [o.n.k.i.DiagnosticsManager]         b861caed6f86281e1d7c672574de10c53187d5: 2017-05-23T15:47:35+0200 - 71.16 kB
+2017-05-23 17:14:08.583+0000 INFO [o.n.k.i.DiagnosticsManager]         ff96e3f7730653dfe58f22f676fdf8765fece0: 2017-05-22T09:51:11+0200 - 47.00 B
+2017-05-23 17:14:08.583+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 71.37 kB
+2017-05-23 17:14:08.583+0000 INFO [o.n.k.i.DiagnosticsManager]       27:
+2017-05-23 17:14:08.583+0000 INFO [o.n.k.i.DiagnosticsManager]         34e2ccf7f8c7279101e0b10a45ce81298afc00: 2017-05-15T14:29:46+0200 - 46.00 B
+2017-05-23 17:14:08.583+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-15T14:29:46+0200 - 46.00 B
+2017-05-23 17:14:08.583+0000 INFO [o.n.k.i.DiagnosticsManager]       29:
+2017-05-23 17:14:08.583+0000 INFO [o.n.k.i.DiagnosticsManager]         4f4016d05bdd696670c4840f1f36a71f9239de: 2017-05-22T09:51:11+0200 - 110.00 B
+2017-05-23 17:14:08.584+0000 INFO [o.n.k.i.DiagnosticsManager]         87581604e21e9d3cd14135ecb9c2b4c1c38ce2: 2017-05-23T15:47:35+0200 - 47.00 B
+2017-05-23 17:14:08.584+0000 INFO [o.n.k.i.DiagnosticsManager]         e3ab5ede188737717ae4b2af3b2d1058569522: 2017-05-23T15:47:35+0200 - 37.77 kB
+2017-05-23 17:14:08.584+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 37.93 kB
+2017-05-23 17:14:08.584+0000 INFO [o.n.k.i.DiagnosticsManager]       2b:
+2017-05-23 17:14:08.584+0000 INFO [o.n.k.i.DiagnosticsManager]         b7525ccbf61cc86ea745018eab10ab05c9333a: 2017-05-22T09:51:07+0200 - 189.32 kB
+2017-05-23 17:14:08.584+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:07+0200 - 189.32 kB
+2017-05-23 17:14:08.584+0000 INFO [o.n.k.i.DiagnosticsManager]       2c:
+2017-05-23 17:14:08.584+0000 INFO [o.n.k.i.DiagnosticsManager]         71fff6c95ececc3fd03deec4c6ae257c18291f: 2017-05-22T09:51:11+0200 - 247.00 B
+2017-05-23 17:14:08.585+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:11+0200 - 247.00 B
+2017-05-23 17:14:08.585+0000 INFO [o.n.k.i.DiagnosticsManager]       2d:
+2017-05-23 17:14:08.585+0000 INFO [o.n.k.i.DiagnosticsManager]         1ec0725df9664b9e9e92243787c59ca66b4bd3: 2017-05-23T15:47:35+0200 - 328.00 B
+2017-05-23 17:14:08.585+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 328.00 B
+2017-05-23 17:14:08.585+0000 INFO [o.n.k.i.DiagnosticsManager]       2e:
+2017-05-23 17:14:08.585+0000 INFO [o.n.k.i.DiagnosticsManager]         08c4203b8c29dfe919635fd52c9368242c4c18: 2017-05-23T15:47:35+0200 - 54.00 B
+2017-05-23 17:14:08.585+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 54.00 B
+2017-05-23 17:14:08.585+0000 INFO [o.n.k.i.DiagnosticsManager]       2f:
+2017-05-23 17:14:08.585+0000 INFO [o.n.k.i.DiagnosticsManager]         49d8a068eefb39a7489886b0b0cefa72a65fb9: 2017-05-22T09:51:07+0200 - 46.00 B
+2017-05-23 17:14:08.585+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:07+0200 - 46.00 B
+2017-05-23 17:14:08.586+0000 INFO [o.n.k.i.DiagnosticsManager]       31:
+2017-05-23 17:14:08.586+0000 INFO [o.n.k.i.DiagnosticsManager]         54edd213361d5b39af529c848783dd71f4d8fb: 2017-05-15T14:29:46+0200 - 634.00 B
+2017-05-23 17:14:08.586+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-15T14:29:46+0200 - 634.00 B
+2017-05-23 17:14:08.586+0000 INFO [o.n.k.i.DiagnosticsManager]       32:
+2017-05-23 17:14:08.586+0000 INFO [o.n.k.i.DiagnosticsManager]         4e0bfa59d7b0ada717435f29a76a2a0449568e: 2017-05-23T15:47:35+0200 - 47.00 B
+2017-05-23 17:14:08.586+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 47.00 B
+2017-05-23 17:14:08.586+0000 INFO [o.n.k.i.DiagnosticsManager]       33:
+2017-05-23 17:14:08.587+0000 INFO [o.n.k.i.DiagnosticsManager]         1a7460e03e192c4d8c659128842642dbfc6c78: 2017-05-22T09:51:11+0200 - 329.00 B
+2017-05-23 17:14:08.587+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:11+0200 - 329.00 B
+2017-05-23 17:14:08.587+0000 INFO [o.n.k.i.DiagnosticsManager]       39:
+2017-05-23 17:14:08.587+0000 INFO [o.n.k.i.DiagnosticsManager]         b13d694acce221a3d02a82d20841fc461cb811: 2017-05-23T15:47:35+0200 - 301.76 kB
+2017-05-23 17:14:08.587+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 301.76 kB
+2017-05-23 17:14:08.587+0000 INFO [o.n.k.i.DiagnosticsManager]       3b:
+2017-05-23 17:14:08.587+0000 INFO [o.n.k.i.DiagnosticsManager]         b8dfc4c796579415629840762579716e15ead2: 2017-05-22T09:51:08+0200 - 1.26 MB
+2017-05-23 17:14:08.587+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:08+0200 - 1.26 MB
+2017-05-23 17:14:08.587+0000 INFO [o.n.k.i.DiagnosticsManager]       3d:
+2017-05-23 17:14:08.588+0000 INFO [o.n.k.i.DiagnosticsManager]         9e68f478f5676a922ebab2d906ebd2e474c2de: 2017-05-22T09:51:07+0200 - 668.00 B
+2017-05-23 17:14:08.588+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:07+0200 - 668.00 B
+2017-05-23 17:14:08.588+0000 INFO [o.n.k.i.DiagnosticsManager]       3f:
+2017-05-23 17:14:08.588+0000 INFO [o.n.k.i.DiagnosticsManager]         e5420d152d374522fd7d6823a3e7e67bc371b3: 2017-05-22T09:51:07+0200 - 36.67 kB
+2017-05-23 17:14:08.588+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:07+0200 - 36.67 kB
+2017-05-23 17:14:08.588+0000 INFO [o.n.k.i.DiagnosticsManager]       40:
+2017-05-23 17:14:08.589+0000 INFO [o.n.k.i.DiagnosticsManager]         65c51fbeb114423f517a60d866b338334ec965: 2017-05-22T09:51:07+0200 - 463.82 kB
+2017-05-23 17:14:08.589+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:07+0200 - 463.82 kB
+2017-05-23 17:14:08.589+0000 INFO [o.n.k.i.DiagnosticsManager]       42:
+2017-05-23 17:14:08.589+0000 INFO [o.n.k.i.DiagnosticsManager]         f972e9874f08f0892f314608912e70ce393999: 2017-05-15T14:29:41+0200 - 45.00 B
+2017-05-23 17:14:08.589+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-15T14:29:41+0200 - 45.00 B
+2017-05-23 17:14:08.589+0000 INFO [o.n.k.i.DiagnosticsManager]       48:
+2017-05-23 17:14:08.589+0000 INFO [o.n.k.i.DiagnosticsManager]         6273ace9c2899c5296900f1dd2237e6aef57ae: 2017-05-22T09:51:11+0200 - 327.00 B
+2017-05-23 17:14:08.589+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:11+0200 - 327.00 B
+2017-05-23 17:14:08.590+0000 INFO [o.n.k.i.DiagnosticsManager]       49:
+2017-05-23 17:14:08.590+0000 INFO [o.n.k.i.DiagnosticsManager]         552f789703d61bbc0e154a9ccefd3f22d64034: 2017-05-22T09:51:07+0200 - 170.00 B
+2017-05-23 17:14:08.590+0000 INFO [o.n.k.i.DiagnosticsManager]         6f72cd90a73db5e404311bcb6320d445eb6da6: 2017-05-22T09:51:08+0200 - 145.32 kB
+2017-05-23 17:14:08.590+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:08+0200 - 145.49 kB
+2017-05-23 17:14:08.590+0000 INFO [o.n.k.i.DiagnosticsManager]       4c:
+2017-05-23 17:14:08.590+0000 INFO [o.n.k.i.DiagnosticsManager]         891c5ca002511ad98cfc4599986ca8bdbfb72d: 2017-05-23T15:47:35+0200 - 173.00 B
+2017-05-23 17:14:08.590+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 173.00 B
+2017-05-23 17:14:08.590+0000 INFO [o.n.k.i.DiagnosticsManager]       4e:
+2017-05-23 17:14:08.591+0000 INFO [o.n.k.i.DiagnosticsManager]         36477add4da85cb2092ca65b8060eda55db585: 2017-05-23T15:47:35+0200 - 97.00 B
+2017-05-23 17:14:08.591+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 97.00 B
+2017-05-23 17:14:08.591+0000 INFO [o.n.k.i.DiagnosticsManager]       5a:
+2017-05-23 17:14:08.591+0000 INFO [o.n.k.i.DiagnosticsManager]         d3b1181e438a809688e39e16b939ca6faa46fc: 2017-05-22T09:51:07+0200 - 19.00 B
+2017-05-23 17:14:08.591+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:07+0200 - 19.00 B
+2017-05-23 17:14:08.591+0000 INFO [o.n.k.i.DiagnosticsManager]       5b:
+2017-05-23 17:14:08.592+0000 INFO [o.n.k.i.DiagnosticsManager]         3e2f914459c41f3eae624a4481bdcfa552d556: 2017-05-23T15:47:35+0200 - 160.00 B
+2017-05-23 17:14:08.592+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 160.00 B
+2017-05-23 17:14:08.592+0000 INFO [o.n.k.i.DiagnosticsManager]       60:
+2017-05-23 17:14:08.592+0000 INFO [o.n.k.i.DiagnosticsManager]         12279a999e9230c98a9dc81c1dbda9a5d2c385: 2017-05-23T15:47:35+0200 - 75.74 kB
+2017-05-23 17:14:08.592+0000 INFO [o.n.k.i.DiagnosticsManager]         3e39e9fef69211289b4734ce0aeac897769742: 2017-05-23T15:47:35+0200 - 15.21 kB
+2017-05-23 17:14:08.592+0000 INFO [o.n.k.i.DiagnosticsManager]         c2ae813282557a3338520826b56d7d7fd83121: 2017-05-22T09:51:07+0200 - 54.00 B
+2017-05-23 17:14:08.592+0000 INFO [o.n.k.i.DiagnosticsManager]         d6e05be1d92f39bf7bc5da2c3070189c115b59: 2017-05-22T09:51:07+0200 - 19.00 B
+2017-05-23 17:14:08.592+0000 INFO [o.n.k.i.DiagnosticsManager]         fe0b8d7c044030ed6304017d7b2ee2acc61d2c: 2017-05-15T14:29:41+0200 - 314.00 B
+2017-05-23 17:14:08.592+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 91.33 kB
+2017-05-23 17:14:08.593+0000 INFO [o.n.k.i.DiagnosticsManager]       65:
+2017-05-23 17:14:08.593+0000 INFO [o.n.k.i.DiagnosticsManager]         1a0a922144c374db577f7992f36c5c1492aba7: 2017-05-22T09:51:07+0200 - 124.00 B
+2017-05-23 17:14:08.593+0000 INFO [o.n.k.i.DiagnosticsManager]         d2d44a2beb45712c7acc088d4ad7b1d5f48753: 2017-05-22T09:51:08+0200 - 90.00 B
+2017-05-23 17:14:08.593+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:08+0200 - 214.00 B
+2017-05-23 17:14:08.593+0000 INFO [o.n.k.i.DiagnosticsManager]       67:
+2017-05-23 17:14:08.593+0000 INFO [o.n.k.i.DiagnosticsManager]         7a680edce9270f0104a833fe9b9864d64109c6: 2017-05-22T09:51:11+0200 - 49.00 B
+2017-05-23 17:14:08.594+0000 INFO [o.n.k.i.DiagnosticsManager]         f38e24e02ae7c90298b8ceac95f1b7d0276989: 2017-05-22T09:51:11+0200 - 52.00 B
+2017-05-23 17:14:08.594+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:11+0200 - 101.00 B
+2017-05-23 17:14:08.594+0000 INFO [o.n.k.i.DiagnosticsManager]       6a:
+2017-05-23 17:14:08.594+0000 INFO [o.n.k.i.DiagnosticsManager]         a09ce563e679a2f7bf99fc7675fc6555f8b3d4: 2017-05-22T09:51:07+0200 - 82.00 B
+2017-05-23 17:14:08.594+0000 INFO [o.n.k.i.DiagnosticsManager]         f9fcb9edc597ac902975ef8a7b7d9837844c2e: 2017-05-15T14:29:46+0200 - 54.00 B
+2017-05-23 17:14:08.594+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:07+0200 - 136.00 B
+2017-05-23 17:14:08.594+0000 INFO [o.n.k.i.DiagnosticsManager]       6e:
+2017-05-23 17:14:08.594+0000 INFO [o.n.k.i.DiagnosticsManager]         12b3600c2a60ea9a42689726a06aa0ce6b0b1e: 2017-05-22T09:51:07+0200 - 190.00 B
+2017-05-23 17:14:08.594+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:07+0200 - 190.00 B
+2017-05-23 17:14:08.595+0000 INFO [o.n.k.i.DiagnosticsManager]       73:
+2017-05-23 17:14:08.595+0000 INFO [o.n.k.i.DiagnosticsManager]         c4e8af6bcc6bfe288ef7aebc1ab15bbb492c56: 2017-05-22T09:51:07+0200 - 1.29 kB
+2017-05-23 17:14:08.595+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:07+0200 - 1.29 kB
+2017-05-23 17:14:08.595+0000 INFO [o.n.k.i.DiagnosticsManager]       78:
+2017-05-23 17:14:08.595+0000 INFO [o.n.k.i.DiagnosticsManager]         3db4985dfe097feb9b4dcab45f79def491cb34: 2017-05-23T15:47:35+0200 - 771.00 B
+2017-05-23 17:14:08.595+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 771.00 B
+2017-05-23 17:14:08.595+0000 INFO [o.n.k.i.DiagnosticsManager]       79:
+2017-05-23 17:14:08.596+0000 INFO [o.n.k.i.DiagnosticsManager]         26f9dbb964fc48f88f109f63a45229f6e32cf8: 2017-05-23T15:47:35+0200 - 315.00 B
+2017-05-23 17:14:08.596+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 315.00 B
+2017-05-23 17:14:08.596+0000 INFO [o.n.k.i.DiagnosticsManager]       7a:
+2017-05-23 17:14:08.596+0000 INFO [o.n.k.i.DiagnosticsManager]         c49d2a0423ee65efdd350fa201e6c179dab7b0: 2017-05-15T14:31:28+0200 - 611.00 B
+2017-05-23 17:14:08.596+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-15T14:31:28+0200 - 611.00 B
+2017-05-23 17:14:08.596+0000 INFO [o.n.k.i.DiagnosticsManager]       7c:
+2017-05-23 17:14:08.596+0000 INFO [o.n.k.i.DiagnosticsManager]         1230b08ca12f17b854a72a49f5a8219b76876f: 2017-05-22T09:51:11+0200 - 106.00 B
+2017-05-23 17:14:08.596+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:11+0200 - 106.00 B
+2017-05-23 17:14:08.597+0000 INFO [o.n.k.i.DiagnosticsManager]       7d:
+2017-05-23 17:14:08.597+0000 INFO [o.n.k.i.DiagnosticsManager]         56f51f3b1dcf21ca0bc1c7ce7963a9d260b9f8: 2017-05-22T09:51:07+0200 - 4.99 kB
+2017-05-23 17:14:08.597+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:07+0200 - 4.99 kB
+2017-05-23 17:14:08.597+0000 INFO [o.n.k.i.DiagnosticsManager]       7e:
+2017-05-23 17:14:08.597+0000 INFO [o.n.k.i.DiagnosticsManager]         3436b8dff402a56d638f98838964908fb9a5f5: 2017-05-22T09:51:07+0200 - 48.00 B
+2017-05-23 17:14:08.597+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:07+0200 - 48.00 B
+2017-05-23 17:14:08.597+0000 INFO [o.n.k.i.DiagnosticsManager]       83:
+2017-05-23 17:14:08.598+0000 INFO [o.n.k.i.DiagnosticsManager]         74887de72cc16fb883405457218c12287cbf9c: 2017-05-22T09:51:07+0200 - 770.00 B
+2017-05-23 17:14:08.598+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:07+0200 - 770.00 B
+2017-05-23 17:14:08.598+0000 INFO [o.n.k.i.DiagnosticsManager]       84:
+2017-05-23 17:14:08.598+0000 INFO [o.n.k.i.DiagnosticsManager]         1552125de6c67ce836fc1f1ff302f2511afc7f: 2017-05-23T15:47:35+0200 - 2.35 kB
+2017-05-23 17:14:08.598+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 2.35 kB
+2017-05-23 17:14:08.598+0000 INFO [o.n.k.i.DiagnosticsManager]       8f:
+2017-05-23 17:14:08.598+0000 INFO [o.n.k.i.DiagnosticsManager]         44f7b01569d59f1cd60ec895a6c248ddb13dcd: 2017-05-15T14:31:22+0200 - 313.00 B
+2017-05-23 17:14:08.598+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-15T14:31:22+0200 - 313.00 B
+2017-05-23 17:14:08.598+0000 INFO [o.n.k.i.DiagnosticsManager]       90:
+2017-05-23 17:14:08.599+0000 INFO [o.n.k.i.DiagnosticsManager]         493fabad2f74a8cf4ec583046d1a3c807d53de: 2017-05-22T09:51:07+0200 - 584.98 kB
+2017-05-23 17:14:08.599+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:07+0200 - 584.98 kB
+2017-05-23 17:14:08.599+0000 INFO [o.n.k.i.DiagnosticsManager]       93:
+2017-05-23 17:14:08.599+0000 INFO [o.n.k.i.DiagnosticsManager]         e29ad901308634a4596d2b7ace636f912079ff: 2017-05-15T14:29:41+0200 - 769.00 B
+2017-05-23 17:14:08.599+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-15T14:29:41+0200 - 769.00 B
+2017-05-23 17:14:08.599+0000 INFO [o.n.k.i.DiagnosticsManager]       94:
+2017-05-23 17:14:08.600+0000 INFO [o.n.k.i.DiagnosticsManager]         d67f696dd329ab746ca11a6cb1865d6c7b0871: 2017-05-22T09:51:07+0200 - 108.00 B
+2017-05-23 17:14:08.600+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:07+0200 - 108.00 B
+2017-05-23 17:14:08.600+0000 INFO [o.n.k.i.DiagnosticsManager]       97:
+2017-05-23 17:14:08.600+0000 INFO [o.n.k.i.DiagnosticsManager]         1ffb28531fe03247b0f600c95a630330ddd6d9: 2017-05-23T15:47:35+0200 - 161.00 B
+2017-05-23 17:14:08.600+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 161.00 B
+2017-05-23 17:14:08.600+0000 INFO [o.n.k.i.DiagnosticsManager]       99:
+2017-05-23 17:14:08.600+0000 INFO [o.n.k.i.DiagnosticsManager]         fc478c126892aac212a9ad6f521112b01e4974: 2017-05-22T09:51:11+0200 - 7.05 kB
+2017-05-23 17:14:08.600+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:11+0200 - 7.05 kB
+2017-05-23 17:14:08.601+0000 INFO [o.n.k.i.DiagnosticsManager]       9b:
+2017-05-23 17:14:08.601+0000 INFO [o.n.k.i.DiagnosticsManager]         0321f4733b551c442995c800e827673237123b: 2017-05-23T15:47:34+0200 - 205.00 B
+2017-05-23 17:14:08.601+0000 INFO [o.n.k.i.DiagnosticsManager]         ecf243080a987f2b66b4a4e30fa1568b20b5de: 2017-05-15T14:31:22+0200 - 14.37 kB
+2017-05-23 17:14:08.601+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:34+0200 - 14.57 kB
+2017-05-23 17:14:08.601+0000 INFO [o.n.k.i.DiagnosticsManager]       9d:
+2017-05-23 17:14:08.601+0000 INFO [o.n.k.i.DiagnosticsManager]         f05fb0cfe0f4257d01fd2a1cc8adcb4fc1a75c: 2017-05-15T14:29:46+0200 - 82.00 B
+2017-05-23 17:14:08.601+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-15T14:29:46+0200 - 82.00 B
+2017-05-23 17:14:08.602+0000 INFO [o.n.k.i.DiagnosticsManager]       a2:
+2017-05-23 17:14:08.602+0000 INFO [o.n.k.i.DiagnosticsManager]         dcf38c355e7a6effc0b8f8749b7399e86d3258: 2017-05-23T15:47:35+0200 - 15.21 kB
+2017-05-23 17:14:08.602+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 15.21 kB
+2017-05-23 17:14:08.602+0000 INFO [o.n.k.i.DiagnosticsManager]       a7:
+2017-05-23 17:14:08.602+0000 INFO [o.n.k.i.DiagnosticsManager]         580d5cd8406e34171fcc51139819a796a327a9: 2017-05-15T14:29:41+0200 - 6.41 kB
+2017-05-23 17:14:08.603+0000 INFO [o.n.k.i.DiagnosticsManager]         bc2e9de41eceb70c2a26b0ae70e0f0ac82be11: 2017-05-23T15:47:35+0200 - 192.00 B
+2017-05-23 17:14:08.603+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 6.60 kB
+2017-05-23 17:14:08.603+0000 INFO [o.n.k.i.DiagnosticsManager]       aa:
+2017-05-23 17:14:08.603+0000 INFO [o.n.k.i.DiagnosticsManager]         1f022e10f3e2574a385fc2928e3af0bef7afa7: 2017-05-15T14:29:46+0200 - 49.00 B
+2017-05-23 17:14:08.604+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-15T14:29:46+0200 - 49.00 B
+2017-05-23 17:14:08.604+0000 INFO [o.n.k.i.DiagnosticsManager]       ae:
+2017-05-23 17:14:08.604+0000 INFO [o.n.k.i.DiagnosticsManager]         ec39287d8dd46f2fc03eae7371659fb410f834: 2017-05-22T09:51:07+0200 - 164.00 B
+2017-05-23 17:14:08.604+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:07+0200 - 164.00 B
+2017-05-23 17:14:08.604+0000 INFO [o.n.k.i.DiagnosticsManager]       b1:
+2017-05-23 17:14:08.605+0000 INFO [o.n.k.i.DiagnosticsManager]         aade4edf750205bf6b49292fef212041b65c0f: 2017-05-15T14:29:41+0200 - 20.00 B
+2017-05-23 17:14:08.605+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-15T14:29:41+0200 - 20.00 B
+2017-05-23 17:14:08.605+0000 INFO [o.n.k.i.DiagnosticsManager]       b2:
+2017-05-23 17:14:08.605+0000 INFO [o.n.k.i.DiagnosticsManager]         3ccdfc4005d2dbc898576454ecf3c1a937721e: 2017-05-22T09:51:07+0200 - 19.00 B
+2017-05-23 17:14:08.605+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:07+0200 - 19.00 B
+2017-05-23 17:14:08.605+0000 INFO [o.n.k.i.DiagnosticsManager]       b6:
+2017-05-23 17:14:08.606+0000 INFO [o.n.k.i.DiagnosticsManager]         ccba2bea1af6694991e15572b59b26a61eb0c3: 2017-05-23T15:47:35+0200 - 17.82 kB
+2017-05-23 17:14:08.606+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 17.82 kB
+2017-05-23 17:14:08.606+0000 INFO [o.n.k.i.DiagnosticsManager]       b7:
+2017-05-23 17:14:08.606+0000 INFO [o.n.k.i.DiagnosticsManager]         2840ef50b6a432f92ecd6edaaf539fae606949: 2017-05-15T14:29:41+0200 - 79.00 B
+2017-05-23 17:14:08.607+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-15T14:29:41+0200 - 79.00 B
+2017-05-23 17:14:08.607+0000 INFO [o.n.k.i.DiagnosticsManager]       ba:
+2017-05-23 17:14:08.607+0000 INFO [o.n.k.i.DiagnosticsManager]         cc981fc77c8491befbd1bbe094c0f07a8153d4: 2017-05-23T15:47:35+0200 - 1.30 kB
+2017-05-23 17:14:08.607+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 1.30 kB
+2017-05-23 17:14:08.607+0000 INFO [o.n.k.i.DiagnosticsManager]       c0:
+2017-05-23 17:14:08.607+0000 INFO [o.n.k.i.DiagnosticsManager]         90c6d54cdc3f1a9d8f4888736638bb29c9d980: 2017-05-23T15:47:35+0200 - 228.32 kB
+2017-05-23 17:14:08.608+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 228.32 kB
+2017-05-23 17:14:08.608+0000 INFO [o.n.k.i.DiagnosticsManager]       c1:
+2017-05-23 17:14:08.608+0000 INFO [o.n.k.i.DiagnosticsManager]         aa5f0d07a9d736c5a6b327494463bf36b24204: 2017-05-23T15:47:34+0200 - 847.00 B
+2017-05-23 17:14:08.608+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:34+0200 - 847.00 B
+2017-05-23 17:14:08.608+0000 INFO [o.n.k.i.DiagnosticsManager]       c4:
+2017-05-23 17:14:08.609+0000 INFO [o.n.k.i.DiagnosticsManager]         888d4708249c4e8c4b0054ae11274ff0738f7a: 2017-05-22T09:51:07+0200 - 94.00 B
+2017-05-23 17:14:08.609+0000 INFO [o.n.k.i.DiagnosticsManager]         c96441f8f13846e686c74cd6a01a9e3f2a90bf: 2017-05-22T09:51:07+0200 - 88.00 B
+2017-05-23 17:14:08.609+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:07+0200 - 182.00 B
+2017-05-23 17:14:08.609+0000 INFO [o.n.k.i.DiagnosticsManager]       c5:
+2017-05-23 17:14:08.609+0000 INFO [o.n.k.i.DiagnosticsManager]         929fbf8e1256627bf9371b7f7f23a514d7c2aa: 2017-05-23T15:47:35+0200 - 7.34 kB
+2017-05-23 17:14:08.609+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 7.34 kB
+2017-05-23 17:14:08.609+0000 INFO [o.n.k.i.DiagnosticsManager]       c7:
+2017-05-23 17:14:08.609+0000 INFO [o.n.k.i.DiagnosticsManager]         0722708bcc989c69651f8654fb8ded8d51ca53: 2017-05-23T15:47:35+0200 - 107.00 B
+2017-05-23 17:14:08.610+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 107.00 B
+2017-05-23 17:14:08.610+0000 INFO [o.n.k.i.DiagnosticsManager]       c8:
+2017-05-23 17:14:08.610+0000 INFO [o.n.k.i.DiagnosticsManager]         ace46dc48da4c29abc98134ec2a58acc097e43: 2017-05-23T15:47:35+0200 - 38.70 kB
+2017-05-23 17:14:08.610+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 38.70 kB
+2017-05-23 17:14:08.610+0000 INFO [o.n.k.i.DiagnosticsManager]       c9:
+2017-05-23 17:14:08.610+0000 INFO [o.n.k.i.DiagnosticsManager]         fd6491dc2b5bd034ecf0e80f809fb42fbda78b: 2017-05-15T14:29:41+0200 - 1.30 kB
+2017-05-23 17:14:08.611+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-15T14:29:41+0200 - 1.30 kB
+2017-05-23 17:14:08.611+0000 INFO [o.n.k.i.DiagnosticsManager]       ca:
+2017-05-23 17:14:08.611+0000 INFO [o.n.k.i.DiagnosticsManager]         a82f1c36d6ac5e8afdb8eed063dc06e8388bea: 2017-05-23T15:47:35+0200 - 49.00 B
+2017-05-23 17:14:08.611+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 49.00 B
+2017-05-23 17:14:08.611+0000 INFO [o.n.k.i.DiagnosticsManager]       cb:
+2017-05-23 17:14:08.611+0000 INFO [o.n.k.i.DiagnosticsManager]         0f7977ef1227f8fa1b1ee5340cf431ef4dccff: 2017-05-23T15:47:35+0200 - 87.00 B
+2017-05-23 17:14:08.611+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 87.00 B
+2017-05-23 17:14:08.611+0000 INFO [o.n.k.i.DiagnosticsManager]       cc:
+2017-05-23 17:14:08.612+0000 INFO [o.n.k.i.DiagnosticsManager]         2704fd63cc5b756573f48e065b0faf67bc7824: 2017-05-22T09:51:11+0200 - 10.59 MB
+2017-05-23 17:14:08.612+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:11+0200 - 10.59 MB
+2017-05-23 17:14:08.612+0000 INFO [o.n.k.i.DiagnosticsManager]       ce:
+2017-05-23 17:14:08.612+0000 INFO [o.n.k.i.DiagnosticsManager]         6529796feeb9afb9f2b4f981f75295e5542784: 2017-05-15T14:29:41+0200 - 78.00 B
+2017-05-23 17:14:08.612+0000 INFO [o.n.k.i.DiagnosticsManager]         91f21ceb14b80ee9de3042e0a7ba7a263d61bd: 2017-05-23T15:47:35+0200 - 111.00 B
+2017-05-23 17:14:08.612+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 189.00 B
+2017-05-23 17:14:08.612+0000 INFO [o.n.k.i.DiagnosticsManager]       cf:
+2017-05-23 17:14:08.613+0000 INFO [o.n.k.i.DiagnosticsManager]         2df8dd4ae60177c0b918395582ca8c56d340ad: 2017-05-15T14:31:28+0200 - 167.00 B
+2017-05-23 17:14:08.613+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-15T14:31:28+0200 - 167.00 B
+2017-05-23 17:14:08.613+0000 INFO [o.n.k.i.DiagnosticsManager]       d1:
+2017-05-23 17:14:08.613+0000 INFO [o.n.k.i.DiagnosticsManager]         9598d74e5c5046e0090285895b3443642008be: 2017-05-15T14:29:41+0200 - 78.00 B
+2017-05-23 17:14:08.613+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-15T14:29:41+0200 - 78.00 B
+2017-05-23 17:14:08.613+0000 INFO [o.n.k.i.DiagnosticsManager]       d2:
+2017-05-23 17:14:08.613+0000 INFO [o.n.k.i.DiagnosticsManager]         c16e93d372d4a478ef66ce0e23968409d718fb: 2017-05-22T09:51:07+0200 - 149.00 B
+2017-05-23 17:14:08.613+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:07+0200 - 149.00 B
+2017-05-23 17:14:08.613+0000 INFO [o.n.k.i.DiagnosticsManager]       d5:
+2017-05-23 17:14:08.614+0000 INFO [o.n.k.i.DiagnosticsManager]         db4065580093d9d28a12a843d469a9ce5e141d: 2017-05-22T09:51:07+0200 - 116.06 kB
+2017-05-23 17:14:08.614+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:07+0200 - 116.06 kB
+2017-05-23 17:14:08.614+0000 INFO [o.n.k.i.DiagnosticsManager]       db:
+2017-05-23 17:14:08.614+0000 INFO [o.n.k.i.DiagnosticsManager]         749843ba9a2d00543a8c05d07e3cb9e6dd2846: 2017-05-23T15:47:35+0200 - 129.00 B
+2017-05-23 17:14:08.614+0000 INFO [o.n.k.i.DiagnosticsManager]         fe81d653cd5679cfaff736b7571a34b8e327a1: 2017-05-22T09:51:08+0200 - 159.00 B
+2017-05-23 17:14:08.614+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 288.00 B
+2017-05-23 17:14:08.614+0000 INFO [o.n.k.i.DiagnosticsManager]       dc:
+2017-05-23 17:14:08.615+0000 INFO [o.n.k.i.DiagnosticsManager]         a941579f5ace6b50ae24c7c42c1aa78f3e824a: 2017-05-23T15:47:35+0200 - 48.00 B
+2017-05-23 17:14:08.615+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 48.00 B
+2017-05-23 17:14:08.615+0000 INFO [o.n.k.i.DiagnosticsManager]       df:
+2017-05-23 17:14:08.615+0000 INFO [o.n.k.i.DiagnosticsManager]         8ce2a58c7337a0be82febc80d3e0e21c414f96: 2017-05-15T14:29:41+0200 - 78.00 B
+2017-05-23 17:14:08.615+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-15T14:29:41+0200 - 78.00 B
+2017-05-23 17:14:08.615+0000 INFO [o.n.k.i.DiagnosticsManager]       e3:
+2017-05-23 17:14:08.616+0000 INFO [o.n.k.i.DiagnosticsManager]         80f43df9ab4c8510088d05901f42df61de6daa: 2017-05-23T15:47:35+0200 - 52.00 B
+2017-05-23 17:14:08.616+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 52.00 B
+2017-05-23 17:14:08.616+0000 INFO [o.n.k.i.DiagnosticsManager]       e6:
+2017-05-23 17:14:08.616+0000 INFO [o.n.k.i.DiagnosticsManager]         9de29bb2d1d6434b8b29ae775ad8c2e48c5391: 2017-05-15T14:29:41+0200 - 15.00 B
+2017-05-23 17:14:08.616+0000 INFO [o.n.k.i.DiagnosticsManager]         cc252cd7585274e4d1ac537bb373dae5b7ad61: 2017-05-23T15:47:35+0200 - 83.00 B
+2017-05-23 17:14:08.616+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 98.00 B
+2017-05-23 17:14:08.616+0000 INFO [o.n.k.i.DiagnosticsManager]       e8:
+2017-05-23 17:14:08.616+0000 INFO [o.n.k.i.DiagnosticsManager]         2d01a6b09397bd256cca90c909920ab27a9516: 2017-05-22T09:51:07+0200 - 19.00 B
+2017-05-23 17:14:08.617+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:07+0200 - 19.00 B
+2017-05-23 17:14:08.617+0000 INFO [o.n.k.i.DiagnosticsManager]       ee:
+2017-05-23 17:14:08.617+0000 INFO [o.n.k.i.DiagnosticsManager]         d4c769494b36c0bd1f2a2b34bb0157df062209: 2017-05-23T15:47:35+0200 - 126.00 B
+2017-05-23 17:14:08.617+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 126.00 B
+2017-05-23 17:14:08.617+0000 INFO [o.n.k.i.DiagnosticsManager]       f0:
+2017-05-23 17:14:08.617+0000 INFO [o.n.k.i.DiagnosticsManager]         1067eb31a05526ea42346dfa8975be0fec144a: 2017-05-23T15:47:35+0200 - 198.00 B
+2017-05-23 17:14:08.617+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 198.00 B
+2017-05-23 17:14:08.617+0000 INFO [o.n.k.i.DiagnosticsManager]       f5:
+2017-05-23 17:14:08.618+0000 INFO [o.n.k.i.DiagnosticsManager]         0c17bd563c94dfd4c88e7af8dbd09bdde433a8: 2017-05-22T09:51:07+0200 - 19.00 B
+2017-05-23 17:14:08.618+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:07+0200 - 19.00 B
+2017-05-23 17:14:08.618+0000 INFO [o.n.k.i.DiagnosticsManager]       f6:
+2017-05-23 17:14:08.618+0000 INFO [o.n.k.i.DiagnosticsManager]         b7d52c143fe21e74d107f3774e2c12c54cb400: 2017-05-22T09:51:07+0200 - 989.00 B
+2017-05-23 17:14:08.618+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:07+0200 - 989.00 B
+2017-05-23 17:14:08.618+0000 INFO [o.n.k.i.DiagnosticsManager]       fd:
+2017-05-23 17:14:08.618+0000 INFO [o.n.k.i.DiagnosticsManager]         b53c28352b87f185a02171796e2fc0a05e58ef: 2017-05-23T15:47:35+0200 - 81.00 B
+2017-05-23 17:14:08.618+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:35+0200 - 81.00 B
+2017-05-23 17:14:08.619+0000 INFO [o.n.k.i.DiagnosticsManager]       fe:
+2017-05-23 17:14:08.619+0000 INFO [o.n.k.i.DiagnosticsManager]         675269ddd5f4bacaec51d1019e3cd3a12ad344: 2017-05-22T09:51:07+0200 - 10.68 kB
+2017-05-23 17:14:08.619+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-22T09:51:07+0200 - 10.68 kB
+2017-05-23 17:14:08.619+0000 INFO [o.n.k.i.DiagnosticsManager]       info:
+2017-05-23 17:14:08.619+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-15T14:28:56+0200 - 0.00 B
+2017-05-23 17:14:08.619+0000 INFO [o.n.k.i.DiagnosticsManager]       pack:
+2017-05-23 17:14:08.619+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-15T14:28:56+0200 - 0.00 B
+2017-05-23 17:14:08.620+0000 INFO [o.n.k.i.DiagnosticsManager]     - Total: 2017-05-23T15:47:35+0200 - 14.48 MB
+2017-05-23 17:14:08.620+0000 INFO [o.n.k.i.DiagnosticsManager]     refs:
+2017-05-23 17:14:08.620+0000 INFO [o.n.k.i.DiagnosticsManager]       heads:
+2017-05-23 17:14:08.620+0000 INFO [o.n.k.i.DiagnosticsManager]         master: 2017-05-23T15:47:36+0200 - 41.00 B
+2017-05-23 17:14:08.620+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T15:47:36+0200 - 41.00 B
+2017-05-23 17:14:08.620+0000 INFO [o.n.k.i.DiagnosticsManager]       remotes:
+2017-05-23 17:14:08.620+0000 INFO [o.n.k.i.DiagnosticsManager]         origin:
+2017-05-23 17:14:08.620+0000 INFO [o.n.k.i.DiagnosticsManager]           master: 2017-05-23T15:47:35+0200 - 41.00 B
+2017-05-23 17:14:08.620+0000 INFO [o.n.k.i.DiagnosticsManager]         - Total: 2017-05-23T15:47:35+0200 - 41.00 B
+2017-05-23 17:14:08.621+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-15T14:29:56+0200 - 41.00 B
+2017-05-23 17:14:08.621+0000 INFO [o.n.k.i.DiagnosticsManager]       tags:
+2017-05-23 17:14:08.621+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-15T14:28:56+0200 - 0.00 B
+2017-05-23 17:14:08.621+0000 INFO [o.n.k.i.DiagnosticsManager]     - Total: 2017-05-15T14:29:56+0200 - 82.00 B
+2017-05-23 17:14:08.621+0000 INFO [o.n.k.i.DiagnosticsManager]     sourcetreeconfig: 2017-05-23T18:18:17+0200 - 1.08 kB
+2017-05-23 17:14:08.621+0000 INFO [o.n.k.i.DiagnosticsManager]   - Total: 2017-05-23T19:14:05+0200 - 14.49 MB
+2017-05-23 17:14:08.621+0000 INFO [o.n.k.i.DiagnosticsManager]   certificates:
+2017-05-23 17:14:08.621+0000 INFO [o.n.k.i.DiagnosticsManager]     neo4j.cert: 2017-05-23T15:47:36+0200 - 1002.00 B
+2017-05-23 17:14:08.621+0000 INFO [o.n.k.i.DiagnosticsManager]     neo4j.key: 2017-05-23T15:47:36+0200 - 1.69 kB
+2017-05-23 17:14:08.622+0000 INFO [o.n.k.i.DiagnosticsManager]   - Total: 2017-05-23T15:47:36+0200 - 2.67 kB
+2017-05-23 17:14:08.622+0000 INFO [o.n.k.i.DiagnosticsManager]   data:
+2017-05-23 17:14:08.622+0000 INFO [o.n.k.i.DiagnosticsManager]     dbms:
+2017-05-23 17:14:08.622+0000 INFO [o.n.k.i.DiagnosticsManager]       auth: 2017-05-23T15:47:36+0200 - 114.00 B
+2017-05-23 17:14:08.622+0000 INFO [o.n.k.i.DiagnosticsManager]     - Total: 2017-05-23T15:47:36+0200 - 114.00 B
+2017-05-23 17:14:08.622+0000 INFO [o.n.k.i.DiagnosticsManager]   - Total: 2017-05-15T14:29:35+0200 - 114.00 B
+2017-05-23 17:14:08.622+0000 INFO [o.n.k.i.DiagnosticsManager]   import:
+2017-05-23 17:14:08.623+0000 INFO [o.n.k.i.DiagnosticsManager]     RoadsInUsageV3.xls: 2017-05-23T15:47:36+0200 - 6.45 kB
+2017-05-23 17:14:08.623+0000 INFO [o.n.k.i.DiagnosticsManager]     RoadsInUseV3.csv: 2017-05-23T15:47:36+0200 - 6.45 kB
+2017-05-23 17:14:08.623+0000 INFO [o.n.k.i.DiagnosticsManager]     combinationsV3.csv: 2017-05-23T15:47:36+0200 - 63.67 kB
+2017-05-23 17:14:08.623+0000 INFO [o.n.k.i.DiagnosticsManager]     combinationsV3Backup.csv: 2017-05-23T15:47:36+0200 - 63.67 kB
+2017-05-23 17:14:08.623+0000 INFO [o.n.k.i.DiagnosticsManager]     usedAccidentsV3.csv: 2017-05-23T15:47:36+0200 - 342.53 kB
+2017-05-23 17:14:08.623+0000 INFO [o.n.k.i.DiagnosticsManager]     usedAccidentsV3.xls: 2017-05-23T15:47:36+0200 - 222.75 kB
+2017-05-23 17:14:08.623+0000 INFO [o.n.k.i.DiagnosticsManager]     usedAccidentsV3.xlsx: 2017-05-23T15:47:36+0200 - 318.90 kB
+2017-05-23 17:14:08.623+0000 INFO [o.n.k.i.DiagnosticsManager]     usedStreetWorksV3.csv: 2017-05-23T18:18:22+0200 - 155.08 kB
+2017-05-23 17:14:08.624+0000 INFO [o.n.k.i.DiagnosticsManager]     usedStreetWorksV3Copy.csv: 2017-05-23T17:31:05+0200 - 14.37 kB
+2017-05-23 17:14:08.624+0000 INFO [o.n.k.i.DiagnosticsManager]   - Total: 2017-05-23T18:26:56+0200 - 1.17 MB
+2017-05-23 17:14:08.624+0000 INFO [o.n.k.i.DiagnosticsManager]   index:
+2017-05-23 17:14:08.624+0000 INFO [o.n.k.i.DiagnosticsManager]   - Total: 2017-05-15T14:26:52+0200 - 0.00 B
+2017-05-23 17:14:08.624+0000 INFO [o.n.k.i.DiagnosticsManager]   logs:
+2017-05-23 17:14:08.629+0000 INFO [o.n.k.i.DiagnosticsManager]     debug.log: 2017-05-23T19:14:03+0200 - 226.95 kB
+2017-05-23 17:14:08.630+0000 INFO [o.n.k.i.DiagnosticsManager]   - Total: 2017-05-23T18:18:34+0200 - 226.95 kB
+2017-05-23 17:14:08.630+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore: 2017-05-23T18:58:13+0200 - 8.00 kB
+2017-05-23 17:14:08.630+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.counts.db.a: 2017-05-23T18:58:13+0200 - 768.00 B
+2017-05-23 17:14:08.630+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.counts.db.b: 2017-05-23T18:43:12+0200 - 608.00 B
+2017-05-23 17:14:08.631+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.id: 2017-05-23T19:14:08+0200 - 9.00 B
+2017-05-23 17:14:08.642+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.labelscanstore.db: 2017-05-23T19:14:08+0200 - 48.00 kB
+2017-05-23 17:14:08.642+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db: 2017-05-23T18:43:12+0200 - 8.00 kB
+2017-05-23 17:14:08.643+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.id: 2017-05-23T19:14:08+0200 - 9.00 B
+2017-05-23 17:14:08.643+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.names: 2017-05-23T15:47:36+0200 - 8.00 kB
+2017-05-23 17:14:08.644+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.names.id: 2017-05-23T19:14:08+0200 - 9.00 B
+2017-05-23 17:14:08.644+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db: 2017-05-23T18:58:13+0200 - 95.98 kB
+2017-05-23 17:14:08.645+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.id: 2017-05-23T19:14:07+0200 - 9.00 B
+2017-05-23 17:14:08.645+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.labels: 2017-05-15T14:26:52+0200 - 8.00 kB
+2017-05-23 17:14:08.645+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.labels.id: 2017-05-23T19:14:07+0200 - 9.00 B
+2017-05-23 17:14:08.645+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db: 2017-05-23T19:14:03+0200 - 270.90 kB
+2017-05-23 17:14:08.646+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.arrays: 2017-05-15T14:26:52+0200 - 8.00 kB
+2017-05-23 17:14:08.646+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.arrays.id: 2017-05-23T19:14:08+0200 - 9.00 B
+2017-05-23 17:14:08.646+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.id: 2017-05-23T19:14:08+0200 - 9.00 B
+2017-05-23 17:14:08.647+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index: 2017-05-23T18:43:12+0200 - 8.00 kB
+2017-05-23 17:14:08.647+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.id: 2017-05-23T19:14:08+0200 - 9.00 B
+2017-05-23 17:14:08.647+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.keys: 2017-05-23T18:43:12+0200 - 8.00 kB
+2017-05-23 17:14:08.648+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.keys.id: 2017-05-23T19:14:07+0200 - 9.00 B
+2017-05-23 17:14:08.648+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.strings: 2017-05-15T14:26:52+0200 - 8.00 kB
+2017-05-23 17:14:08.648+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.strings.id: 2017-05-23T19:14:08+0200 - 9.00 B
+2017-05-23 17:14:08.649+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshipgroupstore.db: 2017-05-23T18:58:13+0200 - 15.97 kB
+2017-05-23 17:14:08.649+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshipgroupstore.db.id: 2017-05-23T19:14:08+0200 - 9.00 B
+2017-05-23 17:14:08.649+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshipstore.db: 2017-05-23T18:58:13+0200 - 3.45 MB
+2017-05-23 17:14:08.652+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshipstore.db.id: 2017-05-23T19:14:08+0200 - 9.00 B
+2017-05-23 17:14:08.652+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db: 2017-05-23T18:58:13+0200 - 8.00 kB
+2017-05-23 17:14:08.653+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.id: 2017-05-23T19:14:08+0200 - 9.00 B
+2017-05-23 17:14:08.653+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.names: 2017-05-23T18:58:13+0200 - 8.00 kB
+2017-05-23 17:14:08.654+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.names.id: 2017-05-23T19:14:08+0200 - 9.00 B
+2017-05-23 17:14:08.654+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.schemastore.db: 2017-05-15T14:26:52+0200 - 8.00 kB
+2017-05-23 17:14:08.654+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.schemastore.db.id: 2017-05-23T19:14:08+0200 - 9.00 B
+2017-05-23 17:14:08.655+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.transaction.db.0: 2017-05-23T19:14:02+0200 - 9.29 MB
+2017-05-23 17:14:08.655+0000 INFO [o.n.k.i.DiagnosticsManager]   schema:
+2017-05-23 17:14:08.655+0000 INFO [o.n.k.i.DiagnosticsManager]     label:
+2017-05-23 17:14:08.655+0000 INFO [o.n.k.i.DiagnosticsManager]       lucene:
+2017-05-23 17:14:08.655+0000 INFO [o.n.k.i.DiagnosticsManager]       - Total: 2017-05-23T18:19:10+0200 - 0.00 B
+2017-05-23 17:14:08.655+0000 INFO [o.n.k.i.DiagnosticsManager]     - Total: 2017-05-23T14:45:14+0200 - 0.00 B
+2017-05-23 17:14:08.655+0000 INFO [o.n.k.i.DiagnosticsManager]   - Total: 2017-05-23T14:45:14+0200 - 0.00 B
+2017-05-23 17:14:08.655+0000 INFO [o.n.k.i.DiagnosticsManager]   store_lock: 2017-05-15T14:26:52+0200 - 0.00 B
+2017-05-23 17:14:08.656+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles END ---
+2017-05-23 17:14:08.669+0000 INFO [o.n.k.i.DiagnosticsManager] --- SERVER STARTED START ---
+2017-05-23 17:14:09.312+0000 INFO [o.n.k.i.DiagnosticsManager] --- SERVER STARTED END ---
+2017-05-23 17:42:48.676+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [111]:  Starting check pointing...
+2017-05-23 17:42:48.705+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [111]:  Starting store flush...
+2017-05-23 17:42:48.741+0000 INFO [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 111 to [E:\DataEngineering\neostore.counts.db.b], from [E:\DataEngineering\neostore.counts.db.a].
+2017-05-23 17:42:48.782+0000 INFO [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 111 to [E:\DataEngineering\neostore.counts.db.b], from [E:\DataEngineering\neostore.counts.db.a].
+2017-05-23 17:42:49.020+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [111]:  Store flush completed
+2017-05-23 17:42:49.020+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [111]:  Starting appending check point entry into the tx log...
+2017-05-23 17:42:49.061+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [111]:  Appending check point entry into the tx log completed
+2017-05-23 17:42:49.062+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [111]:  Check pointing completed
+2017-05-23 17:42:49.062+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-05-23 17:42:49.062+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-05-23 17:43:07.331+0000 INFO [o.n.k.i.f.GraphDatabaseFacadeFactory] Shutdown started
+2017-05-23 17:43:07.332+0000 INFO [o.n.k.i.f.GraphDatabaseFacadeFactory] Database is now unavailable
+2017-05-23 17:43:07.359+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [111]:  Starting check pointing...
+2017-05-23 17:43:07.362+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [111]:  Starting store flush...
+2017-05-23 17:43:07.391+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [111]:  Store flush completed
+2017-05-23 17:43:07.391+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [111]:  Starting appending check point entry into the tx log...
+2017-05-23 17:43:07.412+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [111]:  Appending check point entry into the tx log completed
+2017-05-23 17:43:07.412+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [111]:  Check pointing completed
+2017-05-23 17:43:07.412+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-05-23 17:43:07.414+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-05-23 17:43:08.281+0000 INFO [o.n.k.i.DiagnosticsManager] --- STOPPING diagnostics START ---
+2017-05-23 17:43:08.282+0000 INFO [o.n.k.i.DiagnosticsManager] --- STOPPING diagnostics END ---
