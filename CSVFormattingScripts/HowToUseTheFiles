@@ -1,0 +1,4 @@
+Extract the required CSV files from Neo4J by downloading the relevant Nodes and Edges (there's an Export CSV button). 
+Put all of the information underneath each other in one combined CSV file.
+Use that CSV file as input for either the node or edges conversion script.
+Run script and check if the outcome is actually in the correct format. 
